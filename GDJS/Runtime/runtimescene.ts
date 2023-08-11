@@ -35,6 +35,9 @@ namespace gdjs {
     _onceTriggers: OnceTriggers;
     _profiler: gdjs.Profiler | null = null;
 
+    /** Should the canvas be cleared before this scene rendering. */
+    clearCanvas: boolean = true;
+
     // Set to `new gdjs.Profiler()` to have profiling done on the scene.
     _onProfilerStopped: null | ((oldProfiler: gdjs.Profiler) => void) = null;
 
