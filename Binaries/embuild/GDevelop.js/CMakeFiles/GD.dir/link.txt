@@ -1,0 +1,1 @@
+/Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ -DNDEBUG -O2 -O2 @CMakeFiles/GD.dir/objects1.rsp -o libGD.js @CMakeFiles/GD.dir/linkLibs.rsp

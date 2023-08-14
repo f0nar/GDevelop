@@ -1,0 +1,24 @@
+Core/CMakeFiles/GDCore.dir/GDCore/Utf8/utf8proc.c.o: \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Utf8/utf8proc.c \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Utf8/utf8proc.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/stdlib.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/__config \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/compat/stdlib.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/stdlib.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/features.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/alltypes.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/alloca.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/sys/types.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/endian.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/stdint.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/stdint.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/stdint.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/sys/select.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/stdbool.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/stdbool.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/inttypes.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/inttypes.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/limits.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/limits.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/limits.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Utf8/utf8proc_data.inl

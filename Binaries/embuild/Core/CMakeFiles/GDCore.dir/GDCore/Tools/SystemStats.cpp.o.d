@@ -1,0 +1,26 @@
+Core/CMakeFiles/GDCore.dir/GDCore/Tools/SystemStats.cpp.o: \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/SystemStats.cpp \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/SystemStats.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/cstddef \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/__config \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/pthread.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/version \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/stddef.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/alltypes.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/__nullptr \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/stdio.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/stdio.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/wasi/api.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/stddef.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/stdint.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/stdint.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/stdint.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/features.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/stdlib.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/compat/stdlib.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/stdlib.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/alloca.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/string.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/compat/string.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/string.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/strings.h

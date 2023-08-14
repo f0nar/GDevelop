@@ -1,0 +1,1 @@
+/Users/vpohorielov/projects/emsdk/upstream/emscripten/emar rc /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/Output/Release_Emscripten/CppPlatform/Extensions/PhysicsBehavior.bc @CMakeFiles/PhysicsBehavior.dir/objects1.rsp

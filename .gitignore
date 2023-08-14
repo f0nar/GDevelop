@@ -4,17 +4,17 @@
 /ExtLibs/*.7z
 /scripts/logs/*.txt
 /scripts/gdcore-gdcpp-gdjs-extensions-messages.pot
-/Binaries/.build*
-/Binaries/.embuild*
-/Binaries/build*
-/Binaries/embuild*
+# /Binaries/.build*
+# /Binaries/.embuild*
+# /Binaries/build*
+# /Binaries/embuild*
 /emsdk
 *.dll
 *.exe
 *.a
 *.so
 *.bc
-/Binaries/Output
+# /Binaries/Output
 *.autosave
 !/scripts/libgettextlib-0-17.dll
 !/scripts/libgettextsrc-0-17.dll

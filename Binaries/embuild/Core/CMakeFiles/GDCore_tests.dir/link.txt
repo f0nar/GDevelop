@@ -1,0 +1,1 @@
+/Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ -DNDEBUG -O2 -O2 @CMakeFiles/GDCore_tests.dir/objects1.rsp -o GDCore_tests.js @CMakeFiles/GDCore_tests.dir/linkLibs.rsp
