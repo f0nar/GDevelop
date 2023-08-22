@@ -2870,6 +2870,30 @@ GDCore/IDE/PropertyFunctionGenerator.cpp.s:
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/IDE/PropertyFunctionGenerator.cpp.s
 .PHONY : GDCore/IDE/PropertyFunctionGenerator.cpp.s
 
+GDCore/IDE/ResourceExposer.o: GDCore/IDE/ResourceExposer.cpp.o
+.PHONY : GDCore/IDE/ResourceExposer.o
+
+# target to build an object file
+GDCore/IDE/ResourceExposer.cpp.o:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/IDE/ResourceExposer.cpp.o
+.PHONY : GDCore/IDE/ResourceExposer.cpp.o
+
+GDCore/IDE/ResourceExposer.i: GDCore/IDE/ResourceExposer.cpp.i
+.PHONY : GDCore/IDE/ResourceExposer.i
+
+# target to preprocess a source file
+GDCore/IDE/ResourceExposer.cpp.i:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/IDE/ResourceExposer.cpp.i
+.PHONY : GDCore/IDE/ResourceExposer.cpp.i
+
+GDCore/IDE/ResourceExposer.s: GDCore/IDE/ResourceExposer.cpp.s
+.PHONY : GDCore/IDE/ResourceExposer.s
+
+# target to generate assembly for a file
+GDCore/IDE/ResourceExposer.cpp.s:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/IDE/ResourceExposer.cpp.s
+.PHONY : GDCore/IDE/ResourceExposer.cpp.s
+
 GDCore/IDE/SceneNameMangler.o: GDCore/IDE/SceneNameMangler.cpp.o
 .PHONY : GDCore/IDE/SceneNameMangler.o
 
@@ -5596,6 +5620,9 @@ help:
 	@echo "... GDCore/IDE/PropertyFunctionGenerator.o"
 	@echo "... GDCore/IDE/PropertyFunctionGenerator.i"
 	@echo "... GDCore/IDE/PropertyFunctionGenerator.s"
+	@echo "... GDCore/IDE/ResourceExposer.o"
+	@echo "... GDCore/IDE/ResourceExposer.i"
+	@echo "... GDCore/IDE/ResourceExposer.s"
 	@echo "... GDCore/IDE/SceneNameMangler.o"
 	@echo "... GDCore/IDE/SceneNameMangler.i"
 	@echo "... GDCore/IDE/SceneNameMangler.s"

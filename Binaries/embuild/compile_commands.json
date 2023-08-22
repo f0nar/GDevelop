@@ -679,6 +679,12 @@
 },
 {
   "directory": "/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/Core",
+  "command": "/Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ -DEMSCRIPTEN -DGD_API=\"\" -DGD_CORE_API=\"\" -DGD_IDE_ONLY -DLINUX -DRELEASE @CMakeFiles/GDCore.dir/includes_CXX.rsp -DNDEBUG -O2 -std=gnu++11 -Wall -Wno-unknown-warning-option -Wno-reorder-ctor -Wno-reorder -Wno-pessimizing-move -Wno-unused-variable -Wno-unused-private-field -Werror=return-stack-address -o CMakeFiles/GDCore.dir/GDCore/IDE/ResourceExposer.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/ResourceExposer.cpp",
+  "file": "/Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/ResourceExposer.cpp",
+  "output": "Core/CMakeFiles/GDCore.dir/GDCore/IDE/ResourceExposer.cpp.o"
+},
+{
+  "directory": "/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/Core",
   "command": "/Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ -DEMSCRIPTEN -DGD_API=\"\" -DGD_CORE_API=\"\" -DGD_IDE_ONLY -DLINUX -DRELEASE @CMakeFiles/GDCore.dir/includes_CXX.rsp -DNDEBUG -O2 -std=gnu++11 -Wall -Wno-unknown-warning-option -Wno-reorder-ctor -Wno-reorder -Wno-pessimizing-move -Wno-unused-variable -Wno-unused-private-field -Werror=return-stack-address -o CMakeFiles/GDCore.dir/GDCore/IDE/SceneNameMangler.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/SceneNameMangler.cpp",
   "file": "/Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/SceneNameMangler.cpp",
   "output": "Core/CMakeFiles/GDCore.dir/GDCore/IDE/SceneNameMangler.cpp.o"

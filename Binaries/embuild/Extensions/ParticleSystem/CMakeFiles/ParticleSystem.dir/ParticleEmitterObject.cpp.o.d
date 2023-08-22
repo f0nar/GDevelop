@@ -131,6 +131,12 @@ Extensions/ParticleSystem/CMakeFiles/ParticleSystem.dir/ParticleEmitterObject.cp
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/MakeUnique.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/CommonTools.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/ArbitraryResourceWorker.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/ArbitraryEventsWorker.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/InstructionsList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/SPtrList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/SPtrList.inl \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/EventVisitor.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/ArbitraryObjectsWorker.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/InitialInstance.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/Object.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/Project.h \

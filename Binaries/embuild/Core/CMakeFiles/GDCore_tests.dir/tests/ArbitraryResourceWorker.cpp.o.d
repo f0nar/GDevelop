@@ -137,6 +137,12 @@ Core/CMakeFiles/GDCore_tests.dir/tests/ArbitraryResourceWorker.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Variable.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/MakeUnique.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Project/ArbitraryResourceWorker.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/ArbitraryEventsWorker.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/InstructionsList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SPtrList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SPtrList.inl \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/EventVisitor.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Project/ArbitraryObjectsWorker.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Project/ProjectResourcesAdder.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Project.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ExtensionProperties.h \
@@ -158,9 +164,6 @@ Core/CMakeFiles/GDCore_tests.dir/tests/ArbitraryResourceWorker.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/Event.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/Instruction.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/Expression.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/InstructionsList.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SPtrList.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SPtrList.inl \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/InstructionMetadata.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/AbstractFunctionMetadata.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/ParameterMetadata.h \
@@ -173,4 +176,24 @@ Core/CMakeFiles/GDCore_tests.dir/tests/ArbitraryResourceWorker.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/DummyPlatform.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/catch.hpp \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/iomanip \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/set
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/set \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/ResourceExposer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Effect.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsFunctionsExtension.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/DependencyMetadata.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/PropertyDescriptor.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/MeasurementUnit.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/MeasurementUnitElement.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/MeasurementBaseUnit.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/Localization.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/Log.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsBasedBehavior.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/AbstractEventsBasedEntity.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/NamedPropertyDescriptor.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SerializableWithNameList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SerializableWithNameList.inl \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/PolymorphicClone.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsFunctionsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsFunction.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsBasedObject.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ExternalEvents.h

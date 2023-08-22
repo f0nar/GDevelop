@@ -163,6 +163,9 @@ Core/CMakeFiles/GDCore.dir/GDCore/Project/CustomObjectConfiguration.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/ParameterMetadata.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/ParameterOptions.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Project/ArbitraryResourceWorker.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/ArbitraryEventsWorker.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/EventVisitor.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Project/ArbitraryObjectsWorker.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/Log.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/CustomConfigurationHelper.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsBasedBehavior.h

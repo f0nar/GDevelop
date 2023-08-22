@@ -160,6 +160,7 @@ Core/CMakeFiles/GDCore.dir/GDCore/IDE/Events/ExpressionCompletionFinder.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Dialogs/LayoutEditorCanvas/EditorSettings.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/Localization.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/Parsers/GrammarTerminals.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/ExpressionNodeLocationFinder.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/ExpressionTypeFinder.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/ExpressionLeftSideTypeFinder.h \

@@ -135,6 +135,7 @@ Core/CMakeFiles/GDCore.dir/GDCore/Project/Project.cpp.o: \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/deque \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/iomanip \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/CommonTools.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/Parsers/GrammarTerminals.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/ExpressionMetadata.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/AbstractFunctionMetadata.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/Instruction.h \
@@ -173,13 +174,7 @@ Core/CMakeFiles/GDCore.dir/GDCore/Project/Project.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/MakeUnique.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/VersionPriv.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/PlatformExtension.inl \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/UsedExtensionsFinder.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/Parsers/ExpressionParser2NodeWorker.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/ArbitraryEventsWorker.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/EventVisitor.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Project/ArbitraryObjectsWorker.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/PlatformManager.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Project/ArbitraryResourceWorker.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/CustomObjectConfiguration.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Project.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsBasedObject.h \

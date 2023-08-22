@@ -166,4 +166,5 @@ Core/CMakeFiles/GDCore.dir/GDCore/Extensions/Metadata/ParameterMetadataTools.cpp
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Layer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Dialogs/LayoutEditorCanvas/EditorSettings.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/Localization.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/Parsers/GrammarTerminals.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/Parsers/ExpressionParser2NodePrinter.h

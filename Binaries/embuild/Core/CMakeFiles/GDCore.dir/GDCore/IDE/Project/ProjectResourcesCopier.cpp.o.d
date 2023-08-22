@@ -121,6 +121,12 @@ Core/CMakeFiles/GDCore.dir/GDCore/IDE/Project/ProjectResourcesCopier.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/AbstractFileSystem.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Project/ResourcesAbsolutePathChecker.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Project/ArbitraryResourceWorker.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/ArbitraryEventsWorker.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/InstructionsList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SPtrList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SPtrList.inl \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/EventVisitor.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Project/ArbitraryObjectsWorker.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Project/ResourcesMergingHelper.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Project.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ExtensionProperties.h \
@@ -136,4 +142,5 @@ Core/CMakeFiles/GDCore.dir/GDCore/IDE/Project/ProjectResourcesCopier.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/VariablesContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Variable.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/Localization.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/Log.h
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/Log.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/ResourceExposer.h

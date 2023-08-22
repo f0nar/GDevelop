@@ -159,6 +159,7 @@ Core/CMakeFiles/GDCore.dir/GDCore/Events/Parsers/ExpressionParser2.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Dialogs/LayoutEditorCanvas/EditorSettings.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/Localization.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/Parsers/GrammarTerminals.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/CommonTools.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Platform.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/InstructionOrExpressionGroupMetadata.h \

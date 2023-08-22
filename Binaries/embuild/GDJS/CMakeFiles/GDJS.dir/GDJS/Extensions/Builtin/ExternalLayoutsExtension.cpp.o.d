@@ -162,4 +162,7 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/ExternalLayoutsExtension.cpp.o:
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/CodeGeneration/EventsCodeGenerator.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/Event.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Extensions/Builtin/AllBuiltinExtensions.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/ArbitraryResourceWorker.h
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/ArbitraryResourceWorker.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/ArbitraryEventsWorker.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/EventVisitor.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/ArbitraryObjectsWorker.h

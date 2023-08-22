@@ -157,6 +157,7 @@ Core/CMakeFiles/GDCore_tests.dir/tests/InstructionsParameterMover.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/InstructionOrExpressionGroupMetadata.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/ProjectBrowserHelper.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Project/ArbitraryResourceWorker.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Project/ArbitraryObjectsWorker.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Project/ProjectResourcesAdder.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/WholeProjectRefactorer.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/set \

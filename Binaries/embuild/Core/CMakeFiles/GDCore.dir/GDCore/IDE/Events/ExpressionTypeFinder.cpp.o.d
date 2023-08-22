@@ -168,4 +168,5 @@ Core/CMakeFiles/GDCore.dir/GDCore/IDE/Events/ExpressionTypeFinder.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/LoadingScreen.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Watermark.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/PlatformSpecificAssets.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/Parsers/ExpressionParser2.h
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/Parsers/ExpressionParser2.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/Parsers/GrammarTerminals.h

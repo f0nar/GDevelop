@@ -159,5 +159,8 @@ Core/CMakeFiles/GDCore.dir/GDCore/Project/CustomBehaviorsSharedData.cpp.o: \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/compat/math.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/math.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Project/ArbitraryResourceWorker.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/ArbitraryEventsWorker.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/EventVisitor.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Project/ArbitraryObjectsWorker.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Behavior.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/CustomConfigurationHelper.h

@@ -147,4 +147,10 @@ GDevelop.js/CMakeFiles/GD.dir/Bindings/ObjectJsImplementation.cpp.o: \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/emscripten/emscripten.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/emscripten/em_asm.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/emscripten/em_js.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/ArbitraryResourceWorker.h
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/ArbitraryResourceWorker.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/ArbitraryEventsWorker.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/InstructionsList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/SPtrList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/SPtrList.inl \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/EventVisitor.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/ArbitraryObjectsWorker.h

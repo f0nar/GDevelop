@@ -227,6 +227,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GDCore.dir/GDCore/IDE/ProjectStripper.cpp.o.d"
   "CMakeFiles/GDCore.dir/GDCore/IDE/PropertyFunctionGenerator.cpp.o"
   "CMakeFiles/GDCore.dir/GDCore/IDE/PropertyFunctionGenerator.cpp.o.d"
+  "CMakeFiles/GDCore.dir/GDCore/IDE/ResourceExposer.cpp.o"
+  "CMakeFiles/GDCore.dir/GDCore/IDE/ResourceExposer.cpp.o.d"
   "CMakeFiles/GDCore.dir/GDCore/IDE/SceneNameMangler.cpp.o"
   "CMakeFiles/GDCore.dir/GDCore/IDE/SceneNameMangler.cpp.o.d"
   "CMakeFiles/GDCore.dir/GDCore/IDE/UnfilledRequiredBehaviorPropertyProblem.cpp.o"

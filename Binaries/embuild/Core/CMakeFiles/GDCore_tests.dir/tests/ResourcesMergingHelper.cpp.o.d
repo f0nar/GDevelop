@@ -114,6 +114,12 @@ Core/CMakeFiles/GDCore_tests.dir/tests/ResourcesMergingHelper.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Utf8/utf8/checked.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Utf8/utf8/core.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Utf8/utf8/unchecked.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/ArbitraryEventsWorker.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/InstructionsList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SPtrList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SPtrList.inl \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/EventVisitor.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Project/ArbitraryObjectsWorker.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/CommonTools.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/cmath \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/math.h \
@@ -159,4 +165,5 @@ Core/CMakeFiles/GDCore_tests.dir/tests/ResourcesMergingHelper.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/VersionWrapper.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/catch.hpp \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/iomanip \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/set
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/set \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/ResourceExposer.h

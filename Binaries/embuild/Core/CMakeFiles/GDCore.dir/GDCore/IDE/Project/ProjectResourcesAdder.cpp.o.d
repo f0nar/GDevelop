@@ -121,6 +121,13 @@ Core/CMakeFiles/GDCore.dir/GDCore/IDE/Project/ProjectResourcesAdder.cpp.o: \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/optional \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Project/ArbitraryResourceWorker.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/map \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/ArbitraryEventsWorker.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/InstructionsList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SPtrList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SPtrList.inl \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/EventVisitor.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Project/ArbitraryObjectsWorker.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/ResourceExposer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Project.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ExtensionProperties.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Serialization/SerializerElement.h \

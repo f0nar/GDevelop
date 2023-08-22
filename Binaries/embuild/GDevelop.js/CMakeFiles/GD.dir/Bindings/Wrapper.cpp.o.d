@@ -169,6 +169,7 @@ GDevelop.js/CMakeFiles/GD.dir/Bindings/Wrapper.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Dialogs/LayoutEditorCanvas/EditorSettings.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/Localization.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/Parsers/GrammarTerminals.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Extensions/Builtin/SpriteExtension/Animation.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Extensions/Builtin/SpriteExtension/Direction.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Extensions/Builtin/SpriteExtension/Sprite.h \
@@ -218,6 +219,7 @@ GDevelop.js/CMakeFiles/GD.dir/Bindings/Wrapper.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/ProjectResourcesAdder.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/ProjectResourcesCopier.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/ResourcesInUseHelper.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/ResourceExposer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/ResourcesMergingHelper.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/ResourcesRenamer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/PropertyFunctionGenerator.h \
