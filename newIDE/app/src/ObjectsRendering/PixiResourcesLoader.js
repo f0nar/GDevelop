@@ -82,7 +82,7 @@ const load3DModel = (
     gltfLoader.load(
       url,
       gltf => {
-        traverseToSetBasicMaterialFromMeshes(gltf.scene);
+        traverseToRemoveMetalnessFromMeshes(gltf.scene);
         resolve(gltf);
       },
       undefined,
@@ -126,37 +126,29 @@ const applyThreeTextureSettings = (
   }
 };
 
-const convertToBasicMaterial = (
-  material: THREE.Material
-): THREE.MeshBasicMaterial => {
-  const basicMaterial = new THREE.MeshBasicMaterial();
-  if (material.color) {
-    basicMaterial.color = material.color;
+const removeMetalness = (material: THREE.Material): void => {
+  if (material.metalness) {
+    material.metalness = 0;
   }
-  if (material.map) {
-    basicMaterial.map = material.map;
-  }
-  return basicMaterial;
 };
 
-const setBasicMaterialTo = (node: THREE.Object3D<THREE.Event>): void => {
+const removeMetalnessFromMesh = (node: THREE.Object3D<THREE.Event>): void => {
   const mesh = (node: THREE.Mesh);
   if (!mesh.material) {
     return;
   }
-
   if (Array.isArray(mesh.material)) {
     for (let index = 0; index < mesh.material.length; index++) {
-      mesh.material[index] = convertToBasicMaterial(mesh.material[index]);
+      removeMetalness(mesh.material[index]);
     }
   } else {
-    mesh.material = convertToBasicMaterial(mesh.material);
+    removeMetalness(mesh.material);
   }
 };
 
-const traverseToSetBasicMaterialFromMeshes = (
+const traverseToRemoveMetalnessFromMeshes = (
   node: THREE.Object3D<THREE.Event>
-) => node.traverse(setBasicMaterialTo);
+) => node.traverse(removeMetalnessFromMesh);
 
 /**
  * Expose functions to load PIXI textures or fonts, given the names of
@@ -356,6 +348,14 @@ export default class PixiResourcesLoader {
     return loadingPromise;
   }
 
+  /**
+   * Return the Pixi spine data to the specified resource names.
+   * @param project The project
+   * @param spineName The name of the spine json resource
+   * @param atlasImageName The name of the atlas image resource
+   * @param atlasTextName The name of the atlas text resource
+   * @returns The requested material.
+   */
   static async getSpineData(
     project: gdProject,
     spineName: string,
@@ -375,17 +375,25 @@ export default class PixiResourcesLoader {
         return Promise.reject(`Unknown ${resKind} file ${resName}.`);
       }
       if (resourceManager.getResource(resName).getKind() !== resKind) {
-        return Promise.reject(`The resource called ${resName} is not of appropriate file type ${resKind}.`);
+        return Promise.reject(
+          `The resource called ${resName} is not of appropriate file type ${resKind}.`
+        );
       }
     }
- 
+
     // https://github.com/pixijs/spine/blob/master/examples/preload_atlas_text.md
     if (!atlasPromises[atlasTextName]) {
-      atlasPromises[atlasTextName] = new Promise(resolve => {
+      atlasPromises[atlasTextName] = new Promise(resolve =>
         loader
-          .add(atlasTextName, ResourcesLoader.getResourceFullUrl(project, atlasTextName, { isResourceForPixi: true }), { xhrType: 'text' })
-          .load((_, atlasData) =>  resolve(atlasData[atlasTextName].data))
-      });
+          .add(
+            atlasTextName,
+            ResourcesLoader.getResourceFullUrl(project, atlasTextName, {
+              isResourceForPixi: true,
+            }),
+            { xhrType: 'text' }
+          )
+          .load((_, atlasData) => resolve(atlasData[atlasTextName].data))
+      );
     }
 
     if (!spineDataPromises[spineName]) {
@@ -397,9 +405,15 @@ export default class PixiResourcesLoader {
           };
 
           loader
-            .add(spineName, ResourcesLoader.getResourceFullUrl(project, spineName, { isResourceForPixi: true }), { metadata })
+            .add(
+              spineName,
+              ResourcesLoader.getResourceFullUrl(project, spineName, {
+                isResourceForPixi: true,
+              }),
+              { metadata }
+            )
             .load((_, jsonData) => resolve(jsonData[spineName].spineData));
-        })
+        });
       });
     }
 
@@ -587,5 +601,4 @@ export default class PixiResourcesLoader {
       })
       .then(response => response.data);
   }
-
 }
