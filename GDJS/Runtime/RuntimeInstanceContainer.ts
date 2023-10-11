@@ -251,11 +251,6 @@ namespace gdjs {
         const objectName = instanceData.name;
         const newObject = this.createObject(objectName);
         if (newObject !== null) {
-          if (trackByPersistentUuid) {
-            // Give the object the same persistentUuid as the instance, so that
-            // it can be hot-reloaded.
-            newObject.persistentUuid = instanceData.persistentUuid || null;
-          }
           newObject.setPosition(instanceData.x + xPos, instanceData.y + yPos);
           newObject.setAngle(instanceData.angle);
           if (
@@ -275,6 +270,32 @@ namespace gdjs {
             .getVariables()
             .initFrom(instanceData.initialVariables, true);
           newObject.extraInitializationFromInitialInstance(instanceData);
+
+          if (trackByPersistentUuid && instanceData.persistentUuid) {
+            // Give the object the same persistentUuid as the instance, so that
+            // it can be hot-reloaded.
+            newObject.persistentUuid = instanceData.persistentUuid;
+
+            // const projectName = this.getGame().getGameData().properties.name;
+
+            // const project = Theatre.core.getProject(projectName, { state: Theatre.conf });
+            // const sheet = project.sheet(objectName);
+            // const object = sheet.object(instanceData.persistentUuid, {
+            //   position: Theatre.core.types.compound({
+            //     x: newObject.getX(),
+            //     y: newObject.getY(),
+            //   }),
+            // });
+    
+            // object.onValuesChange((values) => {
+            //   const { x, y } = values.position;
+            //   newObject.setX(x);
+            //   newObject.setY(y);
+            // });
+            // project.ready.then(() => {
+            //   sheet.sequence.play()
+            // })
+          }
         }
       }
     }

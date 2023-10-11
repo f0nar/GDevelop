@@ -18,7 +18,7 @@ import ScenePropertiesDialog from './ScenePropertiesDialog';
 import { type ObjectEditorTab } from '../ObjectEditor/ObjectEditorDialog';
 import MosaicEditorsDisplayToolbar from './MosaicEditorsDisplay/Toolbar';
 import SwipeableDrawerEditorsDisplayToolbar from './SwipeableDrawerEditorsDisplay/Toolbar';
-import { serializeToJSObject } from '../Utils/Serializer';
+import { serializeToJSObject, unserializeFromJSObject } from '../Utils/Serializer';
 import Clipboard, { SafeExtractor } from '../Utils/Clipboard';
 import Window from '../Utils/Window';
 import { ResponsiveWindowMeasurer } from '../UI/Reponsive/ResponsiveWindowMeasurer';
@@ -62,6 +62,424 @@ import MosaicEditorsDisplay from './MosaicEditorsDisplay';
 import SwipeableDrawerEditorsDisplay from './SwipeableDrawerEditorsDisplay';
 import { type SceneEditorsDisplayInterface } from './EditorsDisplay.flow';
 import newNameGenerator from '../Utils/NewNameGenerator';
+
+import * as theatreCore from '@theatre/core';
+import { ISheet, ISheetObject, IProject } from '@theatre/core';
+import studio, { IExtension, ToolsetConfig } from '@theatre/studio';
+
+type TheatreInstanceBinding = {
+  sheet: ISheet,
+  tween: ISheetObject,
+  onValuesChangeBinding: VoidFunction
+}
+
+type SelectionDataT = (ISheet | ISheetObject<{}>)[];
+
+export class TheatreHelper {
+  static isSheetObject(obj) {
+    return !!obj && 'address' in obj && 'objectKey' in obj.address && 'sheet' in obj;
+  }
+
+  onSelectionChangeCb: { cb: (_old: SelectionDataT, _new: SelectionDataT) => void, once: boolean } = [];
+  currentSelection: SelectionDataT = [];
+  instanceBindings = new Map<string, TheatreInstanceBinding[]>();
+  project: gdProject;
+  instancesSelection: InstancesSelection;
+  onValuesChange: VoidFunction;
+  initialInstances: gdInitialInstancesContainer;
+  projectData: object;
+  theatreProject: IProject;
+  sheetId = 0;
+
+  constructor(
+    project: gdProject,
+    instancesSelection: InstancesSelection,
+    initialInstances: gdInitialInstancesContainer,
+    onValuesChange: VoidFunction = () => { }
+  ) {
+    this.project = project;
+    this.instancesSelection = instancesSelection;
+    this.onValuesChange = onValuesChange;
+    this.initialInstances = initialInstances;
+
+    const theatreVarName = '__THEATRE_CONFIG__';
+    const varContainer = this.project.getVariables();
+    const theatreVar = varContainer.get(theatreVarName);
+    const projectString = theatreVar.getString();
+    this.projectData = JSON.parse(projectString);
+  }
+
+  sheetsNumber() {
+    return this.sheetId++;
+    // return Object.keys(this.projectData.sheetsById || { }).length;
+  }
+
+  isSelectionActive() {
+    return Array.isArray(this.currentSelection) && !!this.currentSelection.length;
+  }
+
+  onInstancesSelected(instances: gdInitialInstance[]) {
+    if (instances.length !== 1 || !this.instanceBindings.has(instances[0].getPersistentUUID())) return;
+
+    const [instance] = instances;
+    const instanceBindings = this.instanceBindings.get(instance.getPersistentUUID());
+    const isSelectionActive = this.isSelectionActive();
+    
+    if (!isSelectionActive) {
+      if (instanceBindings.length === 1) {
+        studio.setSelection([instanceBindings[0].tween]);
+      }
+
+      return;
+    }
+
+    const [selection] = this.currentSelection;
+    const sameSheet = TheatreHelper.isSheetObject(selection) ? selection.sheet : selection;
+    for (const binding of instanceBindings) {
+      if (binding.sheet === sameSheet) {
+        studio.setSelection([binding.tween]);
+        break;
+      }
+    }
+  }
+
+  onSelectionChange(cb: (_old: SelectionDataT, _new: SelectionDataT) => void, once = false) {
+    this.onSelectionChangeCb.push({ cb, once });
+  }
+
+  getInstanceUUIDFor(obj: ISheetObject) {
+    for (const [key, dataArray] of this.instanceBindings) {
+      for (const { tween } of dataArray) {
+        if (tween === obj) return key;
+      }
+    }
+
+    return '';
+  }
+
+  
+  _onInstancesModified(modifiedInstances: gdInitialInstance[]) {
+    this.onInstancesMoved(modifiedInstances);
+  }
+
+  __onSelectionChange(currentSelection: SelectionDataT) {
+    const oldSelection = this.currentSelection;
+    this.currentSelection = currentSelection;
+
+    for (const cbData of this.onSelectionChangeCb) {
+      cbData.cb(oldSelection, this.currentSelection);
+
+      if (cbData.once) {
+        this.onSelectionChangeCb.splice(this.onSelectionChangeCb.indexOf(cbData), 1)
+      }
+    }
+
+    const getInstance = (uuid) => {
+      let newSelectionInstance;
+      const instanceGetter = new gd.InitialInstanceJSFunctor();
+      instanceGetter.invoke = instancePtr => {
+        const instance: gdInitialInstance = gd.wrapPointer(
+          instancePtr,
+          gd.InitialInstance
+        );
+        if (instance.getPersistentUUID() === uuid) {
+          newSelectionInstance = instance;
+        }
+      };
+      this.initialInstances.iterateOverInstances(instanceGetter);
+
+      return newSelectionInstance;
+    }
+
+    // select sheet/object after sheet/object
+    if (oldSelection.length && currentSelection.length) {
+      const a = oldSelection[0], b = currentSelection[0];
+      const aObject = TheatreHelper.isSheetObject(a), bObject = TheatreHelper.isSheetObject(b);
+
+      // if object selected after object
+      if (aObject && bObject) {
+        // if objects under same sheet
+        if (a.sheet === b.sheet) {
+          this.instancesSelection.clearSelection();
+          const uuid = this.getInstanceUUIDFor(b);
+          const newSelectionInstance = getInstance(uuid);
+
+          if (!newSelectionInstance) {
+            console.log('new selection is undefined ', uuid)
+          }
+
+          this.instancesSelection.selectInstance({
+            instance: newSelectionInstance,
+            multiSelect: false,
+            layersLocks: null,
+          })
+        // new selection is from another sheet
+        } else {
+          // unsubscribe old sheet
+          for (const [uuid, bindingsData] of this.instanceBindings) {
+            for (const binding of bindingsData) {
+              if (binding.sheet === a.sheet && binding.onValuesChangeBinding) {
+                binding.onValuesChangeBinding();
+                binding.onValuesChangeBinding = undefined;
+              }
+            }
+          }
+          // subscribe new shit
+          for (const [uuid, bindingsData] of this.instanceBindings) {
+            for (const binding of bindingsData) {
+              if (binding.sheet === b.sheet) {
+                binding.onValuesChangeBinding = binding.tween.onValuesChange((values) => {
+                  const { x, y } = values.position;
+                  const instance = getInstance(uuid);
+  
+                  instance.setX(x);
+                  instance.setY(y);
+  
+                  this.onValuesChange();
+                });
+
+                if (bObject) {
+                  this.instancesSelection.clearSelection();
+                  const uuid = this.getInstanceUUIDFor(b);
+                  const newSelectionInstance = getInstance(uuid);
+
+                  if (!newSelectionInstance) {
+                    console.log('new selection is undefined ', uuid)
+                  }
+                  this.instancesSelection.selectInstance({
+                    instance: newSelectionInstance,
+                    multiSelect: false,
+                    layersLocks: null,
+                  });
+                }
+
+                break;
+              }
+            }
+          }
+        }
+      }
+    } else if (oldSelection.length) {
+      const old = oldSelection[0];
+      const sheet = TheatreHelper.isSheetObject(old) ? old.sheet : old;
+
+      for (const [uuid, bindingsData] of this.instanceBindings) {
+        for (const binding of bindingsData) {
+          if (binding.sheet === sheet && binding.onValuesChangeBinding) {
+            binding.onValuesChangeBinding();
+            binding.onValuesChangeBinding = undefined;
+          }
+        }
+      }
+    } else if (currentSelection.length) {
+      const selection = currentSelection[0];
+      const isObjectSelected = TheatreHelper.isSheetObject(selection);
+      const sheet = isObjectSelected ? selection.sheet : selection;
+
+      for (const [uuid, bindingsData] of this.instanceBindings) {
+        for (const binding of bindingsData) {
+          if (binding.sheet === sheet) {
+            binding.onValuesChangeBinding = binding.tween.onValuesChange((values) => {
+              const { x, y } = values.position;
+              const instance = getInstance(uuid);
+
+              instance.setX(x);
+              instance.setY(y);
+
+              this.onValuesChange();
+            });
+
+            if (isObjectSelected) {
+              this.instancesSelection.clearSelection();
+              const uuid = this.getInstanceUUIDFor(selection);
+              const newSelectionInstance = getInstance(uuid);
+
+              if (!newSelectionInstance) {
+                console.log('new selection is undefined ', uuid)
+              }
+              this.instancesSelection.selectInstance({
+                instance: newSelectionInstance,
+                multiSelect: false,
+                layersLocks: null,
+              });
+            }
+
+            break;
+          }
+        }
+      }
+    }
+  }
+
+  onInstancesMoved(instances: gdInitialInstance[]) {
+    // you are not in animation mode
+    if (!this.isSelectionActive()) return;
+
+    const selection = this.currentSelection[0];
+    const sheet = TheatreHelper.isSheetObject(selection) ? selection.sheet : selection; 
+
+    for (const instance of instances) {
+      if (!this.instanceBindings.has(instance.getPersistentUUID())) return;
+
+      studio.transaction(({ set }) => {
+        for (const instanceBinding of this.instanceBindings.get(instance.getPersistentUUID())) {
+          if (instanceBinding.sheet === sheet) {
+            set(instanceBinding.tween.props.position, {
+              x: instance.getX(),
+              y: instance.getY(),
+            });
+          }
+        }
+      })
+    }
+  }
+
+  recover() {
+    const getInstance = (uuid) => {
+      let newSelectionInstance;
+      const instanceGetter = new gd.InitialInstanceJSFunctor();
+      instanceGetter.invoke = instancePtr => {
+        const instance: gdInitialInstance = gd.wrapPointer(
+          instancePtr,
+          gd.InitialInstance
+        );
+        if (instance.getPersistentUUID() === uuid) {
+          newSelectionInstance = instance;
+        }
+      };
+      this.initialInstances.iterateOverInstances(instanceGetter);
+
+      return newSelectionInstance;
+    };
+    const {sheetsById} = this.projectData;
+
+    for (const sheetId in sheetsById) {
+      const { byObject: objectsById } = sheetsById[sheetId].staticOverrides;
+      const sheet = this.theatreProject.sheet(sheetId);
+      
+      for (const objectId in objectsById) {
+        const object = sheet.object(objectId, objectsById[objectId]);
+        const uuid = objectId.split('(')[1].slice(0, -1);
+        const instance = getInstance(uuid);
+
+        console.log('instatnce ', uuid, instance)
+
+        const instanceBinding = {
+          sheet,
+          tween: object,
+          // onValuesChangeBinding
+        };
+        if (this.instanceBindings.has(uuid)) {
+          this.instanceBindings.get(uuid).push(instanceBinding);
+        } else {
+          this.instanceBindings.set(uuid, [instanceBinding]);
+        }
+      }
+    }
+  }
+
+  initialize() {
+    const helper = this;
+    const theatreExtension: IExtension = {
+      id: 'gdevelop-extension',
+      toolbars: {
+        global(set, studio) {
+          const conf: ToolsetConfig = [{
+            type: 'Icon',
+            title: 'Add Sheet',
+            svgSource: '➕',
+            onClick: () => {
+              if (!helper.instancesSelection.hasSelectedInstances()) return;
+
+              // check if saved state if available in variables
+              // const theatreProject = theatreCore.getProject(helper.project.getName());
+              const sheetName = `Sheet${helper.sheetsNumber()}`;
+              const sheet = helper.theatreProject.sheet(sheetName);
+              const sheetObjects = { };
+
+              for (const selectedInstance of helper.instancesSelection.getSelectedInstances()) {
+                const fullName = `${selectedInstance.getObjectName()} (${selectedInstance.getPersistentUUID()})`;
+                const theatreInstance = sheet.object(fullName, {
+                  position: theatreCore.types.compound({
+                    x: selectedInstance.getX(),
+                    y: selectedInstance.getY(),
+                  })
+                });
+
+                // const onValuesChangeBinding = theatreInstance.onValuesChange((values) => {
+                //   const { x, y } = values.position;
+
+                //   selectedInstance.setX(x);
+                //   selectedInstance.setY(y);
+
+                //   helper.onValuesChange();
+                // });
+
+                sheetObjects[fullName] = {
+                  name: selectedInstance.getObjectName(),
+                  uuid: selectedInstance.getPersistentUUID()
+                };
+
+                const instanceBinding = {
+                  sheet,
+                  tween: theatreInstance,
+                  // onValuesChangeBinding
+                };
+                if (helper.instanceBindings.has(selectedInstance.getPersistentUUID())) {
+                  helper.instanceBindings.get(selectedInstance.getPersistentUUID()).push(instanceBinding);
+                } else {
+                  helper.instanceBindings.set(selectedInstance.getPersistentUUID(), [instanceBinding]);
+                }
+              }
+
+              const varContainer = helper.project.getVariables();
+              const sheetVar = varContainer.has(sheetName) ?
+                varContainer.get(sheetName) :
+                varContainer.insertNew(sheetName);
+              sheetVar.setString(JSON.stringify(sheetObjects));        
+            }
+          // }, {
+          //   type: 'Icon',
+          //   title: 'Remove Sheet',
+          //   svgSource: '➖',
+          //   onClick: () => {
+          //     if (!helper.isSelectionActive()) return;
+
+          //     studio.transaction((api) => {
+          //       const [selection] = helper.currentSelection;
+
+          //       if (TheatreHelper.isSheetObject(selection)) {
+          //         api.__experimental_forgetSheet(selection.sheet);
+          //       } else {
+          //         api.__experimental_forgetSheet(selection);
+          //       }
+
+          //       studio.initialize()
+          //     });
+          //   }
+          }];
+
+          set(conf);
+        },
+      },
+      panes: [],
+    }
+
+    studio.extend(theatreExtension, { __experimental_reconfigure: true });
+    
+    return (
+      studio
+        .initialize()
+        .then(() => {
+          studio.onSelectionChange(helper.__onSelectionChange.bind(helper));
+          helper.theatreProject = theatreCore.getProject(helper.project.getName(), { state: helper.projectData });
+          // helper.theatreProject = theatreCore.getProject(helper.project.getName());
+          console.log(helper.projectData)
+          helper.theatreProject.ready.then(() => helper.recover());
+        })
+    )
+  }
+}
 
 const gd: libGDevelop = global.gd;
 
@@ -136,6 +554,9 @@ type State = {|
   renamedObjectWithContext: ?ObjectWithContext,
   selectedObjectsWithContext: Array<ObjectWithContext>,
   selectedLayer: string,
+
+  isInAnimationMode: ?boolean,
+  preAnimationState: ?Object
 |};
 
 type CopyCutPasteOptions = {|
@@ -148,6 +569,7 @@ export default class SceneEditor extends React.Component<Props, State> {
     setToolbar: () => {},
   };
 
+  theatreHelper: TheatreHelper;
   instancesSelection: InstancesSelection;
   contextMenu: ?ContextMenuInterface;
   editorDisplay: ?SceneEditorsDisplayInterface;
@@ -156,6 +578,9 @@ export default class SceneEditor extends React.Component<Props, State> {
     super(props);
 
     this.instancesSelection = new InstancesSelection();
+    this.theatreHelper = new TheatreHelper(props.project, this.instancesSelection, this.props.initialInstances, () => this.forceUpdatePropertiesEditor());
+    this.theatreHelper.onSelectionChange(this.onSelectionChange.bind(this));
+    this.theatreHelper.initialize();
     this.state = {
       setupGridOpen: false,
       scenePropertiesDialogOpen: false,
@@ -191,7 +616,52 @@ export default class SceneEditor extends React.Component<Props, State> {
       selectedObjectsWithContext: [],
       selectedLayer: BASE_LAYER_NAME,
       invisibleLayerOnWhichInstancesHaveJustBeenAdded: null,
+      isInAnimationMode: false,
     };
+  }
+
+  onSelectionChange(oldSelection: SelectionDataT, newSelection: SelectionDataT) {
+    // if (oldSelection.length && newSelection.length) return;
+    if (!oldSelection.length && !newSelection.length) return;
+
+    console.log(oldSelection, newSelection)
+
+    if (oldSelection.length) {
+      this.instancesSelection.clearSelection();
+      unserializeFromJSObject(
+        this.props.initialInstances,
+        this.state.preAnimationState,
+        'unserializeFrom'
+      );
+
+      console.log(this.state.preAnimationState)
+      
+      if (!newSelection.length) {
+        this.setState({
+          history: saveToHistory(this.state.history, this.props.initialInstances),
+          preAnimationState: null,
+          isInAnimationMode: false,
+        }, () => {
+          if (this.editorDisplay)
+            this.editorDisplay.instancesHandlers.forceRemountInstancesRenderers();
+          this.updateToolbar();
+        });
+      } else {
+        if (this.editorDisplay) this.editorDisplay.instancesHandlers.forceRemountInstancesRenderers();
+        this.updateToolbar();
+      }
+    } else {
+      const history = this.state.history || saveToHistory(this.state.history, this.props.initialInstances);
+      const preAnimationState = history.currentValue;
+   
+      this.setState({
+        history,
+        isInAnimationMode: true,
+        preAnimationState
+      }, () => {
+        this.updateToolbar();
+      });
+    }
   }
 
   componentDidUpdate(prevProps: Props, prevState: State) {
@@ -576,6 +1046,7 @@ export default class SceneEditor extends React.Component<Props, State> {
     const instancesObjectNames = uniq(
       instances.map(instance => instance.getObjectName())
     );
+    this.theatreHelper.onInstancesSelected(instances);
 
     const selectedObjectsWithContext = enumerateObjects(project, layout, {
       names: instancesObjectNames,
@@ -596,6 +1067,8 @@ export default class SceneEditor extends React.Component<Props, State> {
   };
 
   _onInstancesMoved = (instances: Array<gdInitialInstance>) => {
+    this.theatreHelper.onInstancesMoved(instances);
+
     this.setState(
       {
         history: saveToHistory(
@@ -636,6 +1109,8 @@ export default class SceneEditor extends React.Component<Props, State> {
 
   _onInstancesModified = (instances: Array<gdInitialInstance>) => {
     this.forceUpdate();
+
+    this.theatreHelper._onInstancesModified(instances);
     //TODO: Save for redo with debounce (and cancel on unmount)
   };
 
@@ -1586,6 +2061,7 @@ export default class SceneEditor extends React.Component<Props, State> {
                 onInstancesResized={this._onInstancesResized}
                 onInstancesRotated={this._onInstancesRotated}
                 isInstanceOf3DObject={this.isInstanceOf3DObject}
+                onInstancesModified={this._onInstancesModified}
                 onSelectAllInstancesOfObjectInLayout={
                   this.onSelectAllInstancesOfObjectInLayout
                 }

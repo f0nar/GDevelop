@@ -3,6 +3,7 @@ declare class gdInitialInstance {
   constructor(): void;
   setObjectName(name: string): void;
   getObjectName(): string;
+  getPersistentUUID(): string;
   getX(): number;
   setX(x: number): void;
   getY(): number;

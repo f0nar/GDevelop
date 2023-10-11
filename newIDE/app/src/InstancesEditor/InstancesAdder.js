@@ -135,6 +135,15 @@ export default class InstancesAdder {
       instance.setLayer(layer);
       instance.setZOrder(zOrder);
 
+      // theatreCore.getProject(this.project.getName())
+      //   .sheet(objectName)
+      //   .object(instance.getPersistentUUID(), {
+      //     rotation: theatreCore.types.compound({
+      //       x: theatreCore.types.number(newPos[0]),
+      //       y: theatreCore.types.number(newPos[1]),
+      //     }),
+      //   })
+
       return instance;
     });
 
@@ -178,6 +187,16 @@ export default class InstancesAdder {
       instance.setY(newPos[1]);
       instance.setLayer(layer);
       instance.setZOrder(zOrder);
+
+      // theatreCore.getProject(this.project.getName())
+      //   .sheet(objectName)
+      //   .object(instance.getPersistentUUID(), {
+      //     rotation: theatreCore.types.compound({
+      //       x: theatreCore.types.number(newPos[0]),
+      //       y: theatreCore.types.number(newPos[1]),
+      //     }),
+      //   })
+
 
       return instance;
     });

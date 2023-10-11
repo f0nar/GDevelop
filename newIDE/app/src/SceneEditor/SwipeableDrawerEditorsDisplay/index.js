@@ -62,6 +62,7 @@ const SwipeableDrawerEditorsDisplay = React.forwardRef<
     initialInstances,
     selectedLayer,
     onSelectInstances,
+    onInstancesModified,
   } = props;
   const selectedInstances = props.instancesSelection.getSelectedInstances();
   const [
@@ -108,9 +109,12 @@ const SwipeableDrawerEditorsDisplay = React.forwardRef<
     if (instancesPropertiesEditorRef.current)
       instancesPropertiesEditorRef.current.forceUpdate();
   }, []);
-  const forceUpdateInstancesList = React.useCallback(() => {
+  const forceUpdateInstancesList = React.useCallback((updatedInstances?: gdInitialInstance) => {
     if (instancesListRef.current) instancesListRef.current.forceUpdate();
-  }, []);
+    if (Array.isArray(updatedInstances) && updatedInstances) {
+      onInstancesModified(updatedInstances);
+    }
+  }, [onInstancesModified]);
   const forceUpdateObjectsList = React.useCallback(() => {
     if (objectsListRef.current) objectsListRef.current.forceUpdateList();
   }, []);

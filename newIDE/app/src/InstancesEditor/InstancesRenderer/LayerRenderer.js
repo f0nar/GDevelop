@@ -12,6 +12,10 @@ import { makeDoubleClickable } from './PixiDoubleClickEvent';
 import Rectangle from '../../Utils/Rectangle'; // TODO (3D): add support for zMin/zMax/depth.
 import { rotatePolygon, type Polygon } from '../../Utils/PolygonHelper';
 import Rendered3DInstance from '../../ObjectsRendering/Renderers/Rendered3DInstance';
+
+import * as theatreCore from '@theatre/core';
+import studio from '@theatre/studio';
+
 const gd: libGDevelop = global.gd;
 
 export default class LayerRenderer {
@@ -51,6 +55,8 @@ export default class LayerRenderer {
 
   _temporaryRectangle: Rectangle = new Rectangle();
   _temporaryRectanglePath: Polygon = [[0, 0], [0, 0], [0, 0], [0, 0]];
+
+  
 
   /**
    * The render texture where the whole 2D layer is rendered.

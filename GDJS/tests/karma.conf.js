@@ -40,6 +40,7 @@ module.exports = function (config) {
       './newIDE/app/resources/GDJS/Runtime/gd.js',
       './newIDE/app/resources/GDJS/Runtime/AsyncTasksManager.js',
       './newIDE/app/resources/GDJS/Runtime/libs/rbush.js',
+      './newIDE/app/resources/GDJS/Runtime/libs/theatre-core.js',
       './newIDE/app/resources/GDJS/Runtime/pixi-renderers/pixi.js',
       './newIDE/app/resources/GDJS/Runtime/pixi-renderers/three.js',
       './newIDE/app/resources/GDJS/Runtime/pixi-renderers/*.js',

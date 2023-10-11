@@ -119,20 +119,28 @@ const ObjectsEditorService = {
   editorConfigurationsSpecificToCustomObject: {
     Sprite: {
       component: LockedSpriteEditor,
-      createNewObject: (): gdSpriteObject => new gd.SpriteObject(),
+      createNewObject: (): gdSpriteObject => {
+        return new gd.SpriteObject()
+      },
       castToObjectType: (
         objectConfiguration: gdObjectConfiguration
-      ): gdSpriteObject => gd.asSpriteConfiguration(objectConfiguration),
+      ): gdSpriteObject => {
+        return gd.asSpriteConfiguration(objectConfiguration)
+      },
       helpPagePath: '/objects/sprite',
     },
   },
   editorConfigurations: {
     Sprite: {
       component: SpriteEditor,
-      createNewObject: (): gdSpriteObject => new gd.SpriteObject(),
+      createNewObject: (): gdSpriteObject => {
+        return new gd.SpriteObject()
+      },
       castToObjectType: (
         objectConfiguration: gdObjectConfiguration
-      ): gdSpriteObject => gd.asSpriteConfiguration(objectConfiguration),
+      ): gdSpriteObject => {
+        return gd.asSpriteConfiguration(objectConfiguration)
+      },
       helpPagePath: '/objects/sprite',
     },
     'Scene3D::Cube3DObject': {

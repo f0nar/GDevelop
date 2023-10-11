@@ -1060,6 +1060,7 @@ interface InitialInstance {
 
     void SetObjectName([Const] DOMString name);
     [Const, Ref] DOMString GetObjectName();
+    [Const, Ref] DOMString GetPersistentUUID();
 
     double GetX();
     void SetX(double x);

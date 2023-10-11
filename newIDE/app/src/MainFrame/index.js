@@ -174,6 +174,7 @@ import useCreateProject from '../Utils/UseCreateProject';
 import { isTryingToSaveInForbiddenPath } from '../ProjectsStorage/LocalFileStorageProvider/LocalProjectWriter';
 import newNameGenerator from '../Utils/NewNameGenerator';
 import { addDefaultLightToAllLayers } from '../ProjectCreation/CreateProjectDialog';
+import studio from '@theatre/studio';
 
 const GD_STARTUP_TIMES = global.GD_STARTUP_TIMES || [];
 
@@ -2220,6 +2221,13 @@ const MainFrame = (props: Props) => {
       if (!currentFileMetadata) {
         return saveProjectAs();
       }
+
+      const theatreVarName = '__THEATRE_CONFIG__';
+      const varContainer = currentProject.getVariables();
+      const theatreVar = varContainer.has(theatreVarName) ?
+        varContainer.get(theatreVarName) :
+        varContainer.insertNew(theatreVarName);
+      theatreVar.setString(JSON.stringify(studio.createContentOfSaveFile(currentProject.getName())))
 
       if (cloudProjectRecoveryOpenedVersionId && !cloudProjectSaveChoiceOpen) {
         setCloudProjectSaveChoiceOpen(true);

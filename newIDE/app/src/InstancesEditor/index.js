@@ -40,6 +40,8 @@ import {
   clampInstancesEditorZoom,
   getWheelStepZoomFactor,
 } from '../Utils/ZoomUtils';
+import studio from '@theatre/studio';
+
 const gd: libGDevelop = global.gd;
 
 export const instancesEditorId = 'instances-editor-canvas';
@@ -154,9 +156,47 @@ export default class InstancesEditor extends Component<Props> {
     }
   }
 
+  _onTheatreTweenValuesChangeUnsubscribe: VoidFunction | null = null;
+
+  _onTheatreTweenValuesChange(schema) {
+    console.log(schema);
+
+    // const selectedInstances = this.props.instancesSelection.getSelectedInstances();
+
+    // for (const selectedInstance of selectedInstances) {
+    //   selectedInstance.setX(schema.position.x);
+    //   selectedInstance.setY(schema.position.y);
+    // }
+  }
+
+  _onTheatreTweenSelectionChange([sheetOrObject]) {
+    console.log(sheetOrObject);
+
+    if (!sheetOrObject) {
+      // project is selected
+      return;
+    }
+
+    this._onTheatreTweenValuesChangeUnsubscribe?.();
+    this._onTheatreTweenValuesChangeUnsubscribe = null;
+
+    if (sheetOrObject.address.hasOwnProperty('objectKey')) {
+      // object is selected
+      const object = sheetOrObject;
+
+      this._onTheatreTweenValuesChangeUnsubscribe = object.onValuesChange((values) => this._onTheatreTweenValuesChange(values))
+    } else {
+      // sheet is selected
+    }
+  }
+
   _initializeCanvasAndRenderer() {
     const { canvasArea } = this;
     if (!canvasArea) return;
+
+    studio.onSelectionChange((sheets) => {
+      this._onTheatreTweenSelectionChange(sheets)
+    });
 
     // project can be used here for initializing stuff, but don't keep references to it.
     // Instead, create editors in _mountEditorComponents (as they will be destroyed/recreated

@@ -48,6 +48,11 @@ class GD_CORE_API InitialInstance {
   const gd::String& GetObjectName() const { return objectName; }
 
   /**
+   * \brief Get the persistent uuid of object instantiated on the layout.
+   */
+  const gd::String& GetPersistentUUID() const { return persistentUuid; }
+
+  /**
    * \brief Set the name of object instantiated on the layout.
    */
   void SetObjectName(const gd::String& name) { objectName = name; }
@@ -116,6 +121,12 @@ class GD_CORE_API InitialInstance {
    * \brief Get the Z order of the instance (for a 2D object).
    */
   int GetZOrder() const { return zOrder; }
+
+  
+  /**
+   * \brief Get the Z order of the instance (for a 2D object).
+   */
+  int GetSomeNumber() const { return 99; }
 
   /**
    * \brief Set the Z order of the instance (for a 2D object).

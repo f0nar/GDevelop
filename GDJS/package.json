@@ -31,5 +31,8 @@
     "format": "prettier --write \"Runtime/**/*.ts\" \"../Extensions/**/*.ts\" \"../Extensions/**/*.spec.js\"",
     "check-format": "prettier --list-different \"Runtime/**/*.ts\" \"../Extensions/**/*.ts\" \"../Extensions/**/*.spec.js\"",
     "generate-doc": "typedoc --options docs/typedoc.json"
+  },
+  "dependencies": {
+    "@theatre/core": "^0.7.0"
   }
 }

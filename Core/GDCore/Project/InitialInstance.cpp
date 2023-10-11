@@ -121,8 +121,8 @@ void InitialInstance::SerializeTo(SerializerElement& element) const {
   if (IsLocked()) element.SetAttribute("locked", IsLocked());
   if (IsSealed()) element.SetAttribute("sealed", IsSealed());
 
-  if (persistentUuid.empty()) persistentUuid = UUID::MakeUuid4();
-  element.SetStringAttribute("persistentUuid", persistentUuid);
+  if (GetPersistentUUID().empty()) persistentUuid = UUID::MakeUuid4();
+  element.SetStringAttribute("persistentUuid", GetPersistentUUID());
 
   SerializerElement& numberPropertiesElement =
       element.AddChild("numberProperties");

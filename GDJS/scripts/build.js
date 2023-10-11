@@ -54,6 +54,7 @@ shell.mkdir('-p', bundledOutPath);
           entryPoints: [inPath],
           minify: true,
           outfile: renameBuiltFile(outPath),
+          external: []
         }).catch(() => {
           // Error is already logged by esbuild.
           errored = true;

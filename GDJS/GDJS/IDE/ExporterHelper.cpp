@@ -621,6 +621,7 @@ void ExporterHelper::AddLibsInclude(bool pixiRenderers,
   InsertUnique(includesFiles, "logger.js");
   InsertUnique(includesFiles, "gd.js");
   InsertUnique(includesFiles, "libs/rbush.js");
+  InsertUnique(includesFiles, "libs/theatre-core.js");
   InsertUnique(includesFiles, "AsyncTasksManager.js");
   InsertUnique(includesFiles, "inputmanager.js");
   InsertUnique(includesFiles, "jsonmanager.js");
