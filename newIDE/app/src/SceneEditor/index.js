@@ -627,6 +627,8 @@ export default class SceneEditor extends React.Component<Props, State> {
     console.log(oldSelection, newSelection)
 
     if (oldSelection.length) {
+      if (newSelection.length && TheatreHelper.isSheetObject(newSelection[0]) && newSelection[0].sheet === oldSelection[0].sheet) { return; }
+
       this.instancesSelection.clearSelection();
       unserializeFromJSObject(
         this.props.initialInstances,

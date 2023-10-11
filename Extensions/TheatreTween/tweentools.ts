@@ -30,7 +30,7 @@ namespace gdjs {
             });
           const uuid = objectName.split('(')[1].slice(0, -1);
           const name = objectName.split('(')[0].trim();
-          const object = runtimeScene.getObjects(objectName)?.find((obj) => obj.persistentUuid === uuid);
+          const object = runtimeScene.getObjects(name)?.find((obj) => obj.persistentUuid === uuid);
   
           if (!object) return;
 
