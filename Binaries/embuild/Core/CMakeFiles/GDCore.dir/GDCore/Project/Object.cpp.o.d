@@ -154,14 +154,17 @@ Core/CMakeFiles/GDCore.dir/GDCore/Project/Object.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/MeasurementUnitElement.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/MeasurementBaseUnit.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/Localization.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SerializableWithNameList.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SerializableWithNameList.inl \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/PolymorphicClone.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsFunctionsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/PropertiesContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsFunctionsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsFunction.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/EventsList.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectGroupsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectGroup.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SerializableWithNameList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SerializableWithNameList.inl \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/PolymorphicClone.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/NamedPropertyDescriptor.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsFunctionsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Project.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ExtensionProperties.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/LoadingScreen.h \
@@ -176,4 +179,15 @@ Core/CMakeFiles/GDCore.dir/GDCore/Project/Object.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Layer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EffectsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Dialogs/LayoutEditorCanvas/EditorSettings.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/Log.h
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/Log.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/UUID/UUID.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/UUID/sole.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/sys/types.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/endian.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/sys/select.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/memory.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/iomanip \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/random \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/numeric \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/unistd.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/posix.h

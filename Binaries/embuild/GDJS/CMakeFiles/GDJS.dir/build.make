@@ -279,11 +279,101 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/CameraExtension.cpp.s: cmake_fo
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/CameraExtension.cpp.s"
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/CameraExtension.cpp -o CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/CameraExtension.cpp.s
 
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/AnimatableExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/flags.make
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/AnimatableExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/includes_CXX.rsp
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/AnimatableExtension.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/Capacities/AnimatableExtension.cpp
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/AnimatableExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/AnimatableExtension.cpp.o"
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/AnimatableExtension.cpp.o -MF CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/AnimatableExtension.cpp.o.d -o CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/AnimatableExtension.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/Capacities/AnimatableExtension.cpp
+
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/AnimatableExtension.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/AnimatableExtension.cpp.i"
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/Capacities/AnimatableExtension.cpp > CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/AnimatableExtension.cpp.i
+
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/AnimatableExtension.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/AnimatableExtension.cpp.s"
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/Capacities/AnimatableExtension.cpp -o CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/AnimatableExtension.cpp.s
+
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/EffectExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/flags.make
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/EffectExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/includes_CXX.rsp
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/EffectExtension.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/Capacities/EffectExtension.cpp
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/EffectExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/EffectExtension.cpp.o"
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/EffectExtension.cpp.o -MF CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/EffectExtension.cpp.o.d -o CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/EffectExtension.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/Capacities/EffectExtension.cpp
+
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/EffectExtension.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/EffectExtension.cpp.i"
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/Capacities/EffectExtension.cpp > CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/EffectExtension.cpp.i
+
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/EffectExtension.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/EffectExtension.cpp.s"
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/Capacities/EffectExtension.cpp -o CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/EffectExtension.cpp.s
+
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/FlippableExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/flags.make
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/FlippableExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/includes_CXX.rsp
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/FlippableExtension.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/Capacities/FlippableExtension.cpp
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/FlippableExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/FlippableExtension.cpp.o"
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/FlippableExtension.cpp.o -MF CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/FlippableExtension.cpp.o.d -o CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/FlippableExtension.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/Capacities/FlippableExtension.cpp
+
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/FlippableExtension.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/FlippableExtension.cpp.i"
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/Capacities/FlippableExtension.cpp > CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/FlippableExtension.cpp.i
+
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/FlippableExtension.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/FlippableExtension.cpp.s"
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/Capacities/FlippableExtension.cpp -o CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/FlippableExtension.cpp.s
+
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/OpacityExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/flags.make
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/OpacityExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/includes_CXX.rsp
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/OpacityExtension.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/Capacities/OpacityExtension.cpp
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/OpacityExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/OpacityExtension.cpp.o"
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/OpacityExtension.cpp.o -MF CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/OpacityExtension.cpp.o.d -o CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/OpacityExtension.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/Capacities/OpacityExtension.cpp
+
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/OpacityExtension.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/OpacityExtension.cpp.i"
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/Capacities/OpacityExtension.cpp > CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/OpacityExtension.cpp.i
+
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/OpacityExtension.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/OpacityExtension.cpp.s"
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/Capacities/OpacityExtension.cpp -o CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/OpacityExtension.cpp.s
+
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ResizableExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/flags.make
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ResizableExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/includes_CXX.rsp
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ResizableExtension.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/Capacities/ResizableExtension.cpp
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ResizableExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ResizableExtension.cpp.o"
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ResizableExtension.cpp.o -MF CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ResizableExtension.cpp.o.d -o CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ResizableExtension.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/Capacities/ResizableExtension.cpp
+
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ResizableExtension.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ResizableExtension.cpp.i"
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/Capacities/ResizableExtension.cpp > CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ResizableExtension.cpp.i
+
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ResizableExtension.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ResizableExtension.cpp.s"
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/Capacities/ResizableExtension.cpp -o CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ResizableExtension.cpp.s
+
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/flags.make
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/includes_CXX.rsp
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp.o"
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp.o -MF CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp.o.d -o CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp
+
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp.i"
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp > CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp.i
+
+GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp.s"
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp -o CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp.s
+
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/CommonConversionsExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/flags.make
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/CommonConversionsExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/includes_CXX.rsp
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/CommonConversionsExtension.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/CommonConversionsExtension.cpp
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/CommonConversionsExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/CommonConversionsExtension.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/CommonConversionsExtension.cpp.o"
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/CommonConversionsExtension.cpp.o -MF CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/CommonConversionsExtension.cpp.o.d -o CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/CommonConversionsExtension.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/CommonConversionsExtension.cpp
 
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/CommonConversionsExtension.cpp.i: cmake_force
@@ -298,7 +388,7 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/CommonInstructionsExtension.cpp
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/CommonInstructionsExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/includes_CXX.rsp
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/CommonInstructionsExtension.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/CommonInstructionsExtension.cpp
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/CommonInstructionsExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/CommonInstructionsExtension.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/CommonInstructionsExtension.cpp.o"
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/CommonInstructionsExtension.cpp.o -MF CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/CommonInstructionsExtension.cpp.o.d -o CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/CommonInstructionsExtension.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/CommonInstructionsExtension.cpp
 
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/CommonInstructionsExtension.cpp.i: cmake_force
@@ -313,7 +403,7 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/ExternalLayoutsExtension.cpp.o:
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/ExternalLayoutsExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/includes_CXX.rsp
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/ExternalLayoutsExtension.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/ExternalLayoutsExtension.cpp
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/ExternalLayoutsExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/ExternalLayoutsExtension.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/ExternalLayoutsExtension.cpp.o"
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/ExternalLayoutsExtension.cpp.o -MF CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/ExternalLayoutsExtension.cpp.o.d -o CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/ExternalLayoutsExtension.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/ExternalLayoutsExtension.cpp
 
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/ExternalLayoutsExtension.cpp.i: cmake_force
@@ -328,7 +418,7 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/FileExtension.cpp.o: GDJS/CMake
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/FileExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/includes_CXX.rsp
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/FileExtension.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/FileExtension.cpp
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/FileExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/FileExtension.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/FileExtension.cpp.o"
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/FileExtension.cpp.o -MF CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/FileExtension.cpp.o.d -o CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/FileExtension.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/FileExtension.cpp
 
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/FileExtension.cpp.i: cmake_force
@@ -343,7 +433,7 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/KeyboardExtension.cpp.o: GDJS/C
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/KeyboardExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/includes_CXX.rsp
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/KeyboardExtension.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/KeyboardExtension.cpp
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/KeyboardExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/KeyboardExtension.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/KeyboardExtension.cpp.o"
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/KeyboardExtension.cpp.o -MF CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/KeyboardExtension.cpp.o.d -o CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/KeyboardExtension.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/KeyboardExtension.cpp
 
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/KeyboardExtension.cpp.i: cmake_force
@@ -358,7 +448,7 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/MathematicalToolsExtension.cpp.
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/MathematicalToolsExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/includes_CXX.rsp
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/MathematicalToolsExtension.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/MathematicalToolsExtension.cpp
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/MathematicalToolsExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/MathematicalToolsExtension.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/MathematicalToolsExtension.cpp.o"
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/MathematicalToolsExtension.cpp.o -MF CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/MathematicalToolsExtension.cpp.o.d -o CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/MathematicalToolsExtension.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/MathematicalToolsExtension.cpp
 
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/MathematicalToolsExtension.cpp.i: cmake_force
@@ -373,7 +463,7 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/MouseExtension.cpp.o: GDJS/CMak
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/MouseExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/includes_CXX.rsp
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/MouseExtension.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/MouseExtension.cpp
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/MouseExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/MouseExtension.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/MouseExtension.cpp.o"
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/MouseExtension.cpp.o -MF CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/MouseExtension.cpp.o.d -o CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/MouseExtension.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/MouseExtension.cpp
 
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/MouseExtension.cpp.i: cmake_force
@@ -388,7 +478,7 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/NetworkExtension.cpp.o: GDJS/CM
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/NetworkExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/includes_CXX.rsp
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/NetworkExtension.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/NetworkExtension.cpp
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/NetworkExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/NetworkExtension.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/NetworkExtension.cpp.o"
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/NetworkExtension.cpp.o -MF CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/NetworkExtension.cpp.o.d -o CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/NetworkExtension.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/NetworkExtension.cpp
 
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/NetworkExtension.cpp.i: cmake_force
@@ -403,7 +493,7 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/SceneExtension.cpp.o: GDJS/CMak
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/SceneExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/includes_CXX.rsp
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/SceneExtension.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/SceneExtension.cpp
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/SceneExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/SceneExtension.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/SceneExtension.cpp.o"
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/SceneExtension.cpp.o -MF CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/SceneExtension.cpp.o.d -o CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/SceneExtension.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/SceneExtension.cpp
 
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/SceneExtension.cpp.i: cmake_force
@@ -418,7 +508,7 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/SpriteExtension.cpp.o: GDJS/CMa
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/SpriteExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/includes_CXX.rsp
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/SpriteExtension.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/SpriteExtension.cpp
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/SpriteExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/SpriteExtension.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/SpriteExtension.cpp.o"
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/SpriteExtension.cpp.o -MF CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/SpriteExtension.cpp.o.d -o CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/SpriteExtension.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/SpriteExtension.cpp
 
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/SpriteExtension.cpp.i: cmake_force
@@ -433,7 +523,7 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/StringInstructionsExtension.cpp
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/StringInstructionsExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/includes_CXX.rsp
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/StringInstructionsExtension.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/StringInstructionsExtension.cpp
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/StringInstructionsExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/StringInstructionsExtension.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/StringInstructionsExtension.cpp.o"
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/StringInstructionsExtension.cpp.o -MF CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/StringInstructionsExtension.cpp.o.d -o CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/StringInstructionsExtension.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/StringInstructionsExtension.cpp
 
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/StringInstructionsExtension.cpp.i: cmake_force
@@ -448,7 +538,7 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/TimeExtension.cpp.o: GDJS/CMake
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/TimeExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/includes_CXX.rsp
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/TimeExtension.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/TimeExtension.cpp
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/TimeExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/TimeExtension.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/TimeExtension.cpp.o"
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/TimeExtension.cpp.o -MF CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/TimeExtension.cpp.o.d -o CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/TimeExtension.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/TimeExtension.cpp
 
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/TimeExtension.cpp.i: cmake_force
@@ -463,7 +553,7 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/VariablesExtension.cpp.o: GDJS/
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/VariablesExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/includes_CXX.rsp
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/VariablesExtension.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/VariablesExtension.cpp
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/VariablesExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/VariablesExtension.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/VariablesExtension.cpp.o"
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/VariablesExtension.cpp.o -MF CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/VariablesExtension.cpp.o.d -o CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/VariablesExtension.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/VariablesExtension.cpp
 
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/VariablesExtension.cpp.i: cmake_force
@@ -478,7 +568,7 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/WindowExtension.cpp.o: GDJS/CMa
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/WindowExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/includes_CXX.rsp
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/WindowExtension.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/WindowExtension.cpp
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/WindowExtension.cpp.o: GDJS/CMakeFiles/GDJS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/WindowExtension.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/WindowExtension.cpp.o"
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/WindowExtension.cpp.o -MF CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/WindowExtension.cpp.o.d -o CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/WindowExtension.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/Builtin/WindowExtension.cpp
 
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/WindowExtension.cpp.i: cmake_force
@@ -493,7 +583,7 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/JsPlatform.cpp.o: GDJS/CMakeFiles/GDJS.
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/JsPlatform.cpp.o: GDJS/CMakeFiles/GDJS.dir/includes_CXX.rsp
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/JsPlatform.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/JsPlatform.cpp
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/JsPlatform.cpp.o: GDJS/CMakeFiles/GDJS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/JsPlatform.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/JsPlatform.cpp.o"
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/JsPlatform.cpp.o -MF CMakeFiles/GDJS.dir/GDJS/Extensions/JsPlatform.cpp.o.d -o CMakeFiles/GDJS.dir/GDJS/Extensions/JsPlatform.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Extensions/JsPlatform.cpp
 
 GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/JsPlatform.cpp.i: cmake_force
@@ -520,6 +610,12 @@ GDJS_OBJECTS = \
 "CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/AudioExtension.cpp.o" \
 "CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/BaseObjectExtension.cpp.o" \
 "CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/CameraExtension.cpp.o" \
+"CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/AnimatableExtension.cpp.o" \
+"CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/EffectExtension.cpp.o" \
+"CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/FlippableExtension.cpp.o" \
+"CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/OpacityExtension.cpp.o" \
+"CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ResizableExtension.cpp.o" \
+"CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp.o" \
 "CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/CommonConversionsExtension.cpp.o" \
 "CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/CommonInstructionsExtension.cpp.o" \
 "CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/ExternalLayoutsExtension.cpp.o" \
@@ -553,6 +649,12 @@ GDJS_EXTERNAL_OBJECTS =
 /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/Output/Release_Emscripten/JsPlatform/libGDJS.bc: GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/AudioExtension.cpp.o
 /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/Output/Release_Emscripten/JsPlatform/libGDJS.bc: GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/BaseObjectExtension.cpp.o
 /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/Output/Release_Emscripten/JsPlatform/libGDJS.bc: GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/CameraExtension.cpp.o
+/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/Output/Release_Emscripten/JsPlatform/libGDJS.bc: GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/AnimatableExtension.cpp.o
+/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/Output/Release_Emscripten/JsPlatform/libGDJS.bc: GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/EffectExtension.cpp.o
+/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/Output/Release_Emscripten/JsPlatform/libGDJS.bc: GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/FlippableExtension.cpp.o
+/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/Output/Release_Emscripten/JsPlatform/libGDJS.bc: GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/OpacityExtension.cpp.o
+/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/Output/Release_Emscripten/JsPlatform/libGDJS.bc: GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ResizableExtension.cpp.o
+/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/Output/Release_Emscripten/JsPlatform/libGDJS.bc: GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp.o
 /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/Output/Release_Emscripten/JsPlatform/libGDJS.bc: GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/CommonConversionsExtension.cpp.o
 /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/Output/Release_Emscripten/JsPlatform/libGDJS.bc: GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/CommonInstructionsExtension.cpp.o
 /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/Output/Release_Emscripten/JsPlatform/libGDJS.bc: GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/ExternalLayoutsExtension.cpp.o
@@ -571,7 +673,7 @@ GDJS_EXTERNAL_OBJECTS =
 /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/Output/Release_Emscripten/JsPlatform/libGDJS.bc: GDJS/CMakeFiles/GDJS.dir/build.make
 /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/Output/Release_Emscripten/JsPlatform/libGDJS.bc: GDJS/CMakeFiles/GDJS.dir/objects1.rsp
 /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/Output/Release_Emscripten/JsPlatform/libGDJS.bc: GDJS/CMakeFiles/GDJS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX static library /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/Output/Release_Emscripten/JsPlatform/libGDJS.bc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking CXX static library /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/Output/Release_Emscripten/JsPlatform/libGDJS.bc"
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && $(CMAKE_COMMAND) -P CMakeFiles/GDJS.dir/cmake_clean_target.cmake
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDJS && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GDJS.dir/link.txt --verbose=$(VERBOSE)
 

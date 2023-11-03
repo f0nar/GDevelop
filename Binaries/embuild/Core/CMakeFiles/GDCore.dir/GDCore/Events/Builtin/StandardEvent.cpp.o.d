@@ -133,7 +133,28 @@ Core/CMakeFiles/GDCore.dir/GDCore/Events/Builtin/StandardEvent.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/CodeGeneration/EventsCodeGenerationContext.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/set \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/CodeGeneration/EventsCodeGenerator.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/Serialization.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Serialization/Serializer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ProjectScopedContainers.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/ParameterMetadataTools.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectsContainersList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Variable.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/PropertiesContainersList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/PropertiesContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsFunctionsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsFunction.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectGroupsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectGroup.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SerializableWithNameList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SerializableWithNameList.inl \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Serialization/SerializerElement.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Serialization/SerializerValue.h
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Serialization/SerializerValue.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/MakeUnique.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/PolymorphicClone.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/NamedPropertyDescriptor.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/PropertyDescriptor.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/MeasurementUnit.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/MeasurementUnitElement.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/MeasurementBaseUnit.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/Localization.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/VariablesContainersList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/Serialization.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Serialization/Serializer.h

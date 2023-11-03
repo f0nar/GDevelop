@@ -489,11 +489,26 @@ Core/CMakeFiles/GDCore_tests.dir/tests/NewNameGenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GDCore_tests.dir/tests/NewNameGenerator.cpp.s"
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/Core && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/NewNameGenerator.cpp -o CMakeFiles/GDCore_tests.dir/tests/NewNameGenerator.cpp.s
 
+Core/CMakeFiles/GDCore_tests.dir/tests/Object.cpp.o: Core/CMakeFiles/GDCore_tests.dir/flags.make
+Core/CMakeFiles/GDCore_tests.dir/tests/Object.cpp.o: Core/CMakeFiles/GDCore_tests.dir/includes_CXX.rsp
+Core/CMakeFiles/GDCore_tests.dir/tests/Object.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/Object.cpp
+Core/CMakeFiles/GDCore_tests.dir/tests/Object.cpp.o: Core/CMakeFiles/GDCore_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object Core/CMakeFiles/GDCore_tests.dir/tests/Object.cpp.o"
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/Core && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/GDCore_tests.dir/tests/Object.cpp.o -MF CMakeFiles/GDCore_tests.dir/tests/Object.cpp.o.d -o CMakeFiles/GDCore_tests.dir/tests/Object.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/Object.cpp
+
+Core/CMakeFiles/GDCore_tests.dir/tests/Object.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GDCore_tests.dir/tests/Object.cpp.i"
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/Core && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/Object.cpp > CMakeFiles/GDCore_tests.dir/tests/Object.cpp.i
+
+Core/CMakeFiles/GDCore_tests.dir/tests/Object.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GDCore_tests.dir/tests/Object.cpp.s"
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/Core && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/Object.cpp -o CMakeFiles/GDCore_tests.dir/tests/Object.cpp.s
+
 Core/CMakeFiles/GDCore_tests.dir/tests/ObjectSerialization.cpp.o: Core/CMakeFiles/GDCore_tests.dir/flags.make
 Core/CMakeFiles/GDCore_tests.dir/tests/ObjectSerialization.cpp.o: Core/CMakeFiles/GDCore_tests.dir/includes_CXX.rsp
 Core/CMakeFiles/GDCore_tests.dir/tests/ObjectSerialization.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/ObjectSerialization.cpp
 Core/CMakeFiles/GDCore_tests.dir/tests/ObjectSerialization.cpp.o: Core/CMakeFiles/GDCore_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object Core/CMakeFiles/GDCore_tests.dir/tests/ObjectSerialization.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object Core/CMakeFiles/GDCore_tests.dir/tests/ObjectSerialization.cpp.o"
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/Core && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/GDCore_tests.dir/tests/ObjectSerialization.cpp.o -MF CMakeFiles/GDCore_tests.dir/tests/ObjectSerialization.cpp.o.d -o CMakeFiles/GDCore_tests.dir/tests/ObjectSerialization.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/ObjectSerialization.cpp
 
 Core/CMakeFiles/GDCore_tests.dir/tests/ObjectSerialization.cpp.i: cmake_force
@@ -508,7 +523,7 @@ Core/CMakeFiles/GDCore_tests.dir/tests/PropertyFunctionGenerator.cpp.o: Core/CMa
 Core/CMakeFiles/GDCore_tests.dir/tests/PropertyFunctionGenerator.cpp.o: Core/CMakeFiles/GDCore_tests.dir/includes_CXX.rsp
 Core/CMakeFiles/GDCore_tests.dir/tests/PropertyFunctionGenerator.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/PropertyFunctionGenerator.cpp
 Core/CMakeFiles/GDCore_tests.dir/tests/PropertyFunctionGenerator.cpp.o: Core/CMakeFiles/GDCore_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object Core/CMakeFiles/GDCore_tests.dir/tests/PropertyFunctionGenerator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object Core/CMakeFiles/GDCore_tests.dir/tests/PropertyFunctionGenerator.cpp.o"
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/Core && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/GDCore_tests.dir/tests/PropertyFunctionGenerator.cpp.o -MF CMakeFiles/GDCore_tests.dir/tests/PropertyFunctionGenerator.cpp.o.d -o CMakeFiles/GDCore_tests.dir/tests/PropertyFunctionGenerator.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/PropertyFunctionGenerator.cpp
 
 Core/CMakeFiles/GDCore_tests.dir/tests/PropertyFunctionGenerator.cpp.i: cmake_force
@@ -523,7 +538,7 @@ Core/CMakeFiles/GDCore_tests.dir/tests/Resources.cpp.o: Core/CMakeFiles/GDCore_t
 Core/CMakeFiles/GDCore_tests.dir/tests/Resources.cpp.o: Core/CMakeFiles/GDCore_tests.dir/includes_CXX.rsp
 Core/CMakeFiles/GDCore_tests.dir/tests/Resources.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/Resources.cpp
 Core/CMakeFiles/GDCore_tests.dir/tests/Resources.cpp.o: Core/CMakeFiles/GDCore_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object Core/CMakeFiles/GDCore_tests.dir/tests/Resources.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object Core/CMakeFiles/GDCore_tests.dir/tests/Resources.cpp.o"
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/Core && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/GDCore_tests.dir/tests/Resources.cpp.o -MF CMakeFiles/GDCore_tests.dir/tests/Resources.cpp.o.d -o CMakeFiles/GDCore_tests.dir/tests/Resources.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/Resources.cpp
 
 Core/CMakeFiles/GDCore_tests.dir/tests/Resources.cpp.i: cmake_force
@@ -538,7 +553,7 @@ Core/CMakeFiles/GDCore_tests.dir/tests/ResourcesMergingHelper.cpp.o: Core/CMakeF
 Core/CMakeFiles/GDCore_tests.dir/tests/ResourcesMergingHelper.cpp.o: Core/CMakeFiles/GDCore_tests.dir/includes_CXX.rsp
 Core/CMakeFiles/GDCore_tests.dir/tests/ResourcesMergingHelper.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/ResourcesMergingHelper.cpp
 Core/CMakeFiles/GDCore_tests.dir/tests/ResourcesMergingHelper.cpp.o: Core/CMakeFiles/GDCore_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object Core/CMakeFiles/GDCore_tests.dir/tests/ResourcesMergingHelper.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object Core/CMakeFiles/GDCore_tests.dir/tests/ResourcesMergingHelper.cpp.o"
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/Core && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/GDCore_tests.dir/tests/ResourcesMergingHelper.cpp.o -MF CMakeFiles/GDCore_tests.dir/tests/ResourcesMergingHelper.cpp.o.d -o CMakeFiles/GDCore_tests.dir/tests/ResourcesMergingHelper.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/ResourcesMergingHelper.cpp
 
 Core/CMakeFiles/GDCore_tests.dir/tests/ResourcesMergingHelper.cpp.i: cmake_force
@@ -553,7 +568,7 @@ Core/CMakeFiles/GDCore_tests.dir/tests/ResourcesRenamer.cpp.o: Core/CMakeFiles/G
 Core/CMakeFiles/GDCore_tests.dir/tests/ResourcesRenamer.cpp.o: Core/CMakeFiles/GDCore_tests.dir/includes_CXX.rsp
 Core/CMakeFiles/GDCore_tests.dir/tests/ResourcesRenamer.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/ResourcesRenamer.cpp
 Core/CMakeFiles/GDCore_tests.dir/tests/ResourcesRenamer.cpp.o: Core/CMakeFiles/GDCore_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object Core/CMakeFiles/GDCore_tests.dir/tests/ResourcesRenamer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object Core/CMakeFiles/GDCore_tests.dir/tests/ResourcesRenamer.cpp.o"
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/Core && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/GDCore_tests.dir/tests/ResourcesRenamer.cpp.o -MF CMakeFiles/GDCore_tests.dir/tests/ResourcesRenamer.cpp.o.d -o CMakeFiles/GDCore_tests.dir/tests/ResourcesRenamer.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/ResourcesRenamer.cpp
 
 Core/CMakeFiles/GDCore_tests.dir/tests/ResourcesRenamer.cpp.i: cmake_force
@@ -568,7 +583,7 @@ Core/CMakeFiles/GDCore_tests.dir/tests/SceneNameMangler.cpp.o: Core/CMakeFiles/G
 Core/CMakeFiles/GDCore_tests.dir/tests/SceneNameMangler.cpp.o: Core/CMakeFiles/GDCore_tests.dir/includes_CXX.rsp
 Core/CMakeFiles/GDCore_tests.dir/tests/SceneNameMangler.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/SceneNameMangler.cpp
 Core/CMakeFiles/GDCore_tests.dir/tests/SceneNameMangler.cpp.o: Core/CMakeFiles/GDCore_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object Core/CMakeFiles/GDCore_tests.dir/tests/SceneNameMangler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object Core/CMakeFiles/GDCore_tests.dir/tests/SceneNameMangler.cpp.o"
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/Core && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/GDCore_tests.dir/tests/SceneNameMangler.cpp.o -MF CMakeFiles/GDCore_tests.dir/tests/SceneNameMangler.cpp.o.d -o CMakeFiles/GDCore_tests.dir/tests/SceneNameMangler.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/SceneNameMangler.cpp
 
 Core/CMakeFiles/GDCore_tests.dir/tests/SceneNameMangler.cpp.i: cmake_force
@@ -583,7 +598,7 @@ Core/CMakeFiles/GDCore_tests.dir/tests/Serializer.cpp.o: Core/CMakeFiles/GDCore_
 Core/CMakeFiles/GDCore_tests.dir/tests/Serializer.cpp.o: Core/CMakeFiles/GDCore_tests.dir/includes_CXX.rsp
 Core/CMakeFiles/GDCore_tests.dir/tests/Serializer.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/Serializer.cpp
 Core/CMakeFiles/GDCore_tests.dir/tests/Serializer.cpp.o: Core/CMakeFiles/GDCore_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object Core/CMakeFiles/GDCore_tests.dir/tests/Serializer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object Core/CMakeFiles/GDCore_tests.dir/tests/Serializer.cpp.o"
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/Core && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/GDCore_tests.dir/tests/Serializer.cpp.o -MF CMakeFiles/GDCore_tests.dir/tests/Serializer.cpp.o.d -o CMakeFiles/GDCore_tests.dir/tests/Serializer.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/Serializer.cpp
 
 Core/CMakeFiles/GDCore_tests.dir/tests/Serializer.cpp.i: cmake_force
@@ -598,7 +613,7 @@ Core/CMakeFiles/GDCore_tests.dir/tests/SourceFiles.cpp.o: Core/CMakeFiles/GDCore
 Core/CMakeFiles/GDCore_tests.dir/tests/SourceFiles.cpp.o: Core/CMakeFiles/GDCore_tests.dir/includes_CXX.rsp
 Core/CMakeFiles/GDCore_tests.dir/tests/SourceFiles.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/SourceFiles.cpp
 Core/CMakeFiles/GDCore_tests.dir/tests/SourceFiles.cpp.o: Core/CMakeFiles/GDCore_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object Core/CMakeFiles/GDCore_tests.dir/tests/SourceFiles.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object Core/CMakeFiles/GDCore_tests.dir/tests/SourceFiles.cpp.o"
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/Core && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/GDCore_tests.dir/tests/SourceFiles.cpp.o -MF CMakeFiles/GDCore_tests.dir/tests/SourceFiles.cpp.o.d -o CMakeFiles/GDCore_tests.dir/tests/SourceFiles.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/SourceFiles.cpp
 
 Core/CMakeFiles/GDCore_tests.dir/tests/SourceFiles.cpp.i: cmake_force
@@ -609,11 +624,26 @@ Core/CMakeFiles/GDCore_tests.dir/tests/SourceFiles.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GDCore_tests.dir/tests/SourceFiles.cpp.s"
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/Core && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/SourceFiles.cpp -o CMakeFiles/GDCore_tests.dir/tests/SourceFiles.cpp.s
 
+Core/CMakeFiles/GDCore_tests.dir/tests/String.cpp.o: Core/CMakeFiles/GDCore_tests.dir/flags.make
+Core/CMakeFiles/GDCore_tests.dir/tests/String.cpp.o: Core/CMakeFiles/GDCore_tests.dir/includes_CXX.rsp
+Core/CMakeFiles/GDCore_tests.dir/tests/String.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/String.cpp
+Core/CMakeFiles/GDCore_tests.dir/tests/String.cpp.o: Core/CMakeFiles/GDCore_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object Core/CMakeFiles/GDCore_tests.dir/tests/String.cpp.o"
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/Core && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/GDCore_tests.dir/tests/String.cpp.o -MF CMakeFiles/GDCore_tests.dir/tests/String.cpp.o.d -o CMakeFiles/GDCore_tests.dir/tests/String.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/String.cpp
+
+Core/CMakeFiles/GDCore_tests.dir/tests/String.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GDCore_tests.dir/tests/String.cpp.i"
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/Core && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/String.cpp > CMakeFiles/GDCore_tests.dir/tests/String.cpp.i
+
+Core/CMakeFiles/GDCore_tests.dir/tests/String.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GDCore_tests.dir/tests/String.cpp.s"
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/Core && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/String.cpp -o CMakeFiles/GDCore_tests.dir/tests/String.cpp.s
+
 Core/CMakeFiles/GDCore_tests.dir/tests/Utf8Tests.cpp.o: Core/CMakeFiles/GDCore_tests.dir/flags.make
 Core/CMakeFiles/GDCore_tests.dir/tests/Utf8Tests.cpp.o: Core/CMakeFiles/GDCore_tests.dir/includes_CXX.rsp
 Core/CMakeFiles/GDCore_tests.dir/tests/Utf8Tests.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/Utf8Tests.cpp
 Core/CMakeFiles/GDCore_tests.dir/tests/Utf8Tests.cpp.o: Core/CMakeFiles/GDCore_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object Core/CMakeFiles/GDCore_tests.dir/tests/Utf8Tests.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object Core/CMakeFiles/GDCore_tests.dir/tests/Utf8Tests.cpp.o"
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/Core && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/GDCore_tests.dir/tests/Utf8Tests.cpp.o -MF CMakeFiles/GDCore_tests.dir/tests/Utf8Tests.cpp.o.d -o CMakeFiles/GDCore_tests.dir/tests/Utf8Tests.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/Utf8Tests.cpp
 
 Core/CMakeFiles/GDCore_tests.dir/tests/Utf8Tests.cpp.i: cmake_force
@@ -628,7 +658,7 @@ Core/CMakeFiles/GDCore_tests.dir/tests/Variable.cpp.o: Core/CMakeFiles/GDCore_te
 Core/CMakeFiles/GDCore_tests.dir/tests/Variable.cpp.o: Core/CMakeFiles/GDCore_tests.dir/includes_CXX.rsp
 Core/CMakeFiles/GDCore_tests.dir/tests/Variable.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/Variable.cpp
 Core/CMakeFiles/GDCore_tests.dir/tests/Variable.cpp.o: Core/CMakeFiles/GDCore_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object Core/CMakeFiles/GDCore_tests.dir/tests/Variable.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object Core/CMakeFiles/GDCore_tests.dir/tests/Variable.cpp.o"
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/Core && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/GDCore_tests.dir/tests/Variable.cpp.o -MF CMakeFiles/GDCore_tests.dir/tests/Variable.cpp.o.d -o CMakeFiles/GDCore_tests.dir/tests/Variable.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/Variable.cpp
 
 Core/CMakeFiles/GDCore_tests.dir/tests/Variable.cpp.i: cmake_force
@@ -643,7 +673,7 @@ Core/CMakeFiles/GDCore_tests.dir/tests/VariablesContainer.cpp.o: Core/CMakeFiles
 Core/CMakeFiles/GDCore_tests.dir/tests/VariablesContainer.cpp.o: Core/CMakeFiles/GDCore_tests.dir/includes_CXX.rsp
 Core/CMakeFiles/GDCore_tests.dir/tests/VariablesContainer.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/VariablesContainer.cpp
 Core/CMakeFiles/GDCore_tests.dir/tests/VariablesContainer.cpp.o: Core/CMakeFiles/GDCore_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object Core/CMakeFiles/GDCore_tests.dir/tests/VariablesContainer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object Core/CMakeFiles/GDCore_tests.dir/tests/VariablesContainer.cpp.o"
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/Core && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/GDCore_tests.dir/tests/VariablesContainer.cpp.o -MF CMakeFiles/GDCore_tests.dir/tests/VariablesContainer.cpp.o.d -o CMakeFiles/GDCore_tests.dir/tests/VariablesContainer.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/VariablesContainer.cpp
 
 Core/CMakeFiles/GDCore_tests.dir/tests/VariablesContainer.cpp.i: cmake_force
@@ -654,11 +684,26 @@ Core/CMakeFiles/GDCore_tests.dir/tests/VariablesContainer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GDCore_tests.dir/tests/VariablesContainer.cpp.s"
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/Core && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/VariablesContainer.cpp -o CMakeFiles/GDCore_tests.dir/tests/VariablesContainer.cpp.s
 
+Core/CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.cpp.o: Core/CMakeFiles/GDCore_tests.dir/flags.make
+Core/CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.cpp.o: Core/CMakeFiles/GDCore_tests.dir/includes_CXX.rsp
+Core/CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.cpp
+Core/CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.cpp.o: Core/CMakeFiles/GDCore_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object Core/CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.cpp.o"
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/Core && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.cpp.o -MF CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.cpp.o.d -o CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.cpp
+
+Core/CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.cpp.i"
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/Core && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.cpp > CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.cpp.i
+
+Core/CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.cpp.s"
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/Core && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.cpp -o CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.cpp.s
+
 Core/CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer.cpp.o: Core/CMakeFiles/GDCore_tests.dir/flags.make
 Core/CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer.cpp.o: Core/CMakeFiles/GDCore_tests.dir/includes_CXX.rsp
 Core/CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/WholeProjectRefactorer.cpp
 Core/CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer.cpp.o: Core/CMakeFiles/GDCore_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object Core/CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object Core/CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer.cpp.o"
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/Core && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer.cpp.o -MF CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer.cpp.o.d -o CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/WholeProjectRefactorer.cpp
 
 Core/CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer.cpp.i: cmake_force
@@ -673,7 +718,7 @@ Core/CMakeFiles/GDCore_tests.dir/tests/main.cpp.o: Core/CMakeFiles/GDCore_tests.
 Core/CMakeFiles/GDCore_tests.dir/tests/main.cpp.o: Core/CMakeFiles/GDCore_tests.dir/includes_CXX.rsp
 Core/CMakeFiles/GDCore_tests.dir/tests/main.cpp.o: /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/main.cpp
 Core/CMakeFiles/GDCore_tests.dir/tests/main.cpp.o: Core/CMakeFiles/GDCore_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object Core/CMakeFiles/GDCore_tests.dir/tests/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object Core/CMakeFiles/GDCore_tests.dir/tests/main.cpp.o"
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/Core && /Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Core/CMakeFiles/GDCore_tests.dir/tests/main.cpp.o -MF CMakeFiles/GDCore_tests.dir/tests/main.cpp.o.d -o CMakeFiles/GDCore_tests.dir/tests/main.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/main.cpp
 
 Core/CMakeFiles/GDCore_tests.dir/tests/main.cpp.i: cmake_force
@@ -714,6 +759,7 @@ GDCore_tests_OBJECTS = \
 "CMakeFiles/GDCore_tests.dir/tests/InstructionsParameterMover.cpp.o" \
 "CMakeFiles/GDCore_tests.dir/tests/Layout.cpp.o" \
 "CMakeFiles/GDCore_tests.dir/tests/NewNameGenerator.cpp.o" \
+"CMakeFiles/GDCore_tests.dir/tests/Object.cpp.o" \
 "CMakeFiles/GDCore_tests.dir/tests/ObjectSerialization.cpp.o" \
 "CMakeFiles/GDCore_tests.dir/tests/PropertyFunctionGenerator.cpp.o" \
 "CMakeFiles/GDCore_tests.dir/tests/Resources.cpp.o" \
@@ -722,9 +768,11 @@ GDCore_tests_OBJECTS = \
 "CMakeFiles/GDCore_tests.dir/tests/SceneNameMangler.cpp.o" \
 "CMakeFiles/GDCore_tests.dir/tests/Serializer.cpp.o" \
 "CMakeFiles/GDCore_tests.dir/tests/SourceFiles.cpp.o" \
+"CMakeFiles/GDCore_tests.dir/tests/String.cpp.o" \
 "CMakeFiles/GDCore_tests.dir/tests/Utf8Tests.cpp.o" \
 "CMakeFiles/GDCore_tests.dir/tests/Variable.cpp.o" \
 "CMakeFiles/GDCore_tests.dir/tests/VariablesContainer.cpp.o" \
+"CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.cpp.o" \
 "CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer.cpp.o" \
 "CMakeFiles/GDCore_tests.dir/tests/main.cpp.o"
 
@@ -759,6 +807,7 @@ Core/GDCore_tests.js: Core/CMakeFiles/GDCore_tests.dir/tests/InstructionCountEva
 Core/GDCore_tests.js: Core/CMakeFiles/GDCore_tests.dir/tests/InstructionsParameterMover.cpp.o
 Core/GDCore_tests.js: Core/CMakeFiles/GDCore_tests.dir/tests/Layout.cpp.o
 Core/GDCore_tests.js: Core/CMakeFiles/GDCore_tests.dir/tests/NewNameGenerator.cpp.o
+Core/GDCore_tests.js: Core/CMakeFiles/GDCore_tests.dir/tests/Object.cpp.o
 Core/GDCore_tests.js: Core/CMakeFiles/GDCore_tests.dir/tests/ObjectSerialization.cpp.o
 Core/GDCore_tests.js: Core/CMakeFiles/GDCore_tests.dir/tests/PropertyFunctionGenerator.cpp.o
 Core/GDCore_tests.js: Core/CMakeFiles/GDCore_tests.dir/tests/Resources.cpp.o
@@ -767,9 +816,11 @@ Core/GDCore_tests.js: Core/CMakeFiles/GDCore_tests.dir/tests/ResourcesRenamer.cp
 Core/GDCore_tests.js: Core/CMakeFiles/GDCore_tests.dir/tests/SceneNameMangler.cpp.o
 Core/GDCore_tests.js: Core/CMakeFiles/GDCore_tests.dir/tests/Serializer.cpp.o
 Core/GDCore_tests.js: Core/CMakeFiles/GDCore_tests.dir/tests/SourceFiles.cpp.o
+Core/GDCore_tests.js: Core/CMakeFiles/GDCore_tests.dir/tests/String.cpp.o
 Core/GDCore_tests.js: Core/CMakeFiles/GDCore_tests.dir/tests/Utf8Tests.cpp.o
 Core/GDCore_tests.js: Core/CMakeFiles/GDCore_tests.dir/tests/Variable.cpp.o
 Core/GDCore_tests.js: Core/CMakeFiles/GDCore_tests.dir/tests/VariablesContainer.cpp.o
+Core/GDCore_tests.js: Core/CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.cpp.o
 Core/GDCore_tests.js: Core/CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer.cpp.o
 Core/GDCore_tests.js: Core/CMakeFiles/GDCore_tests.dir/tests/main.cpp.o
 Core/GDCore_tests.js: Core/CMakeFiles/GDCore_tests.dir/build.make
@@ -777,7 +828,7 @@ Core/GDCore_tests.js: /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/Output
 Core/GDCore_tests.js: Core/CMakeFiles/GDCore_tests.dir/linkLibs.rsp
 Core/GDCore_tests.js: Core/CMakeFiles/GDCore_tests.dir/objects1.rsp
 Core/GDCore_tests.js: Core/CMakeFiles/GDCore_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Linking CXX executable GDCore_tests.js"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Linking CXX executable GDCore_tests.js"
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/Core && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GDCore_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -118,4 +118,15 @@ Core/CMakeFiles/GDCore.dir/GDCore/Project/Variable.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Utf8/utf8/core.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Utf8/utf8/unchecked.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Serialization/SerializerElement.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Serialization/SerializerValue.h
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Serialization/SerializerValue.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/UUID/UUID.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/UUID/sole.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/sys/types.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/endian.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/sys/select.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/memory.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/iomanip \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/random \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/numeric \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/unistd.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/posix.h

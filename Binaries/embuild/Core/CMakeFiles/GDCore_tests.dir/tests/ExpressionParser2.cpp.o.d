@@ -177,6 +177,18 @@ Core/CMakeFiles/GDCore_tests.dir/tests/ExpressionParser2.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/VersionPriv.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/PlatformExtension.inl \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/ExpressionValidator.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ProjectScopedContainers.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/ParameterMetadataTools.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectsContainersList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/PropertiesContainersList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/PropertiesContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsFunctionsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsFunction.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SerializableWithNameList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SerializableWithNameList.inl \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/PolymorphicClone.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/NamedPropertyDescriptor.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/VariablesContainersList.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/ExpressionTypeFinder.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/ExpressionLeftSideTypeFinder.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/ExpressionVariableOwnerFinder.h \

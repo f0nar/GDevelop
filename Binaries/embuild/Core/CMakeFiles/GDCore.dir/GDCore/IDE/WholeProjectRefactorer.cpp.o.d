@@ -58,6 +58,7 @@ Core/CMakeFiles/GDCore.dir/GDCore/IDE/WholeProjectRefactorer.cpp.o: \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/math.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/compat/math.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/math.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/unordered_map \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/vector \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/__bit_reference \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/climits \
@@ -65,13 +66,6 @@ Core/CMakeFiles/GDCore.dir/GDCore/IDE/WholeProjectRefactorer.cpp.o: \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/limits.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/limits.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/__split_buffer \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/BehaviorMetadata.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/InstructionOrExpressionContainerMetadata.h \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/map \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/ExpressionMetadata.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/AbstractFunctionMetadata.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/Instruction.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/Expression.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/String.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/iostream \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/ios \
@@ -126,6 +120,13 @@ Core/CMakeFiles/GDCore.dir/GDCore/IDE/WholeProjectRefactorer.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Utf8/utf8/checked.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Utf8/utf8/core.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Utf8/utf8/unchecked.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/BehaviorMetadata.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/InstructionOrExpressionContainerMetadata.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/map \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/ExpressionMetadata.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/AbstractFunctionMetadata.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/Instruction.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/Expression.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/InstructionsList.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SPtrList.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SPtrList.inl \
@@ -167,11 +168,28 @@ Core/CMakeFiles/GDCore.dir/GDCore/IDE/WholeProjectRefactorer.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/ProjectBrowser.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/ArbitraryEventsWorker.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/EventVisitor.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ProjectScopedContainers.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/ParameterMetadataTools.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectsContainersList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/PropertiesContainersList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/PropertiesContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsFunctionsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsFunction.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/EventsList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectGroupsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectGroup.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SerializableWithNameList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SerializableWithNameList.inl \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/PolymorphicClone.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/NamedPropertyDescriptor.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/VariablesContainersList.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/BehaviorTypeRenamer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Project/ArbitraryObjectsWorker.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/CustomObjectTypeRenamer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/EventsBehaviorRenamer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/EventsRefactorer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/EventsPropertyReplacer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/EventsVariableReplacer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/ExpressionsParameterMover.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/ExpressionsRenamer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/InstructionsParameterMover.h \
@@ -180,9 +198,6 @@ Core/CMakeFiles/GDCore.dir/GDCore/IDE/WholeProjectRefactorer.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/ProjectElementRenamer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/EventsFunctionTools.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Project/ArbitraryBehaviorSharedDataWorker.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SerializableWithNameList.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SerializableWithNameList.inl \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/PolymorphicClone.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Project/ArbitraryEventBasedBehaviorsWorker.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Project/ArbitraryEventsFunctionsWorker.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Project/BehaviorObjectTypeRenamer.h \
@@ -195,12 +210,6 @@ Core/CMakeFiles/GDCore.dir/GDCore/IDE/WholeProjectRefactorer.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/WholeProjectBrowser.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsBasedBehavior.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/AbstractEventsBasedEntity.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/NamedPropertyDescriptor.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsFunctionsContainer.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsFunction.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/EventsList.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectGroupsContainer.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectGroup.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsBasedObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsFunctionsExtension.h \

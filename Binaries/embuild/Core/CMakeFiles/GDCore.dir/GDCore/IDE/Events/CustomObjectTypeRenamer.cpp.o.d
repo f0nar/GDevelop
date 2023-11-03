@@ -164,23 +164,12 @@ Core/CMakeFiles/GDCore.dir/GDCore/IDE/Events/CustomObjectTypeRenamer.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/WholeProjectRefactorer.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/unordered_set \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/__hash_table \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/ExpressionTypeFinder.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/Parsers/ExpressionParser2Node.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/Parsers/ExpressionParser2NodeWorker.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/ExpressionLeftSideTypeFinder.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Layout.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/EventsList.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/BehaviorsSharedData.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/InitialInstancesContainer.h \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/list \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/InitialInstance.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Layer.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectGroupsContainer.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectGroup.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectsContainer.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Dialogs/LayoutEditorCanvas/EditorSettings.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/unordered_map \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Project.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ExtensionProperties.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/LoadingScreen.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Watermark.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectGroupsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectGroup.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/PlatformSpecificAssets.h

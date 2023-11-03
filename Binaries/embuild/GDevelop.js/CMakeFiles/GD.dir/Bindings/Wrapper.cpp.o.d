@@ -190,6 +190,17 @@ GDevelop.js/CMakeFiles/GD.dir/Bindings/Wrapper.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/AbstractFileSystem.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/ArbitraryEventsWorker.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/EventVisitor.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ProjectScopedContainers.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectsContainersList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/PropertiesContainersList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/PropertiesContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsFunctionsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsFunction.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/SerializableWithNameList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/SerializableWithNameList.inl \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/PolymorphicClone.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/NamedPropertyDescriptor.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/VariablesContainersList.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/EventsContextAnalyzer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/EventsListUnfolder.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/EventsParametersLister.h \
@@ -227,16 +238,11 @@ GDevelop.js/CMakeFiles/GD.dir/Bindings/Wrapper.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/WholeProjectRefactorer.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/unordered_set \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/__hash_table \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/unordered_map \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/UnfilledRequiredBehaviorPropertyProblem.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/Effect.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsBasedBehavior.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/AbstractEventsBasedEntity.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/NamedPropertyDescriptor.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/SerializableWithNameList.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/SerializableWithNameList.inl \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/PolymorphicClone.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsFunctionsContainer.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsFunction.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsBasedObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsFunctionsExtension.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ExternalEvents.h \

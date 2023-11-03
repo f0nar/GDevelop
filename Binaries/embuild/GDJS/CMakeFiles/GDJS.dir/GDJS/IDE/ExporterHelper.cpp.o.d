@@ -130,6 +130,7 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/IDE/ExporterHelper.cpp.o: \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/compat/math.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/math.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/CodeGeneration/EffectsCodeGenerator.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/ArbitraryObjectsWorker.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Extensions/Metadata/DependencyMetadata.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/PropertyDescriptor.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/MeasurementUnit.h \
@@ -177,14 +178,26 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/IDE/ExporterHelper.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/Parsers/ExpressionParser2NodeWorker.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/ArbitraryEventsWorker.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/EventVisitor.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/ArbitraryObjectsWorker.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ProjectScopedContainers.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Extensions/Metadata/ParameterMetadataTools.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectsContainersList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/PropertiesContainersList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/PropertiesContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsFunctionsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsFunction.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/EventsList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectGroupsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectGroup.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/SerializableWithNameList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/SerializableWithNameList.inl \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/PolymorphicClone.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/NamedPropertyDescriptor.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/VariablesContainersList.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/ExportedDependencyResolver.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/Project.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ExtensionProperties.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/LoadingScreen.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/Watermark.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectGroupsContainer.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectGroup.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/PlatformSpecificAssets.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/ProjectResourcesCopier.h \
@@ -194,13 +207,6 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/IDE/ExporterHelper.cpp.o: \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/__hash_table \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsBasedObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/AbstractEventsBasedEntity.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/NamedPropertyDescriptor.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/SerializableWithNameList.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/SerializableWithNameList.inl \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/PolymorphicClone.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsFunctionsContainer.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsFunction.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/EventsList.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsFunctionsExtension.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsBasedBehavior.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ExternalEvents.h \

@@ -162,19 +162,31 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/VariablesExtension.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/CodeGeneration/EventsCodeGenerationContext.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/CodeGeneration/EventsCodeGenerator.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/Event.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ProjectScopedContainers.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Extensions/Metadata/ParameterMetadataTools.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectsContainersList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/PropertiesContainersList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/PropertiesContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsFunctionsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsFunction.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/EventsList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectGroupsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectGroup.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/SerializableWithNameList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/SerializableWithNameList.inl \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/PolymorphicClone.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/NamedPropertyDescriptor.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/VariablesContainersList.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/CodeGeneration/ExpressionCodeGenerator.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/Parsers/ExpressionParser2Node.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/Parsers/ExpressionParser2NodeWorker.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Extensions/Builtin/AllBuiltinExtensions.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/Layout.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/EventsList.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/BehaviorsSharedData.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/InitialInstancesContainer.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/list \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/InitialInstance.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/Layer.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectGroupsContainer.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectGroup.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Dialogs/LayoutEditorCanvas/EditorSettings.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/Project.h \

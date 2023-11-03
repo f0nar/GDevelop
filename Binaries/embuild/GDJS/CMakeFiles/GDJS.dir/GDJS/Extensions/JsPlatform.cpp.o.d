@@ -188,4 +188,10 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/JsPlatform.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/./GDJS/Extensions/Builtin/StringInstructionsExtension.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/./GDJS/Extensions/Builtin/TimeExtension.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/./GDJS/Extensions/Builtin/VariablesExtension.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/./GDJS/Extensions/Builtin/WindowExtension.h
+  /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/./GDJS/Extensions/Builtin/WindowExtension.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/./GDJS/Extensions/Builtin/Capacities/AnimatableExtension.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/./GDJS/Extensions/Builtin/Capacities/EffectExtension.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/./GDJS/Extensions/Builtin/Capacities/FlippableExtension.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/./GDJS/Extensions/Builtin/Capacities/ResizableExtension.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/./GDJS/Extensions/Builtin/Capacities/ScalableExtension.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/./GDJS/Extensions/Builtin/Capacities/OpacityExtension.h

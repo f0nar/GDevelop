@@ -113,8 +113,9 @@ Core/CMakeFiles/GDCore.dir/GDCore/Events/CodeGeneration/EffectsCodeGenerator.cpp
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Utf8/utf8/checked.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Utf8/utf8/core.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Utf8/utf8/unchecked.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/EffectMetadata.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Project/ArbitraryObjectsWorker.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/map \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/EffectMetadata.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/PropertyDescriptor.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/MeasurementUnit.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/MeasurementUnitElement.h \
@@ -164,4 +165,5 @@ Core/CMakeFiles/GDCore.dir/GDCore/Events/CodeGeneration/EffectsCodeGenerator.cpp
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ExtensionProperties.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/LoadingScreen.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Watermark.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/PlatformSpecificAssets.h
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/PlatformSpecificAssets.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/ProjectBrowserHelper.h

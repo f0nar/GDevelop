@@ -830,6 +830,150 @@ GDCore/Extensions/Builtin/CameraExtension.cpp.s:
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Extensions/Builtin/CameraExtension.cpp.s
 .PHONY : GDCore/Extensions/Builtin/CameraExtension.cpp.s
 
+GDCore/Extensions/Builtin/Capabilities/AnimatableExtension.o: GDCore/Extensions/Builtin/Capabilities/AnimatableExtension.cpp.o
+.PHONY : GDCore/Extensions/Builtin/Capabilities/AnimatableExtension.o
+
+# target to build an object file
+GDCore/Extensions/Builtin/Capabilities/AnimatableExtension.cpp.o:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Extensions/Builtin/Capabilities/AnimatableExtension.cpp.o
+.PHONY : GDCore/Extensions/Builtin/Capabilities/AnimatableExtension.cpp.o
+
+GDCore/Extensions/Builtin/Capabilities/AnimatableExtension.i: GDCore/Extensions/Builtin/Capabilities/AnimatableExtension.cpp.i
+.PHONY : GDCore/Extensions/Builtin/Capabilities/AnimatableExtension.i
+
+# target to preprocess a source file
+GDCore/Extensions/Builtin/Capabilities/AnimatableExtension.cpp.i:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Extensions/Builtin/Capabilities/AnimatableExtension.cpp.i
+.PHONY : GDCore/Extensions/Builtin/Capabilities/AnimatableExtension.cpp.i
+
+GDCore/Extensions/Builtin/Capabilities/AnimatableExtension.s: GDCore/Extensions/Builtin/Capabilities/AnimatableExtension.cpp.s
+.PHONY : GDCore/Extensions/Builtin/Capabilities/AnimatableExtension.s
+
+# target to generate assembly for a file
+GDCore/Extensions/Builtin/Capabilities/AnimatableExtension.cpp.s:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Extensions/Builtin/Capabilities/AnimatableExtension.cpp.s
+.PHONY : GDCore/Extensions/Builtin/Capabilities/AnimatableExtension.cpp.s
+
+GDCore/Extensions/Builtin/Capabilities/EffectExtension.o: GDCore/Extensions/Builtin/Capabilities/EffectExtension.cpp.o
+.PHONY : GDCore/Extensions/Builtin/Capabilities/EffectExtension.o
+
+# target to build an object file
+GDCore/Extensions/Builtin/Capabilities/EffectExtension.cpp.o:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Extensions/Builtin/Capabilities/EffectExtension.cpp.o
+.PHONY : GDCore/Extensions/Builtin/Capabilities/EffectExtension.cpp.o
+
+GDCore/Extensions/Builtin/Capabilities/EffectExtension.i: GDCore/Extensions/Builtin/Capabilities/EffectExtension.cpp.i
+.PHONY : GDCore/Extensions/Builtin/Capabilities/EffectExtension.i
+
+# target to preprocess a source file
+GDCore/Extensions/Builtin/Capabilities/EffectExtension.cpp.i:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Extensions/Builtin/Capabilities/EffectExtension.cpp.i
+.PHONY : GDCore/Extensions/Builtin/Capabilities/EffectExtension.cpp.i
+
+GDCore/Extensions/Builtin/Capabilities/EffectExtension.s: GDCore/Extensions/Builtin/Capabilities/EffectExtension.cpp.s
+.PHONY : GDCore/Extensions/Builtin/Capabilities/EffectExtension.s
+
+# target to generate assembly for a file
+GDCore/Extensions/Builtin/Capabilities/EffectExtension.cpp.s:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Extensions/Builtin/Capabilities/EffectExtension.cpp.s
+.PHONY : GDCore/Extensions/Builtin/Capabilities/EffectExtension.cpp.s
+
+GDCore/Extensions/Builtin/Capabilities/FlippableExtension.o: GDCore/Extensions/Builtin/Capabilities/FlippableExtension.cpp.o
+.PHONY : GDCore/Extensions/Builtin/Capabilities/FlippableExtension.o
+
+# target to build an object file
+GDCore/Extensions/Builtin/Capabilities/FlippableExtension.cpp.o:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Extensions/Builtin/Capabilities/FlippableExtension.cpp.o
+.PHONY : GDCore/Extensions/Builtin/Capabilities/FlippableExtension.cpp.o
+
+GDCore/Extensions/Builtin/Capabilities/FlippableExtension.i: GDCore/Extensions/Builtin/Capabilities/FlippableExtension.cpp.i
+.PHONY : GDCore/Extensions/Builtin/Capabilities/FlippableExtension.i
+
+# target to preprocess a source file
+GDCore/Extensions/Builtin/Capabilities/FlippableExtension.cpp.i:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Extensions/Builtin/Capabilities/FlippableExtension.cpp.i
+.PHONY : GDCore/Extensions/Builtin/Capabilities/FlippableExtension.cpp.i
+
+GDCore/Extensions/Builtin/Capabilities/FlippableExtension.s: GDCore/Extensions/Builtin/Capabilities/FlippableExtension.cpp.s
+.PHONY : GDCore/Extensions/Builtin/Capabilities/FlippableExtension.s
+
+# target to generate assembly for a file
+GDCore/Extensions/Builtin/Capabilities/FlippableExtension.cpp.s:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Extensions/Builtin/Capabilities/FlippableExtension.cpp.s
+.PHONY : GDCore/Extensions/Builtin/Capabilities/FlippableExtension.cpp.s
+
+GDCore/Extensions/Builtin/Capabilities/OpacityExtension.o: GDCore/Extensions/Builtin/Capabilities/OpacityExtension.cpp.o
+.PHONY : GDCore/Extensions/Builtin/Capabilities/OpacityExtension.o
+
+# target to build an object file
+GDCore/Extensions/Builtin/Capabilities/OpacityExtension.cpp.o:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Extensions/Builtin/Capabilities/OpacityExtension.cpp.o
+.PHONY : GDCore/Extensions/Builtin/Capabilities/OpacityExtension.cpp.o
+
+GDCore/Extensions/Builtin/Capabilities/OpacityExtension.i: GDCore/Extensions/Builtin/Capabilities/OpacityExtension.cpp.i
+.PHONY : GDCore/Extensions/Builtin/Capabilities/OpacityExtension.i
+
+# target to preprocess a source file
+GDCore/Extensions/Builtin/Capabilities/OpacityExtension.cpp.i:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Extensions/Builtin/Capabilities/OpacityExtension.cpp.i
+.PHONY : GDCore/Extensions/Builtin/Capabilities/OpacityExtension.cpp.i
+
+GDCore/Extensions/Builtin/Capabilities/OpacityExtension.s: GDCore/Extensions/Builtin/Capabilities/OpacityExtension.cpp.s
+.PHONY : GDCore/Extensions/Builtin/Capabilities/OpacityExtension.s
+
+# target to generate assembly for a file
+GDCore/Extensions/Builtin/Capabilities/OpacityExtension.cpp.s:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Extensions/Builtin/Capabilities/OpacityExtension.cpp.s
+.PHONY : GDCore/Extensions/Builtin/Capabilities/OpacityExtension.cpp.s
+
+GDCore/Extensions/Builtin/Capabilities/ResizableExtension.o: GDCore/Extensions/Builtin/Capabilities/ResizableExtension.cpp.o
+.PHONY : GDCore/Extensions/Builtin/Capabilities/ResizableExtension.o
+
+# target to build an object file
+GDCore/Extensions/Builtin/Capabilities/ResizableExtension.cpp.o:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Extensions/Builtin/Capabilities/ResizableExtension.cpp.o
+.PHONY : GDCore/Extensions/Builtin/Capabilities/ResizableExtension.cpp.o
+
+GDCore/Extensions/Builtin/Capabilities/ResizableExtension.i: GDCore/Extensions/Builtin/Capabilities/ResizableExtension.cpp.i
+.PHONY : GDCore/Extensions/Builtin/Capabilities/ResizableExtension.i
+
+# target to preprocess a source file
+GDCore/Extensions/Builtin/Capabilities/ResizableExtension.cpp.i:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Extensions/Builtin/Capabilities/ResizableExtension.cpp.i
+.PHONY : GDCore/Extensions/Builtin/Capabilities/ResizableExtension.cpp.i
+
+GDCore/Extensions/Builtin/Capabilities/ResizableExtension.s: GDCore/Extensions/Builtin/Capabilities/ResizableExtension.cpp.s
+.PHONY : GDCore/Extensions/Builtin/Capabilities/ResizableExtension.s
+
+# target to generate assembly for a file
+GDCore/Extensions/Builtin/Capabilities/ResizableExtension.cpp.s:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Extensions/Builtin/Capabilities/ResizableExtension.cpp.s
+.PHONY : GDCore/Extensions/Builtin/Capabilities/ResizableExtension.cpp.s
+
+GDCore/Extensions/Builtin/Capabilities/ScalableExtension.o: GDCore/Extensions/Builtin/Capabilities/ScalableExtension.cpp.o
+.PHONY : GDCore/Extensions/Builtin/Capabilities/ScalableExtension.o
+
+# target to build an object file
+GDCore/Extensions/Builtin/Capabilities/ScalableExtension.cpp.o:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Extensions/Builtin/Capabilities/ScalableExtension.cpp.o
+.PHONY : GDCore/Extensions/Builtin/Capabilities/ScalableExtension.cpp.o
+
+GDCore/Extensions/Builtin/Capabilities/ScalableExtension.i: GDCore/Extensions/Builtin/Capabilities/ScalableExtension.cpp.i
+.PHONY : GDCore/Extensions/Builtin/Capabilities/ScalableExtension.i
+
+# target to preprocess a source file
+GDCore/Extensions/Builtin/Capabilities/ScalableExtension.cpp.i:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Extensions/Builtin/Capabilities/ScalableExtension.cpp.i
+.PHONY : GDCore/Extensions/Builtin/Capabilities/ScalableExtension.cpp.i
+
+GDCore/Extensions/Builtin/Capabilities/ScalableExtension.s: GDCore/Extensions/Builtin/Capabilities/ScalableExtension.cpp.s
+.PHONY : GDCore/Extensions/Builtin/Capabilities/ScalableExtension.s
+
+# target to generate assembly for a file
+GDCore/Extensions/Builtin/Capabilities/ScalableExtension.cpp.s:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Extensions/Builtin/Capabilities/ScalableExtension.cpp.s
+.PHONY : GDCore/Extensions/Builtin/Capabilities/ScalableExtension.cpp.s
+
 GDCore/Extensions/Builtin/CommonConversionsExtension.o: GDCore/Extensions/Builtin/CommonConversionsExtension.cpp.o
 .PHONY : GDCore/Extensions/Builtin/CommonConversionsExtension.o
 
@@ -1718,6 +1862,30 @@ GDCore/IDE/Events/ArbitraryEventsWorker.cpp.s:
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/IDE/Events/ArbitraryEventsWorker.cpp.s
 .PHONY : GDCore/IDE/Events/ArbitraryEventsWorker.cpp.s
 
+GDCore/IDE/Events/BehaviorDefaultFlagClearer.o: GDCore/IDE/Events/BehaviorDefaultFlagClearer.cpp.o
+.PHONY : GDCore/IDE/Events/BehaviorDefaultFlagClearer.o
+
+# target to build an object file
+GDCore/IDE/Events/BehaviorDefaultFlagClearer.cpp.o:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/IDE/Events/BehaviorDefaultFlagClearer.cpp.o
+.PHONY : GDCore/IDE/Events/BehaviorDefaultFlagClearer.cpp.o
+
+GDCore/IDE/Events/BehaviorDefaultFlagClearer.i: GDCore/IDE/Events/BehaviorDefaultFlagClearer.cpp.i
+.PHONY : GDCore/IDE/Events/BehaviorDefaultFlagClearer.i
+
+# target to preprocess a source file
+GDCore/IDE/Events/BehaviorDefaultFlagClearer.cpp.i:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/IDE/Events/BehaviorDefaultFlagClearer.cpp.i
+.PHONY : GDCore/IDE/Events/BehaviorDefaultFlagClearer.cpp.i
+
+GDCore/IDE/Events/BehaviorDefaultFlagClearer.s: GDCore/IDE/Events/BehaviorDefaultFlagClearer.cpp.s
+.PHONY : GDCore/IDE/Events/BehaviorDefaultFlagClearer.s
+
+# target to generate assembly for a file
+GDCore/IDE/Events/BehaviorDefaultFlagClearer.cpp.s:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/IDE/Events/BehaviorDefaultFlagClearer.cpp.s
+.PHONY : GDCore/IDE/Events/BehaviorDefaultFlagClearer.cpp.s
+
 GDCore/IDE/Events/BehaviorTypeRenamer.o: GDCore/IDE/Events/BehaviorTypeRenamer.cpp.o
 .PHONY : GDCore/IDE/Events/BehaviorTypeRenamer.o
 
@@ -1958,6 +2126,30 @@ GDCore/IDE/Events/EventsPositionFinder.cpp.s:
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/IDE/Events/EventsPositionFinder.cpp.s
 .PHONY : GDCore/IDE/Events/EventsPositionFinder.cpp.s
 
+GDCore/IDE/Events/EventsPropertyReplacer.o: GDCore/IDE/Events/EventsPropertyReplacer.cpp.o
+.PHONY : GDCore/IDE/Events/EventsPropertyReplacer.o
+
+# target to build an object file
+GDCore/IDE/Events/EventsPropertyReplacer.cpp.o:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/IDE/Events/EventsPropertyReplacer.cpp.o
+.PHONY : GDCore/IDE/Events/EventsPropertyReplacer.cpp.o
+
+GDCore/IDE/Events/EventsPropertyReplacer.i: GDCore/IDE/Events/EventsPropertyReplacer.cpp.i
+.PHONY : GDCore/IDE/Events/EventsPropertyReplacer.i
+
+# target to preprocess a source file
+GDCore/IDE/Events/EventsPropertyReplacer.cpp.i:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/IDE/Events/EventsPropertyReplacer.cpp.i
+.PHONY : GDCore/IDE/Events/EventsPropertyReplacer.cpp.i
+
+GDCore/IDE/Events/EventsPropertyReplacer.s: GDCore/IDE/Events/EventsPropertyReplacer.cpp.s
+.PHONY : GDCore/IDE/Events/EventsPropertyReplacer.s
+
+# target to generate assembly for a file
+GDCore/IDE/Events/EventsPropertyReplacer.cpp.s:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/IDE/Events/EventsPropertyReplacer.cpp.s
+.PHONY : GDCore/IDE/Events/EventsPropertyReplacer.cpp.s
+
 GDCore/IDE/Events/EventsRefactorer.o: GDCore/IDE/Events/EventsRefactorer.cpp.o
 .PHONY : GDCore/IDE/Events/EventsRefactorer.o
 
@@ -2029,6 +2221,30 @@ GDCore/IDE/Events/EventsTypesLister.s: GDCore/IDE/Events/EventsTypesLister.cpp.s
 GDCore/IDE/Events/EventsTypesLister.cpp.s:
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/IDE/Events/EventsTypesLister.cpp.s
 .PHONY : GDCore/IDE/Events/EventsTypesLister.cpp.s
+
+GDCore/IDE/Events/EventsVariableReplacer.o: GDCore/IDE/Events/EventsVariableReplacer.cpp.o
+.PHONY : GDCore/IDE/Events/EventsVariableReplacer.o
+
+# target to build an object file
+GDCore/IDE/Events/EventsVariableReplacer.cpp.o:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/IDE/Events/EventsVariableReplacer.cpp.o
+.PHONY : GDCore/IDE/Events/EventsVariableReplacer.cpp.o
+
+GDCore/IDE/Events/EventsVariableReplacer.i: GDCore/IDE/Events/EventsVariableReplacer.cpp.i
+.PHONY : GDCore/IDE/Events/EventsVariableReplacer.i
+
+# target to preprocess a source file
+GDCore/IDE/Events/EventsVariableReplacer.cpp.i:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/IDE/Events/EventsVariableReplacer.cpp.i
+.PHONY : GDCore/IDE/Events/EventsVariableReplacer.cpp.i
+
+GDCore/IDE/Events/EventsVariableReplacer.s: GDCore/IDE/Events/EventsVariableReplacer.cpp.s
+.PHONY : GDCore/IDE/Events/EventsVariableReplacer.s
+
+# target to generate assembly for a file
+GDCore/IDE/Events/EventsVariableReplacer.cpp.s:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/IDE/Events/EventsVariableReplacer.cpp.s
+.PHONY : GDCore/IDE/Events/EventsVariableReplacer.cpp.s
 
 GDCore/IDE/Events/EventsVariablesFinder.o: GDCore/IDE/Events/EventsVariablesFinder.cpp.o
 .PHONY : GDCore/IDE/Events/EventsVariablesFinder.o
@@ -3734,6 +3950,30 @@ GDCore/Project/ObjectsContainer.cpp.s:
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Project/ObjectsContainer.cpp.s
 .PHONY : GDCore/Project/ObjectsContainer.cpp.s
 
+GDCore/Project/ObjectsContainersList.o: GDCore/Project/ObjectsContainersList.cpp.o
+.PHONY : GDCore/Project/ObjectsContainersList.o
+
+# target to build an object file
+GDCore/Project/ObjectsContainersList.cpp.o:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Project/ObjectsContainersList.cpp.o
+.PHONY : GDCore/Project/ObjectsContainersList.cpp.o
+
+GDCore/Project/ObjectsContainersList.i: GDCore/Project/ObjectsContainersList.cpp.i
+.PHONY : GDCore/Project/ObjectsContainersList.i
+
+# target to preprocess a source file
+GDCore/Project/ObjectsContainersList.cpp.i:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Project/ObjectsContainersList.cpp.i
+.PHONY : GDCore/Project/ObjectsContainersList.cpp.i
+
+GDCore/Project/ObjectsContainersList.s: GDCore/Project/ObjectsContainersList.cpp.s
+.PHONY : GDCore/Project/ObjectsContainersList.s
+
+# target to generate assembly for a file
+GDCore/Project/ObjectsContainersList.cpp.s:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Project/ObjectsContainersList.cpp.s
+.PHONY : GDCore/Project/ObjectsContainersList.cpp.s
+
 GDCore/Project/PlatformSpecificAssets.o: GDCore/Project/PlatformSpecificAssets.cpp.o
 .PHONY : GDCore/Project/PlatformSpecificAssets.o
 
@@ -3781,6 +4021,30 @@ GDCore/Project/Project.s: GDCore/Project/Project.cpp.s
 GDCore/Project/Project.cpp.s:
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Project/Project.cpp.s
 .PHONY : GDCore/Project/Project.cpp.s
+
+GDCore/Project/PropertiesContainersList.o: GDCore/Project/PropertiesContainersList.cpp.o
+.PHONY : GDCore/Project/PropertiesContainersList.o
+
+# target to build an object file
+GDCore/Project/PropertiesContainersList.cpp.o:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Project/PropertiesContainersList.cpp.o
+.PHONY : GDCore/Project/PropertiesContainersList.cpp.o
+
+GDCore/Project/PropertiesContainersList.i: GDCore/Project/PropertiesContainersList.cpp.i
+.PHONY : GDCore/Project/PropertiesContainersList.i
+
+# target to preprocess a source file
+GDCore/Project/PropertiesContainersList.cpp.i:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Project/PropertiesContainersList.cpp.i
+.PHONY : GDCore/Project/PropertiesContainersList.cpp.i
+
+GDCore/Project/PropertiesContainersList.s: GDCore/Project/PropertiesContainersList.cpp.s
+.PHONY : GDCore/Project/PropertiesContainersList.s
+
+# target to generate assembly for a file
+GDCore/Project/PropertiesContainersList.cpp.s:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Project/PropertiesContainersList.cpp.s
+.PHONY : GDCore/Project/PropertiesContainersList.cpp.s
 
 GDCore/Project/PropertyDescriptor.o: GDCore/Project/PropertyDescriptor.cpp.o
 .PHONY : GDCore/Project/PropertyDescriptor.o
@@ -3901,6 +4165,30 @@ GDCore/Project/VariablesContainer.s: GDCore/Project/VariablesContainer.cpp.s
 GDCore/Project/VariablesContainer.cpp.s:
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Project/VariablesContainer.cpp.s
 .PHONY : GDCore/Project/VariablesContainer.cpp.s
+
+GDCore/Project/VariablesContainersList.o: GDCore/Project/VariablesContainersList.cpp.o
+.PHONY : GDCore/Project/VariablesContainersList.o
+
+# target to build an object file
+GDCore/Project/VariablesContainersList.cpp.o:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Project/VariablesContainersList.cpp.o
+.PHONY : GDCore/Project/VariablesContainersList.cpp.o
+
+GDCore/Project/VariablesContainersList.i: GDCore/Project/VariablesContainersList.cpp.i
+.PHONY : GDCore/Project/VariablesContainersList.i
+
+# target to preprocess a source file
+GDCore/Project/VariablesContainersList.cpp.i:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Project/VariablesContainersList.cpp.i
+.PHONY : GDCore/Project/VariablesContainersList.cpp.i
+
+GDCore/Project/VariablesContainersList.s: GDCore/Project/VariablesContainersList.cpp.s
+.PHONY : GDCore/Project/VariablesContainersList.s
+
+# target to generate assembly for a file
+GDCore/Project/VariablesContainersList.cpp.s:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Project/VariablesContainersList.cpp.s
+.PHONY : GDCore/Project/VariablesContainersList.cpp.s
 
 GDCore/Project/Watermark.o: GDCore/Project/Watermark.cpp.o
 .PHONY : GDCore/Project/Watermark.o
@@ -4958,6 +5246,30 @@ tests/NewNameGenerator.cpp.s:
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore_tests.dir/build.make Core/CMakeFiles/GDCore_tests.dir/tests/NewNameGenerator.cpp.s
 .PHONY : tests/NewNameGenerator.cpp.s
 
+tests/Object.o: tests/Object.cpp.o
+.PHONY : tests/Object.o
+
+# target to build an object file
+tests/Object.cpp.o:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore_tests.dir/build.make Core/CMakeFiles/GDCore_tests.dir/tests/Object.cpp.o
+.PHONY : tests/Object.cpp.o
+
+tests/Object.i: tests/Object.cpp.i
+.PHONY : tests/Object.i
+
+# target to preprocess a source file
+tests/Object.cpp.i:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore_tests.dir/build.make Core/CMakeFiles/GDCore_tests.dir/tests/Object.cpp.i
+.PHONY : tests/Object.cpp.i
+
+tests/Object.s: tests/Object.cpp.s
+.PHONY : tests/Object.s
+
+# target to generate assembly for a file
+tests/Object.cpp.s:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore_tests.dir/build.make Core/CMakeFiles/GDCore_tests.dir/tests/Object.cpp.s
+.PHONY : tests/Object.cpp.s
+
 tests/ObjectSerialization.o: tests/ObjectSerialization.cpp.o
 .PHONY : tests/ObjectSerialization.o
 
@@ -5150,6 +5462,30 @@ tests/SourceFiles.cpp.s:
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore_tests.dir/build.make Core/CMakeFiles/GDCore_tests.dir/tests/SourceFiles.cpp.s
 .PHONY : tests/SourceFiles.cpp.s
 
+tests/String.o: tests/String.cpp.o
+.PHONY : tests/String.o
+
+# target to build an object file
+tests/String.cpp.o:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore_tests.dir/build.make Core/CMakeFiles/GDCore_tests.dir/tests/String.cpp.o
+.PHONY : tests/String.cpp.o
+
+tests/String.i: tests/String.cpp.i
+.PHONY : tests/String.i
+
+# target to preprocess a source file
+tests/String.cpp.i:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore_tests.dir/build.make Core/CMakeFiles/GDCore_tests.dir/tests/String.cpp.i
+.PHONY : tests/String.cpp.i
+
+tests/String.s: tests/String.cpp.s
+.PHONY : tests/String.s
+
+# target to generate assembly for a file
+tests/String.cpp.s:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore_tests.dir/build.make Core/CMakeFiles/GDCore_tests.dir/tests/String.cpp.s
+.PHONY : tests/String.cpp.s
+
 tests/Utf8Tests.o: tests/Utf8Tests.cpp.o
 .PHONY : tests/Utf8Tests.o
 
@@ -5221,6 +5557,30 @@ tests/VariablesContainer.s: tests/VariablesContainer.cpp.s
 tests/VariablesContainer.cpp.s:
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore_tests.dir/build.make Core/CMakeFiles/GDCore_tests.dir/tests/VariablesContainer.cpp.s
 .PHONY : tests/VariablesContainer.cpp.s
+
+tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.o: tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.cpp.o
+.PHONY : tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.o
+
+# target to build an object file
+tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.cpp.o:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore_tests.dir/build.make Core/CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.cpp.o
+.PHONY : tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.cpp.o
+
+tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.i: tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.cpp.i
+.PHONY : tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.i
+
+# target to preprocess a source file
+tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.cpp.i:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore_tests.dir/build.make Core/CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.cpp.i
+.PHONY : tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.cpp.i
+
+tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.s: tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.cpp.s
+.PHONY : tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.s
+
+# target to generate assembly for a file
+tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.cpp.s:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore_tests.dir/build.make Core/CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.cpp.s
+.PHONY : tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.cpp.s
 
 tests/WholeProjectRefactorer.o: tests/WholeProjectRefactorer.cpp.o
 .PHONY : tests/WholeProjectRefactorer.o
@@ -5365,6 +5725,24 @@ help:
 	@echo "... GDCore/Extensions/Builtin/CameraExtension.o"
 	@echo "... GDCore/Extensions/Builtin/CameraExtension.i"
 	@echo "... GDCore/Extensions/Builtin/CameraExtension.s"
+	@echo "... GDCore/Extensions/Builtin/Capabilities/AnimatableExtension.o"
+	@echo "... GDCore/Extensions/Builtin/Capabilities/AnimatableExtension.i"
+	@echo "... GDCore/Extensions/Builtin/Capabilities/AnimatableExtension.s"
+	@echo "... GDCore/Extensions/Builtin/Capabilities/EffectExtension.o"
+	@echo "... GDCore/Extensions/Builtin/Capabilities/EffectExtension.i"
+	@echo "... GDCore/Extensions/Builtin/Capabilities/EffectExtension.s"
+	@echo "... GDCore/Extensions/Builtin/Capabilities/FlippableExtension.o"
+	@echo "... GDCore/Extensions/Builtin/Capabilities/FlippableExtension.i"
+	@echo "... GDCore/Extensions/Builtin/Capabilities/FlippableExtension.s"
+	@echo "... GDCore/Extensions/Builtin/Capabilities/OpacityExtension.o"
+	@echo "... GDCore/Extensions/Builtin/Capabilities/OpacityExtension.i"
+	@echo "... GDCore/Extensions/Builtin/Capabilities/OpacityExtension.s"
+	@echo "... GDCore/Extensions/Builtin/Capabilities/ResizableExtension.o"
+	@echo "... GDCore/Extensions/Builtin/Capabilities/ResizableExtension.i"
+	@echo "... GDCore/Extensions/Builtin/Capabilities/ResizableExtension.s"
+	@echo "... GDCore/Extensions/Builtin/Capabilities/ScalableExtension.o"
+	@echo "... GDCore/Extensions/Builtin/Capabilities/ScalableExtension.i"
+	@echo "... GDCore/Extensions/Builtin/Capabilities/ScalableExtension.s"
 	@echo "... GDCore/Extensions/Builtin/CommonConversionsExtension.o"
 	@echo "... GDCore/Extensions/Builtin/CommonConversionsExtension.i"
 	@echo "... GDCore/Extensions/Builtin/CommonConversionsExtension.s"
@@ -5476,6 +5854,9 @@ help:
 	@echo "... GDCore/IDE/Events/ArbitraryEventsWorker.o"
 	@echo "... GDCore/IDE/Events/ArbitraryEventsWorker.i"
 	@echo "... GDCore/IDE/Events/ArbitraryEventsWorker.s"
+	@echo "... GDCore/IDE/Events/BehaviorDefaultFlagClearer.o"
+	@echo "... GDCore/IDE/Events/BehaviorDefaultFlagClearer.i"
+	@echo "... GDCore/IDE/Events/BehaviorDefaultFlagClearer.s"
 	@echo "... GDCore/IDE/Events/BehaviorTypeRenamer.o"
 	@echo "... GDCore/IDE/Events/BehaviorTypeRenamer.i"
 	@echo "... GDCore/IDE/Events/BehaviorTypeRenamer.s"
@@ -5506,6 +5887,9 @@ help:
 	@echo "... GDCore/IDE/Events/EventsPositionFinder.o"
 	@echo "... GDCore/IDE/Events/EventsPositionFinder.i"
 	@echo "... GDCore/IDE/Events/EventsPositionFinder.s"
+	@echo "... GDCore/IDE/Events/EventsPropertyReplacer.o"
+	@echo "... GDCore/IDE/Events/EventsPropertyReplacer.i"
+	@echo "... GDCore/IDE/Events/EventsPropertyReplacer.s"
 	@echo "... GDCore/IDE/Events/EventsRefactorer.o"
 	@echo "... GDCore/IDE/Events/EventsRefactorer.i"
 	@echo "... GDCore/IDE/Events/EventsRefactorer.s"
@@ -5515,6 +5899,9 @@ help:
 	@echo "... GDCore/IDE/Events/EventsTypesLister.o"
 	@echo "... GDCore/IDE/Events/EventsTypesLister.i"
 	@echo "... GDCore/IDE/Events/EventsTypesLister.s"
+	@echo "... GDCore/IDE/Events/EventsVariableReplacer.o"
+	@echo "... GDCore/IDE/Events/EventsVariableReplacer.i"
+	@echo "... GDCore/IDE/Events/EventsVariableReplacer.s"
 	@echo "... GDCore/IDE/Events/EventsVariablesFinder.o"
 	@echo "... GDCore/IDE/Events/EventsVariablesFinder.i"
 	@echo "... GDCore/IDE/Events/EventsVariablesFinder.s"
@@ -5728,12 +6115,18 @@ help:
 	@echo "... GDCore/Project/ObjectsContainer.o"
 	@echo "... GDCore/Project/ObjectsContainer.i"
 	@echo "... GDCore/Project/ObjectsContainer.s"
+	@echo "... GDCore/Project/ObjectsContainersList.o"
+	@echo "... GDCore/Project/ObjectsContainersList.i"
+	@echo "... GDCore/Project/ObjectsContainersList.s"
 	@echo "... GDCore/Project/PlatformSpecificAssets.o"
 	@echo "... GDCore/Project/PlatformSpecificAssets.i"
 	@echo "... GDCore/Project/PlatformSpecificAssets.s"
 	@echo "... GDCore/Project/Project.o"
 	@echo "... GDCore/Project/Project.i"
 	@echo "... GDCore/Project/Project.s"
+	@echo "... GDCore/Project/PropertiesContainersList.o"
+	@echo "... GDCore/Project/PropertiesContainersList.i"
+	@echo "... GDCore/Project/PropertiesContainersList.s"
 	@echo "... GDCore/Project/PropertyDescriptor.o"
 	@echo "... GDCore/Project/PropertyDescriptor.i"
 	@echo "... GDCore/Project/PropertyDescriptor.s"
@@ -5749,6 +6142,9 @@ help:
 	@echo "... GDCore/Project/VariablesContainer.o"
 	@echo "... GDCore/Project/VariablesContainer.i"
 	@echo "... GDCore/Project/VariablesContainer.s"
+	@echo "... GDCore/Project/VariablesContainersList.o"
+	@echo "... GDCore/Project/VariablesContainersList.i"
+	@echo "... GDCore/Project/VariablesContainersList.s"
 	@echo "... GDCore/Project/Watermark.o"
 	@echo "... GDCore/Project/Watermark.i"
 	@echo "... GDCore/Project/Watermark.s"
@@ -5881,6 +6277,9 @@ help:
 	@echo "... tests/NewNameGenerator.o"
 	@echo "... tests/NewNameGenerator.i"
 	@echo "... tests/NewNameGenerator.s"
+	@echo "... tests/Object.o"
+	@echo "... tests/Object.i"
+	@echo "... tests/Object.s"
 	@echo "... tests/ObjectSerialization.o"
 	@echo "... tests/ObjectSerialization.i"
 	@echo "... tests/ObjectSerialization.s"
@@ -5905,6 +6304,9 @@ help:
 	@echo "... tests/SourceFiles.o"
 	@echo "... tests/SourceFiles.i"
 	@echo "... tests/SourceFiles.s"
+	@echo "... tests/String.o"
+	@echo "... tests/String.i"
+	@echo "... tests/String.s"
 	@echo "... tests/Utf8Tests.o"
 	@echo "... tests/Utf8Tests.i"
 	@echo "... tests/Utf8Tests.s"
@@ -5914,6 +6316,9 @@ help:
 	@echo "... tests/VariablesContainer.o"
 	@echo "... tests/VariablesContainer.i"
 	@echo "... tests/VariablesContainer.s"
+	@echo "... tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.o"
+	@echo "... tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.i"
+	@echo "... tests/WholeProjectRefactorer-ApplyRefactoringForVariablesContainer.s"
 	@echo "... tests/WholeProjectRefactorer.o"
 	@echo "... tests/WholeProjectRefactorer.i"
 	@echo "... tests/WholeProjectRefactorer.s"

@@ -134,26 +134,44 @@ Core/CMakeFiles/GDCore.dir/GDCore/IDE/Events/EventsIdentifiersFinder.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/InstructionOrExpressionGroupMetadata.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/ArbitraryEventsWorker.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/EventVisitor.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Layout.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/EventsList.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/BehaviorsSharedData.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/BehaviorConfigurationContainer.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Serialization/Serializer.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Serialization/SerializerElement.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Serialization/SerializerValue.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/InitialInstancesContainer.h \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/list \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/InitialInstance.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/VariablesContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ProjectScopedContainers.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/ParameterMetadataTools.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectsContainersList.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Variable.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/cmath \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/math.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/compat/math.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/math.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Layer.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EffectsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/PropertiesContainersList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/PropertiesContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsFunctionsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsFunction.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/EventsList.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectGroupsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectGroup.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SerializableWithNameList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SerializableWithNameList.inl \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Serialization/SerializerElement.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Serialization/SerializerValue.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/MakeUnique.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/PolymorphicClone.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/NamedPropertyDescriptor.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/PropertyDescriptor.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/MeasurementUnit.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/MeasurementUnitElement.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/MeasurementBaseUnit.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/Localization.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/VariablesContainersList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Layout.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/BehaviorsSharedData.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/BehaviorConfigurationContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Serialization/Serializer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/InitialInstancesContainer.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/list \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/InitialInstance.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/VariablesContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Layer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EffectsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Dialogs/LayoutEditorCanvas/EditorSettings.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Object.h \
@@ -161,7 +179,6 @@ Core/CMakeFiles/GDCore.dir/GDCore/IDE/Events/EventsIdentifiersFinder.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectConfiguration.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Vector2.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ResourcesManager.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/MakeUnique.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Project.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ExtensionProperties.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/LoadingScreen.h \

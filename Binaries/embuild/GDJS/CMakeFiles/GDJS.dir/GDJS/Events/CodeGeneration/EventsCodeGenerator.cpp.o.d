@@ -125,11 +125,35 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/Events/CodeGeneration/EventsCodeGenerator.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Extensions/Metadata/ParameterMetadata.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Extensions/Metadata/ValueTypeMetadata.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Extensions/Metadata/ParameterOptions.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/CommonTools.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ProjectScopedContainers.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Extensions/Metadata/ParameterMetadataTools.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectsContainersList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/Variable.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/cmath \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/math.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/compat/math.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/math.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/PropertiesContainersList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/PropertiesContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsFunctionsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsFunction.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/EventsList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectGroupsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectGroup.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/SerializableWithNameList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/SerializableWithNameList.inl \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Serialization/SerializerElement.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Serialization/SerializerValue.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/MakeUnique.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/PolymorphicClone.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/NamedPropertyDescriptor.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/PropertyDescriptor.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/MeasurementUnit.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/MeasurementUnitElement.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/MeasurementBaseUnit.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/Localization.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/VariablesContainersList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/CommonTools.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/CodeGeneration/EventsCodeGenerationContext.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/Tools/EventsCodeNameMangler.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/unordered_map \
@@ -137,31 +161,13 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/Events/CodeGeneration/EventsCodeGenerator.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Extensions/Metadata/EventMetadata.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Extensions/Metadata/ExpressionMetadata.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Extensions/Metadata/MetadataProvider.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Extensions/Metadata/ParameterMetadataTools.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/EventsFunctionTools.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/SceneNameMangler.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/Behavior.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/BehaviorConfigurationContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Serialization/Serializer.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Serialization/SerializerElement.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Serialization/SerializerValue.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsBasedBehavior.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/AbstractEventsBasedEntity.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/NamedPropertyDescriptor.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/PropertyDescriptor.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/MeasurementUnit.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/MeasurementUnitElement.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/MeasurementBaseUnit.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/Localization.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/SerializableWithNameList.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/SerializableWithNameList.inl \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/MakeUnique.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/PolymorphicClone.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsFunctionsContainer.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsFunction.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/EventsList.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectGroupsContainer.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectGroup.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsBasedObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ExternalEvents.h \
@@ -171,7 +177,6 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/Events/CodeGeneration/EventsCodeGenerator.cpp.o: \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/list \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/InitialInstance.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/VariablesContainer.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/Variable.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/Layer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EffectsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Dialogs/LayoutEditorCanvas/EditorSettings.h \
@@ -185,6 +190,7 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/Events/CodeGeneration/EventsCodeGenerator.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/Watermark.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/PlatformSpecificAssets.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/./GDJS/Events/CodeGeneration/EventsCodeGenerator.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/./GDJS/Events/CodeGeneration/BehaviorCodeGenerator.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/./GDJS/Extensions/JsPlatform.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Extensions/Platform.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Extensions/Metadata/InstructionOrExpressionGroupMetadata.h \

@@ -6,5 +6,5 @@ CXX_DEFINES = -D GD_IDE_ONLY=1 -DEMSCRIPTEN -DGD_API="" -DGD_CORE_API="" -DGD_EX
 
 CXX_INCLUDES = @CMakeFiles/AnchorBehavior.dir/includes_CXX.rsp
 
-CXX_FLAGS = -DNDEBUG -O2 -std=gnu++11 -Wall -Wno-unknown-warning-option -Wno-reorder-ctor -Wno-reorder -Wno-pessimizing-move -Wno-unused-variable -Wno-unused-private-field -Werror=return-stack-address
+CXX_FLAGS = -DNDEBUG -O2 -std=gnu++11 -Wall -Wno-unknown-warning-option -Wno-reorder-ctor -Wno-reorder -Wno-pessimizing-move -Wno-unused-variable -Wno-unused-private-field -Werror=return-stack-address -Werror=return-type
 

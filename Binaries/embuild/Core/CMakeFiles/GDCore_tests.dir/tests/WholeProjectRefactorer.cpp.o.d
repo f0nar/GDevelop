@@ -58,6 +58,7 @@ Core/CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer.cpp.o: \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/math.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/compat/math.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/math.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/unordered_map \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/vector \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/__bit_reference \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/climits \
@@ -65,9 +66,7 @@ Core/CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer.cpp.o: \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/limits.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/limits.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/__split_buffer \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/DummyPlatform.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/Builtin/LinkEvent.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/Event.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/String.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/iostream \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/ios \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/__locale \
@@ -116,14 +115,16 @@ Core/CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer.cpp.o: \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/nl_types.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/__bsd_locale_fallbacks.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/bitset \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/Instruction.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/Expression.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/String.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/sstream \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Utf8/utf8.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Utf8/utf8/checked.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Utf8/utf8/core.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Utf8/utf8/unchecked.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/DummyPlatform.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/Builtin/LinkEvent.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/Event.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/Instruction.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/Expression.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/InstructionsList.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SPtrList.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SPtrList.inl \
@@ -174,13 +175,14 @@ Core/CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsBasedBehavior.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/AbstractEventsBasedEntity.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/NamedPropertyDescriptor.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SerializableWithNameList.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SerializableWithNameList.inl \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/PolymorphicClone.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/PropertiesContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsFunctionsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsFunction.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectGroupsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectGroup.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SerializableWithNameList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SerializableWithNameList.inl \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/PolymorphicClone.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsBasedObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ExternalEvents.h \

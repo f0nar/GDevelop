@@ -432,6 +432,150 @@ GDJS/Extensions/Builtin/CameraExtension.cpp.s:
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f GDJS/CMakeFiles/GDJS.dir/build.make GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/CameraExtension.cpp.s
 .PHONY : GDJS/Extensions/Builtin/CameraExtension.cpp.s
 
+GDJS/Extensions/Builtin/Capacities/AnimatableExtension.o: GDJS/Extensions/Builtin/Capacities/AnimatableExtension.cpp.o
+.PHONY : GDJS/Extensions/Builtin/Capacities/AnimatableExtension.o
+
+# target to build an object file
+GDJS/Extensions/Builtin/Capacities/AnimatableExtension.cpp.o:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f GDJS/CMakeFiles/GDJS.dir/build.make GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/AnimatableExtension.cpp.o
+.PHONY : GDJS/Extensions/Builtin/Capacities/AnimatableExtension.cpp.o
+
+GDJS/Extensions/Builtin/Capacities/AnimatableExtension.i: GDJS/Extensions/Builtin/Capacities/AnimatableExtension.cpp.i
+.PHONY : GDJS/Extensions/Builtin/Capacities/AnimatableExtension.i
+
+# target to preprocess a source file
+GDJS/Extensions/Builtin/Capacities/AnimatableExtension.cpp.i:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f GDJS/CMakeFiles/GDJS.dir/build.make GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/AnimatableExtension.cpp.i
+.PHONY : GDJS/Extensions/Builtin/Capacities/AnimatableExtension.cpp.i
+
+GDJS/Extensions/Builtin/Capacities/AnimatableExtension.s: GDJS/Extensions/Builtin/Capacities/AnimatableExtension.cpp.s
+.PHONY : GDJS/Extensions/Builtin/Capacities/AnimatableExtension.s
+
+# target to generate assembly for a file
+GDJS/Extensions/Builtin/Capacities/AnimatableExtension.cpp.s:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f GDJS/CMakeFiles/GDJS.dir/build.make GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/AnimatableExtension.cpp.s
+.PHONY : GDJS/Extensions/Builtin/Capacities/AnimatableExtension.cpp.s
+
+GDJS/Extensions/Builtin/Capacities/EffectExtension.o: GDJS/Extensions/Builtin/Capacities/EffectExtension.cpp.o
+.PHONY : GDJS/Extensions/Builtin/Capacities/EffectExtension.o
+
+# target to build an object file
+GDJS/Extensions/Builtin/Capacities/EffectExtension.cpp.o:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f GDJS/CMakeFiles/GDJS.dir/build.make GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/EffectExtension.cpp.o
+.PHONY : GDJS/Extensions/Builtin/Capacities/EffectExtension.cpp.o
+
+GDJS/Extensions/Builtin/Capacities/EffectExtension.i: GDJS/Extensions/Builtin/Capacities/EffectExtension.cpp.i
+.PHONY : GDJS/Extensions/Builtin/Capacities/EffectExtension.i
+
+# target to preprocess a source file
+GDJS/Extensions/Builtin/Capacities/EffectExtension.cpp.i:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f GDJS/CMakeFiles/GDJS.dir/build.make GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/EffectExtension.cpp.i
+.PHONY : GDJS/Extensions/Builtin/Capacities/EffectExtension.cpp.i
+
+GDJS/Extensions/Builtin/Capacities/EffectExtension.s: GDJS/Extensions/Builtin/Capacities/EffectExtension.cpp.s
+.PHONY : GDJS/Extensions/Builtin/Capacities/EffectExtension.s
+
+# target to generate assembly for a file
+GDJS/Extensions/Builtin/Capacities/EffectExtension.cpp.s:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f GDJS/CMakeFiles/GDJS.dir/build.make GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/EffectExtension.cpp.s
+.PHONY : GDJS/Extensions/Builtin/Capacities/EffectExtension.cpp.s
+
+GDJS/Extensions/Builtin/Capacities/FlippableExtension.o: GDJS/Extensions/Builtin/Capacities/FlippableExtension.cpp.o
+.PHONY : GDJS/Extensions/Builtin/Capacities/FlippableExtension.o
+
+# target to build an object file
+GDJS/Extensions/Builtin/Capacities/FlippableExtension.cpp.o:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f GDJS/CMakeFiles/GDJS.dir/build.make GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/FlippableExtension.cpp.o
+.PHONY : GDJS/Extensions/Builtin/Capacities/FlippableExtension.cpp.o
+
+GDJS/Extensions/Builtin/Capacities/FlippableExtension.i: GDJS/Extensions/Builtin/Capacities/FlippableExtension.cpp.i
+.PHONY : GDJS/Extensions/Builtin/Capacities/FlippableExtension.i
+
+# target to preprocess a source file
+GDJS/Extensions/Builtin/Capacities/FlippableExtension.cpp.i:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f GDJS/CMakeFiles/GDJS.dir/build.make GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/FlippableExtension.cpp.i
+.PHONY : GDJS/Extensions/Builtin/Capacities/FlippableExtension.cpp.i
+
+GDJS/Extensions/Builtin/Capacities/FlippableExtension.s: GDJS/Extensions/Builtin/Capacities/FlippableExtension.cpp.s
+.PHONY : GDJS/Extensions/Builtin/Capacities/FlippableExtension.s
+
+# target to generate assembly for a file
+GDJS/Extensions/Builtin/Capacities/FlippableExtension.cpp.s:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f GDJS/CMakeFiles/GDJS.dir/build.make GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/FlippableExtension.cpp.s
+.PHONY : GDJS/Extensions/Builtin/Capacities/FlippableExtension.cpp.s
+
+GDJS/Extensions/Builtin/Capacities/OpacityExtension.o: GDJS/Extensions/Builtin/Capacities/OpacityExtension.cpp.o
+.PHONY : GDJS/Extensions/Builtin/Capacities/OpacityExtension.o
+
+# target to build an object file
+GDJS/Extensions/Builtin/Capacities/OpacityExtension.cpp.o:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f GDJS/CMakeFiles/GDJS.dir/build.make GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/OpacityExtension.cpp.o
+.PHONY : GDJS/Extensions/Builtin/Capacities/OpacityExtension.cpp.o
+
+GDJS/Extensions/Builtin/Capacities/OpacityExtension.i: GDJS/Extensions/Builtin/Capacities/OpacityExtension.cpp.i
+.PHONY : GDJS/Extensions/Builtin/Capacities/OpacityExtension.i
+
+# target to preprocess a source file
+GDJS/Extensions/Builtin/Capacities/OpacityExtension.cpp.i:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f GDJS/CMakeFiles/GDJS.dir/build.make GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/OpacityExtension.cpp.i
+.PHONY : GDJS/Extensions/Builtin/Capacities/OpacityExtension.cpp.i
+
+GDJS/Extensions/Builtin/Capacities/OpacityExtension.s: GDJS/Extensions/Builtin/Capacities/OpacityExtension.cpp.s
+.PHONY : GDJS/Extensions/Builtin/Capacities/OpacityExtension.s
+
+# target to generate assembly for a file
+GDJS/Extensions/Builtin/Capacities/OpacityExtension.cpp.s:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f GDJS/CMakeFiles/GDJS.dir/build.make GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/OpacityExtension.cpp.s
+.PHONY : GDJS/Extensions/Builtin/Capacities/OpacityExtension.cpp.s
+
+GDJS/Extensions/Builtin/Capacities/ResizableExtension.o: GDJS/Extensions/Builtin/Capacities/ResizableExtension.cpp.o
+.PHONY : GDJS/Extensions/Builtin/Capacities/ResizableExtension.o
+
+# target to build an object file
+GDJS/Extensions/Builtin/Capacities/ResizableExtension.cpp.o:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f GDJS/CMakeFiles/GDJS.dir/build.make GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ResizableExtension.cpp.o
+.PHONY : GDJS/Extensions/Builtin/Capacities/ResizableExtension.cpp.o
+
+GDJS/Extensions/Builtin/Capacities/ResizableExtension.i: GDJS/Extensions/Builtin/Capacities/ResizableExtension.cpp.i
+.PHONY : GDJS/Extensions/Builtin/Capacities/ResizableExtension.i
+
+# target to preprocess a source file
+GDJS/Extensions/Builtin/Capacities/ResizableExtension.cpp.i:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f GDJS/CMakeFiles/GDJS.dir/build.make GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ResizableExtension.cpp.i
+.PHONY : GDJS/Extensions/Builtin/Capacities/ResizableExtension.cpp.i
+
+GDJS/Extensions/Builtin/Capacities/ResizableExtension.s: GDJS/Extensions/Builtin/Capacities/ResizableExtension.cpp.s
+.PHONY : GDJS/Extensions/Builtin/Capacities/ResizableExtension.s
+
+# target to generate assembly for a file
+GDJS/Extensions/Builtin/Capacities/ResizableExtension.cpp.s:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f GDJS/CMakeFiles/GDJS.dir/build.make GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ResizableExtension.cpp.s
+.PHONY : GDJS/Extensions/Builtin/Capacities/ResizableExtension.cpp.s
+
+GDJS/Extensions/Builtin/Capacities/ScalableExtension.o: GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp.o
+.PHONY : GDJS/Extensions/Builtin/Capacities/ScalableExtension.o
+
+# target to build an object file
+GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp.o:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f GDJS/CMakeFiles/GDJS.dir/build.make GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp.o
+.PHONY : GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp.o
+
+GDJS/Extensions/Builtin/Capacities/ScalableExtension.i: GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp.i
+.PHONY : GDJS/Extensions/Builtin/Capacities/ScalableExtension.i
+
+# target to preprocess a source file
+GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp.i:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f GDJS/CMakeFiles/GDJS.dir/build.make GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp.i
+.PHONY : GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp.i
+
+GDJS/Extensions/Builtin/Capacities/ScalableExtension.s: GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp.s
+.PHONY : GDJS/Extensions/Builtin/Capacities/ScalableExtension.s
+
+# target to generate assembly for a file
+GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp.s:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f GDJS/CMakeFiles/GDJS.dir/build.make GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp.s
+.PHONY : GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp.s
+
 GDJS/Extensions/Builtin/CommonConversionsExtension.o: GDJS/Extensions/Builtin/CommonConversionsExtension.cpp.o
 .PHONY : GDJS/Extensions/Builtin/CommonConversionsExtension.o
 
@@ -886,6 +1030,24 @@ help:
 	@echo "... GDJS/Extensions/Builtin/CameraExtension.o"
 	@echo "... GDJS/Extensions/Builtin/CameraExtension.i"
 	@echo "... GDJS/Extensions/Builtin/CameraExtension.s"
+	@echo "... GDJS/Extensions/Builtin/Capacities/AnimatableExtension.o"
+	@echo "... GDJS/Extensions/Builtin/Capacities/AnimatableExtension.i"
+	@echo "... GDJS/Extensions/Builtin/Capacities/AnimatableExtension.s"
+	@echo "... GDJS/Extensions/Builtin/Capacities/EffectExtension.o"
+	@echo "... GDJS/Extensions/Builtin/Capacities/EffectExtension.i"
+	@echo "... GDJS/Extensions/Builtin/Capacities/EffectExtension.s"
+	@echo "... GDJS/Extensions/Builtin/Capacities/FlippableExtension.o"
+	@echo "... GDJS/Extensions/Builtin/Capacities/FlippableExtension.i"
+	@echo "... GDJS/Extensions/Builtin/Capacities/FlippableExtension.s"
+	@echo "... GDJS/Extensions/Builtin/Capacities/OpacityExtension.o"
+	@echo "... GDJS/Extensions/Builtin/Capacities/OpacityExtension.i"
+	@echo "... GDJS/Extensions/Builtin/Capacities/OpacityExtension.s"
+	@echo "... GDJS/Extensions/Builtin/Capacities/ResizableExtension.o"
+	@echo "... GDJS/Extensions/Builtin/Capacities/ResizableExtension.i"
+	@echo "... GDJS/Extensions/Builtin/Capacities/ResizableExtension.s"
+	@echo "... GDJS/Extensions/Builtin/Capacities/ScalableExtension.o"
+	@echo "... GDJS/Extensions/Builtin/Capacities/ScalableExtension.i"
+	@echo "... GDJS/Extensions/Builtin/Capacities/ScalableExtension.s"
 	@echo "... GDJS/Extensions/Builtin/CommonConversionsExtension.o"
 	@echo "... GDJS/Extensions/Builtin/CommonConversionsExtension.i"
 	@echo "... GDJS/Extensions/Builtin/CommonConversionsExtension.s"

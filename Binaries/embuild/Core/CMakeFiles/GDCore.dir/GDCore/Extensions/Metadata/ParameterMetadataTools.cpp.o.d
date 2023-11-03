@@ -1,55 +1,55 @@
 Core/CMakeFiles/GDCore.dir/GDCore/Extensions/Metadata/ParameterMetadataTools.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Extensions/Metadata/ParameterMetadataTools.cpp \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Extensions/Metadata/ParameterMetadataTools.h \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/vector \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/functional \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/__config \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/pthread.h \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/iosfwd \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/wchar.h \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/compat/wchar.h \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/wchar.h \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/features.h \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/alltypes.h \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/__bit_reference \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/bit \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/version \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/algorithm \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/initializer_list \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/cstddef \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/stddef.h \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/__nullptr \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/type_traits \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/cstring \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/string.h \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/compat/string.h \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/string.h \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/strings.h \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/utility \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/__tuple \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/cstdint \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/stdint.h \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/stdint.h \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/stdint.h \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/__debug \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/memory \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/cstddef \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/version \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/stddef.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/alltypes.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/__nullptr \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/typeinfo \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/exception \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/cstdlib \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/stdlib.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/compat/stdlib.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/stdlib.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/features.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/alloca.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/cstdint \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/stdint.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/stdint.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/stdint.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/memory \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/new \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/utility \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/__tuple \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/initializer_list \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/cstring \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/string.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/compat/string.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/string.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/strings.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/__debug \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/limits \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/__undef_macros \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/iterator \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/iosfwd \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/wchar.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/compat/wchar.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/wchar.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/__functional_base \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/tuple \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/stdexcept \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/cassert \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/assert.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/atomic \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/functional \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/vector \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/__bit_reference \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/bit \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/algorithm \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/climits \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/limits.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/limits.h \
@@ -134,6 +134,7 @@ Core/CMakeFiles/GDCore.dir/GDCore/Extensions/Metadata/ParameterMetadataTools.cpp
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectGroupsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectGroup.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectsContainersList.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Project.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ExtensionProperties.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/LoadingScreen.h \

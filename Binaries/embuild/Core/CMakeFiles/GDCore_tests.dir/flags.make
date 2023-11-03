@@ -6,5 +6,5 @@ CXX_DEFINES = -DEMSCRIPTEN -DGD_API="" -DGD_CORE_API="" -DGD_IDE_ONLY -DLINUX -D
 
 CXX_INCLUDES = @CMakeFiles/GDCore_tests.dir/includes_CXX.rsp
 
-CXX_FLAGS = -DNDEBUG -O2 -std=gnu++11 -Wall -Wno-unknown-warning-option -Wno-reorder-ctor -Wno-reorder -Wno-pessimizing-move -Wno-unused-variable -Wno-unused-private-field -Werror=return-stack-address
+CXX_FLAGS = -DNDEBUG -O2 -std=gnu++11 -Wall -Wno-unknown-warning-option -Wno-reorder-ctor -Wno-reorder -Wno-pessimizing-move -Wno-unused-variable -Wno-unused-private-field -Werror=return-stack-address -Werror=return-type
 
