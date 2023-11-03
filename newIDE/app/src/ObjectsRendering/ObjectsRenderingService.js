@@ -1,4 +1,5 @@
 // @flow
+import 'pixi-spine'
 import RenderedUnknownInstance from './Renderers/RenderedUnknownInstance';
 import RenderedSpriteInstance from './Renderers/RenderedSpriteInstance';
 import RenderedTiledSpriteInstance from './Renderers/RenderedTiledSpriteInstance';
@@ -21,16 +22,16 @@ import { rgbOrHexToHexNumber } from '../Utils/ColorTransformer';
 const path = optionalRequire('path');
 const electron = optionalRequire('electron');
 const gd: libGDevelop = global.gd;
+// const PIXI = PIXI_LEGACY;
 const PIXI = { ...PIXI_LEGACY, ...PIXI_SPINE };
+
+console.log(PIXI_LEGACY, PIXI_SPINE, PIXI);
 
 // Some PixiJS plugins like pixi-tilemap are not distributed as UMD modules,
 // or still require a global PIXI object to be accessible, so we expose PIXI here.
 // This can be removed if no more extension PixiJS plugin requires this.
 // global.PIXI = PIXI;
 global.PIXI = PIXI;
-// We also export it as GlobalPIXIModule, which is normally used in GDJS runtime and extensions
-// to allow TypeScript typings of PIXI to work.
-global.GlobalPIXIModule = { PIXI };
 
 const requirableModules = {};
 

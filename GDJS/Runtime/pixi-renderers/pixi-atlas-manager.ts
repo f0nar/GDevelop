@@ -4,23 +4,20 @@
  * This project is released under the MIT License.
  */
 namespace gdjs {
-  import PIXI_SPINE = GlobalPIXIModule.PIXI_SPINE;
-
-  const logger = new gdjs.Logger('Text Manager');
+  const logger = new gdjs.Logger('Atlas Manager');
   type AtlasManagerOnProgressCallback = (
     loadedCount: integer,
     totalCount: integer
   ) => void;
-  type AtlasManagerOnCompleteCallback = (totalCount: integer) => void;
-
   /** The callback called when a text that was requested is loaded (or an error occurred). */
   export type AtlasManagerRequestCallback = (
     error: Error | null,
-    content: Object | null
+    content?: pixi_spine.TextureAtlas
   ) => void;
 
   const atlasKinds: ReadonlyArray<string> = ['atlas'];
-  const isTextResource = (resource: ResourceData) => atlasKinds.includes(resource.kind);
+  const isAtlasResource = (resource: ResourceData) =>
+    atlasKinds.includes(resource.kind);
 
   /**
    * AtlasManager loads text files (using `XMLHttpRequest`), using the "atlas" resources
@@ -33,9 +30,7 @@ namespace gdjs {
   export class AtlasManager {
     _resourcesLoader: RuntimeGameResourcesLoader;
     _resources: ResourceData[];
-
-    _loadedAtlases: { [key: string]: string } = {};
-    _loadedTextureAtlases: { [key: string]: PIXI_SPINE.TextureAtlas } = {};
+    _loadedAtlases: { [key: string]: pixi_spine.TextureAtlas } = {};
     _callbacks: { [key: string]: Array<AtlasManagerRequestCallback> } = {};
 
     /**
@@ -69,94 +64,61 @@ namespace gdjs {
      * @param onProgress The function called after each texts is loaded.
      * @param onComplete The function called when all texts are loaded.
      */
-    preload(
+    async preloadAll(
       onProgress: AtlasManagerOnProgressCallback,
-      onComplete: AtlasManagerOnCompleteCallback
-    ): void {
-      const textResources = this._resources.filter((resource) => isTextResource(resource) && !resource.disablePreload);
-      if (!textResources.length) { return onComplete(0); }
+    ): Promise<integer> {
+      const atlasResources = this._resources.filter(
+        (resource) => isAtlasResource(resource) && !resource.disablePreload
+      );
       let loaded = 0;
 
-      const onLoad: AtlasManagerRequestCallback = (error) => {
-        if (error) {
-          logger.error('Error while preloading a text resource:' + error);
-        }
-        if (++loaded === textResources.length) {
-          onComplete(textResources.length);
-        } else {
-          onProgress(loaded, textResources.length);
-        }
-      };
-      for (let i = 0; i < textResources.length; ++i) {
-        this.load(textResources[i].name, onLoad);
-      }
+      await Promise.all(
+        atlasResources.map((resource, i) => new Promise<void>((resolve) => {
+          const onLoad: AtlasManagerRequestCallback = (error) => {
+            if (error) {
+              logger.error('Error while preloading a text resource:' + error);
+            }
+            onProgress(loaded, atlasResources.length);
+            resolve();
+          };
+
+          this.load(atlasResources[i], onLoad);
+        }))
+      );
+
+      return Promise.resolve(atlasResources.length);
     }
 
-    /**
-     * Request the text file from the given resource name.
-     * This method is asynchronous. When loaded, the `callback` is called with the error
-     * (null if none) and the loaded test (a string).
-     *
-     * @param resourceName The resource pointing to the json file to load.
-     * @param callback The callback function called when json is loaded (or an error occurred).
-     */
-    load(resourceName: string, callback: AtlasManagerRequestCallback): void {
-      const resource = this._resources.find((resource) => isTextResource(resource) && resource.name === resourceName);
-      if (!resource) {
-        return callback(new Error(`Can't find resource with name: "${resourceName}" (or is not a text resource).`), null);
-      }
+    load(resource: ResourceData, callback: AtlasManagerRequestCallback): void {
+      if (!isAtlasResource(resource)) callback(new Error(`${resource.name} is on atlas!`));
 
-      // Don't fetch again an object that is already in memory
-      if (this.isLoaded(resourceName)) {
-        return callback(null, this._loadedAtlases[resourceName]);
-      }
+      const metadata = resource.metadata ? JSON.parse(resource.metadata) : { };
 
-      // Don't fetch again an object that is already being fetched.
-      const callbacks = this._callbacks[resourceName];
-      if (callbacks) {
-        callbacks.push(callback);
-        return;
-      }
+      if (!metadata.image) callback(new Error(`${resource.name} do not have image metadata!`));
 
-      this._callbacks[resourceName] = [callback];
-      const xhr = new XMLHttpRequest();
-      xhr.responseType = 'text';
-      xhr.withCredentials = this._resourcesLoader.checkIfCredentialsRequired(resource.file);
-      xhr.open('GET', this._resourcesLoader.getFullUrl(resource.file));
-      xhr.onload = () => {
-        if (xhr.status !== 200) {
-          this.callCallback(resourceName, `HTTP error: ${xhr.status} (${xhr.statusText })`, null);
-        } else {
-          this._loadedAtlases[resourceName] = xhr.response;
-
-          new PIXI_SPINE.TextureAtlas(
-            xhr.response,
-            (path, textureCb) => {
-              const atlasImagePath = resourceName.match(/(^.*[\\\/]|^[^\\\/].*)/i)![0] + path;
-              textureCb(this._imageManager.getPIXITexture(atlasImagePath).baseTexture)
-            },
-            (atlas) => {
-              this._loadedTextureAtlases[resourceName] = atlas;
-              this.callCallback(resourceName, null, xhr.response);
-            });
-        }
+      const image = this._imageManager.getPIXITexture(metadata.image);
+      const onLoad = (atlas: pixi_spine.TextureAtlas) => {
+        this._loadedAtlases[resource.name] = atlas;
+        callback(null, atlas);
       };
-      xhr.onerror = () => this.callCallback(resourceName, 'Network error', null);
-      xhr.onabort = () => this.callCallback(resourceName, 'Request aborted', null);
-      xhr.send();
-    }
 
-    protected callCallback(resourceName: string, errorMessage: string, text: null): void
-    protected callCallback(resourceName: string, errorMessage: null, text: string): void
-    protected callCallback(resourceName: string, errorMessage: string | null, text: string | null): void {
-      if (!this._callbacks[resourceName]) { return; }
-  
-      for (const callback of this._callbacks[resourceName]) {
-        const error = typeof errorMessage === 'string' ? new Error(errorMessage) : null;
-        callback(error, text);
-      }
 
-      delete this._callbacks[resourceName];
+      PIXI.Assets.setPreferences({
+        preferWorkers: false,
+        crossOrigin: this._resourcesLoader.checkIfCredentialsRequired(
+          resource.file
+        )
+          ? 'use-credentials'
+          : 'anonymous',
+      });
+      PIXI.Assets.add(resource.name, resource.file, { image });
+      PIXI.Assets.load<pixi_spine.TextureAtlas | string>(resource.name).then((atlas) => {
+        if (typeof atlas === 'string') {
+          new pixi_spine.TextureAtlas(atlas, (_, textureCb) => textureCb(image.baseTexture), onLoad);
+        } else {
+          onLoad(atlas);
+        }
+      });
     }
 
     /**
@@ -165,17 +127,7 @@ namespace gdjs {
      * @returns true if the content of the text resource is loaded. false otherwise.
      */
     isLoaded(resourceName: string): boolean {
-      return typeof this._loadedAtlases[resourceName] === 'string';
-    }
-
-    /**
-     * Get the raw atlas text for the given resource that is already loaded (preloaded or loaded with `load`).
-     * If the resource is not loaded, `null` will be returned.
-     * @param resourceName The name of the text resource.
-     * @returns the content of the text resource, if loaded. `null` otherwise.
-     */
-    getText(resourceName: string): string | null {
-      return this.isLoaded(resourceName) ? this._loadedAtlases[resourceName] : null;
+      return resourceName in this._loadedAtlases;
     }
 
     /**
@@ -184,8 +136,8 @@ namespace gdjs {
      * @param resourceName The name of the text resource.
      * @returns the TextureAtlas of the atlas, if loaded. `null` otherwise.
      */
-    getAtlasTexture(resourceName: string): PIXI_SPINE.TextureAtlas | null {
-      return this._loadedTextureAtlases[resourceName] || null;
+    getAtlasTexture(resourceName: string): pixi_spine.TextureAtlas | null {
+      return this._loadedAtlases[resourceName] || null;
     }
   }
 }

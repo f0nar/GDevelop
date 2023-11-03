@@ -170,7 +170,7 @@ bool ExporterHelper::ExportProjectForPixiPreview(
 
   // Export effects (after engine libraries as they auto-register themselves to
   // the engine)
-  ExportEffectIncludes(immutableProject, includesFiles);
+  ExportEffectIncludes(exportedProject, includesFiles);
 
   previousTime = LogTimeSpent("Include files export", previousTime);
 
@@ -623,7 +623,6 @@ void ExporterHelper::AddLibsInclude(bool pixiRenderers,
   InsertUnique(includesFiles, "libs/rbush.js");
   InsertUnique(includesFiles, "AsyncTasksManager.js");
   InsertUnique(includesFiles, "inputmanager.js");
-  InsertUnique(includesFiles, "jsonmanager.js");
   InsertUnique(includesFiles, "Model3DManager.js");
   InsertUnique(includesFiles, "timemanager.js");
   InsertUnique(includesFiles, "polygon.js");
@@ -697,6 +696,8 @@ void ExporterHelper::AddLibsInclude(bool pixiRenderers,
     InsertUnique(includesFiles, "pixi-renderers/runtimescene-pixi-renderer.js");
     InsertUnique(includesFiles, "pixi-renderers/layer-pixi-renderer.js");
     InsertUnique(includesFiles, "pixi-renderers/pixi-image-manager.js");
+    InsertUnique(includesFiles, "pixi-renderers/pixi-spine-manager.js");
+    InsertUnique(includesFiles, "pixi-renderers/pixi-json-manager.js");
     InsertUnique(includesFiles, "pixi-renderers/pixi-atlas-manager.js");
     InsertUnique(includesFiles, "pixi-renderers/pixi-bitmapfont-manager.js");
     InsertUnique(includesFiles,
@@ -731,7 +732,7 @@ void ExporterHelper::RemoveIncludes(bool pixiRenderers,
 }
 
 bool ExporterHelper::ExportEffectIncludes(
-    const gd::Project &project, std::vector<gd::String> &includesFiles) {
+    gd::Project &project, std::vector<gd::String> &includesFiles) {
   std::set<gd::String> effectIncludes;
 
   gd::EffectsCodeGenerator::GenerateEffectsIncludeFiles(
