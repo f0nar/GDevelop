@@ -183,8 +183,9 @@ Core/CMakeFiles/GDCore.dir/GDCore/IDE/Project/ArbitraryResourceWorker.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Project.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ExtensionProperties.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/LoadingScreen.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Watermark.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectFolderOrObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/PlatformSpecificAssets.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Watermark.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Effect.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/ResourceExposer.h

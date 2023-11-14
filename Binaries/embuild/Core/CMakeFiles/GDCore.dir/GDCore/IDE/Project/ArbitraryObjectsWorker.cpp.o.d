@@ -132,4 +132,5 @@ Core/CMakeFiles/GDCore.dir/GDCore/IDE/Project/ArbitraryObjectsWorker.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/MakeUnique.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectGroupsContainer.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectGroup.h
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectGroup.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectFolderOrObject.h

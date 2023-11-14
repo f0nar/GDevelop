@@ -145,6 +145,7 @@ Core/CMakeFiles/GDCore.dir/GDCore/Project/EventsBasedObject.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/NamedPropertyDescriptor.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsFunctionsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectFolderOrObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Object.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Behavior.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/BehaviorConfigurationContainer.h \

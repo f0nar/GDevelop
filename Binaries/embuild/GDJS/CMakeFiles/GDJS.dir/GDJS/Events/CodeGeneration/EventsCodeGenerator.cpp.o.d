@@ -170,6 +170,7 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/Events/CodeGeneration/EventsCodeGenerator.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/AbstractEventsBasedEntity.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsBasedObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectFolderOrObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ExternalEvents.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/Layout.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/BehaviorsSharedData.h \
@@ -187,10 +188,10 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/Events/CodeGeneration/EventsCodeGenerator.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/Project.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ExtensionProperties.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/LoadingScreen.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/Watermark.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/PlatformSpecificAssets.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/./GDJS/Events/CodeGeneration/EventsCodeGenerator.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/Watermark.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/./GDJS/Events/CodeGeneration/BehaviorCodeGenerator.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/./GDJS/Events/CodeGeneration/EventsCodeGenerator.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/./GDJS/Extensions/JsPlatform.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Extensions/Platform.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Extensions/Metadata/InstructionOrExpressionGroupMetadata.h \

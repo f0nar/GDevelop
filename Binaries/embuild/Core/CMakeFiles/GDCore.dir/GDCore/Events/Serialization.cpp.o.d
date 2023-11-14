@@ -139,13 +139,14 @@ Core/CMakeFiles/GDCore.dir/GDCore/Events/Serialization.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Project.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ExtensionProperties.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/LoadingScreen.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Watermark.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectGroupsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectGroup.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectFolderOrObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/PlatformSpecificAssets.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ResourcesManager.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/VariablesContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Variable.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Watermark.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/Log.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/VersionWrapper.h

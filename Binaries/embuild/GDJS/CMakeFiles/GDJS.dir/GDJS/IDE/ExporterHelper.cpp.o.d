@@ -197,9 +197,10 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/IDE/ExporterHelper.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/Project.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ExtensionProperties.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/LoadingScreen.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/Watermark.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectFolderOrObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/PlatformSpecificAssets.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/Watermark.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/ProjectResourcesCopier.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/ProjectStripper.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/SceneNameMangler.h \

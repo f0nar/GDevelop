@@ -117,10 +117,10 @@ Core/CMakeFiles/GDCore_tests.dir/tests/EventsFunctionsContainer.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Utf8/utf8/core.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Utf8/utf8/unchecked.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/LoadingScreen.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Watermark.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectGroupsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectGroup.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectFolderOrObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/PlatformSpecificAssets.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ResourcesManager.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/VariablesContainer.h \
@@ -129,6 +129,7 @@ Core/CMakeFiles/GDCore_tests.dir/tests/EventsFunctionsContainer.cpp.o: \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/math.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/compat/math.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/math.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Watermark.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsFunctionsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsFunction.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/EventsList.h \

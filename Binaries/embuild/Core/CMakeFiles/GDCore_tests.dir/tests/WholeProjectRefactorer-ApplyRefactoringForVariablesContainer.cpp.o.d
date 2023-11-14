@@ -186,6 +186,7 @@ Core/CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer-ApplyRefactoringFo
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/PolymorphicClone.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsBasedObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectFolderOrObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ExternalEvents.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ExternalLayout.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/InitialInstancesContainer.h \
@@ -198,7 +199,7 @@ Core/CMakeFiles/GDCore_tests.dir/tests/WholeProjectRefactorer-ApplyRefactoringFo
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Project.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ExtensionProperties.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/LoadingScreen.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Watermark.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/PlatformSpecificAssets.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Watermark.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/catch.hpp \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/iomanip

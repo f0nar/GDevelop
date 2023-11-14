@@ -37,6 +37,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ResizableExtension.cpp.o.d"
   "CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp.o"
   "CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp.o.d"
+  "CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/TextContainerExtension.cpp.o"
+  "CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/TextContainerExtension.cpp.o.d"
   "CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/CommonConversionsExtension.cpp.o"
   "CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/CommonConversionsExtension.cpp.o.d"
   "CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/CommonInstructionsExtension.cpp.o"

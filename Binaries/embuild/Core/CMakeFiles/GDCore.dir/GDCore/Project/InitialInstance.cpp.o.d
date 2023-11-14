@@ -133,6 +133,7 @@ Core/CMakeFiles/GDCore.dir/GDCore/Project/InitialInstance.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectGroupsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectGroup.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectFolderOrObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Dialogs/LayoutEditorCanvas/EditorSettings.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Object.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Behavior.h \
@@ -144,8 +145,8 @@ Core/CMakeFiles/GDCore.dir/GDCore/Project/InitialInstance.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Project.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ExtensionProperties.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/LoadingScreen.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Watermark.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/PlatformSpecificAssets.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Watermark.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/PropertyDescriptor.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/MeasurementUnit.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/MeasurementUnitElement.h \

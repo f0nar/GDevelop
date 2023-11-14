@@ -150,6 +150,7 @@ Core/CMakeFiles/GDCore.dir/GDCore/Project/EventsFunctionsExtension.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsFunctionsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsBasedObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectFolderOrObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsBasedBehavior.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsBasedObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsFunction.h

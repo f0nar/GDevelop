@@ -111,18 +111,19 @@ Core/CMakeFiles/GDCore.dir/GDCore/Project/ObjectsContainer.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Utf8/utf8/unchecked.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectGroupsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectGroup.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Platform.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectFolderOrObject.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Serialization/SerializerElement.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/map \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/__tree \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/__node_handle \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/optional \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Serialization/SerializerValue.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Platform.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/InstructionOrExpressionGroupMetadata.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Object.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Behavior.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/BehaviorConfigurationContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Serialization/Serializer.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Serialization/SerializerElement.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Serialization/SerializerValue.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EffectsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectConfiguration.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Vector2.h \
@@ -137,5 +138,5 @@ Core/CMakeFiles/GDCore.dir/GDCore/Project/ObjectsContainer.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Project.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ExtensionProperties.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/LoadingScreen.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Watermark.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/PlatformSpecificAssets.h
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/PlatformSpecificAssets.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Watermark.h

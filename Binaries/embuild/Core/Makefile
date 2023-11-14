@@ -974,6 +974,30 @@ GDCore/Extensions/Builtin/Capabilities/ScalableExtension.cpp.s:
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Extensions/Builtin/Capabilities/ScalableExtension.cpp.s
 .PHONY : GDCore/Extensions/Builtin/Capabilities/ScalableExtension.cpp.s
 
+GDCore/Extensions/Builtin/Capabilities/TextContainerExtension.o: GDCore/Extensions/Builtin/Capabilities/TextContainerExtension.cpp.o
+.PHONY : GDCore/Extensions/Builtin/Capabilities/TextContainerExtension.o
+
+# target to build an object file
+GDCore/Extensions/Builtin/Capabilities/TextContainerExtension.cpp.o:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Extensions/Builtin/Capabilities/TextContainerExtension.cpp.o
+.PHONY : GDCore/Extensions/Builtin/Capabilities/TextContainerExtension.cpp.o
+
+GDCore/Extensions/Builtin/Capabilities/TextContainerExtension.i: GDCore/Extensions/Builtin/Capabilities/TextContainerExtension.cpp.i
+.PHONY : GDCore/Extensions/Builtin/Capabilities/TextContainerExtension.i
+
+# target to preprocess a source file
+GDCore/Extensions/Builtin/Capabilities/TextContainerExtension.cpp.i:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Extensions/Builtin/Capabilities/TextContainerExtension.cpp.i
+.PHONY : GDCore/Extensions/Builtin/Capabilities/TextContainerExtension.cpp.i
+
+GDCore/Extensions/Builtin/Capabilities/TextContainerExtension.s: GDCore/Extensions/Builtin/Capabilities/TextContainerExtension.cpp.s
+.PHONY : GDCore/Extensions/Builtin/Capabilities/TextContainerExtension.s
+
+# target to generate assembly for a file
+GDCore/Extensions/Builtin/Capabilities/TextContainerExtension.cpp.s:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Extensions/Builtin/Capabilities/TextContainerExtension.cpp.s
+.PHONY : GDCore/Extensions/Builtin/Capabilities/TextContainerExtension.cpp.s
+
 GDCore/Extensions/Builtin/CommonConversionsExtension.o: GDCore/Extensions/Builtin/CommonConversionsExtension.cpp.o
 .PHONY : GDCore/Extensions/Builtin/CommonConversionsExtension.o
 
@@ -2894,6 +2918,30 @@ GDCore/IDE/Project/FunctionParameterObjectTypeRenamer.cpp.s:
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/IDE/Project/FunctionParameterObjectTypeRenamer.cpp.s
 .PHONY : GDCore/IDE/Project/FunctionParameterObjectTypeRenamer.cpp.s
 
+GDCore/IDE/Project/ObjectsUsingResourceCollector.o: GDCore/IDE/Project/ObjectsUsingResourceCollector.cpp.o
+.PHONY : GDCore/IDE/Project/ObjectsUsingResourceCollector.o
+
+# target to build an object file
+GDCore/IDE/Project/ObjectsUsingResourceCollector.cpp.o:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/IDE/Project/ObjectsUsingResourceCollector.cpp.o
+.PHONY : GDCore/IDE/Project/ObjectsUsingResourceCollector.cpp.o
+
+GDCore/IDE/Project/ObjectsUsingResourceCollector.i: GDCore/IDE/Project/ObjectsUsingResourceCollector.cpp.i
+.PHONY : GDCore/IDE/Project/ObjectsUsingResourceCollector.i
+
+# target to preprocess a source file
+GDCore/IDE/Project/ObjectsUsingResourceCollector.cpp.i:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/IDE/Project/ObjectsUsingResourceCollector.cpp.i
+.PHONY : GDCore/IDE/Project/ObjectsUsingResourceCollector.cpp.i
+
+GDCore/IDE/Project/ObjectsUsingResourceCollector.s: GDCore/IDE/Project/ObjectsUsingResourceCollector.cpp.s
+.PHONY : GDCore/IDE/Project/ObjectsUsingResourceCollector.s
+
+# target to generate assembly for a file
+GDCore/IDE/Project/ObjectsUsingResourceCollector.cpp.s:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/IDE/Project/ObjectsUsingResourceCollector.cpp.s
+.PHONY : GDCore/IDE/Project/ObjectsUsingResourceCollector.cpp.s
+
 GDCore/IDE/Project/ProjectResourcesAdder.o: GDCore/IDE/Project/ProjectResourcesAdder.cpp.o
 .PHONY : GDCore/IDE/Project/ProjectResourcesAdder.o
 
@@ -3877,6 +3925,30 @@ GDCore/Project/ObjectConfiguration.s: GDCore/Project/ObjectConfiguration.cpp.s
 GDCore/Project/ObjectConfiguration.cpp.s:
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Project/ObjectConfiguration.cpp.s
 .PHONY : GDCore/Project/ObjectConfiguration.cpp.s
+
+GDCore/Project/ObjectFolderOrObject.o: GDCore/Project/ObjectFolderOrObject.cpp.o
+.PHONY : GDCore/Project/ObjectFolderOrObject.o
+
+# target to build an object file
+GDCore/Project/ObjectFolderOrObject.cpp.o:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Project/ObjectFolderOrObject.cpp.o
+.PHONY : GDCore/Project/ObjectFolderOrObject.cpp.o
+
+GDCore/Project/ObjectFolderOrObject.i: GDCore/Project/ObjectFolderOrObject.cpp.i
+.PHONY : GDCore/Project/ObjectFolderOrObject.i
+
+# target to preprocess a source file
+GDCore/Project/ObjectFolderOrObject.cpp.i:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Project/ObjectFolderOrObject.cpp.i
+.PHONY : GDCore/Project/ObjectFolderOrObject.cpp.i
+
+GDCore/Project/ObjectFolderOrObject.s: GDCore/Project/ObjectFolderOrObject.cpp.s
+.PHONY : GDCore/Project/ObjectFolderOrObject.s
+
+# target to generate assembly for a file
+GDCore/Project/ObjectFolderOrObject.cpp.s:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/Project/ObjectFolderOrObject.cpp.s
+.PHONY : GDCore/Project/ObjectFolderOrObject.cpp.s
 
 GDCore/Project/ObjectGroup.o: GDCore/Project/ObjectGroup.cpp.o
 .PHONY : GDCore/Project/ObjectGroup.o
@@ -5743,6 +5815,9 @@ help:
 	@echo "... GDCore/Extensions/Builtin/Capabilities/ScalableExtension.o"
 	@echo "... GDCore/Extensions/Builtin/Capabilities/ScalableExtension.i"
 	@echo "... GDCore/Extensions/Builtin/Capabilities/ScalableExtension.s"
+	@echo "... GDCore/Extensions/Builtin/Capabilities/TextContainerExtension.o"
+	@echo "... GDCore/Extensions/Builtin/Capabilities/TextContainerExtension.i"
+	@echo "... GDCore/Extensions/Builtin/Capabilities/TextContainerExtension.s"
 	@echo "... GDCore/Extensions/Builtin/CommonConversionsExtension.o"
 	@echo "... GDCore/Extensions/Builtin/CommonConversionsExtension.i"
 	@echo "... GDCore/Extensions/Builtin/CommonConversionsExtension.s"
@@ -5983,6 +6058,9 @@ help:
 	@echo "... GDCore/IDE/Project/FunctionParameterObjectTypeRenamer.o"
 	@echo "... GDCore/IDE/Project/FunctionParameterObjectTypeRenamer.i"
 	@echo "... GDCore/IDE/Project/FunctionParameterObjectTypeRenamer.s"
+	@echo "... GDCore/IDE/Project/ObjectsUsingResourceCollector.o"
+	@echo "... GDCore/IDE/Project/ObjectsUsingResourceCollector.i"
+	@echo "... GDCore/IDE/Project/ObjectsUsingResourceCollector.s"
 	@echo "... GDCore/IDE/Project/ProjectResourcesAdder.o"
 	@echo "... GDCore/IDE/Project/ProjectResourcesAdder.i"
 	@echo "... GDCore/IDE/Project/ProjectResourcesAdder.s"
@@ -6106,6 +6184,9 @@ help:
 	@echo "... GDCore/Project/ObjectConfiguration.o"
 	@echo "... GDCore/Project/ObjectConfiguration.i"
 	@echo "... GDCore/Project/ObjectConfiguration.s"
+	@echo "... GDCore/Project/ObjectFolderOrObject.o"
+	@echo "... GDCore/Project/ObjectFolderOrObject.i"
+	@echo "... GDCore/Project/ObjectFolderOrObject.s"
 	@echo "... GDCore/Project/ObjectGroup.o"
 	@echo "... GDCore/Project/ObjectGroup.i"
 	@echo "... GDCore/Project/ObjectGroup.s"

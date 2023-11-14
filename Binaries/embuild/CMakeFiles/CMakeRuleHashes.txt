@@ -1,5 +1,5 @@
 # Hashes of file build rules.
-2d913039d6864e4255327ded4d099066 Core/CMakeFiles/GDCore_clang-format
+2fbbf853b679233bf15810e980c19c2e Core/CMakeFiles/GDCore_clang-format
 3a34d58b0854995d07779f23a87ab273 Extensions/3D/CMakeFiles/Scene3D_clang-format
 d3c3528ddcbff762e61ab610675eb56f Extensions/AnchorBehavior/CMakeFiles/AnchorBehavior_clang-format
 7be94cc60506b0867ab52091c53296e3 Extensions/DestroyOutsideBehavior/CMakeFiles/DestroyOutsideBehavior_clang-format
@@ -19,4 +19,4 @@ b5a135397414e3c8d14509f7aac6171b Extensions/TextEntryObject/CMakeFiles/TextEntry
 97db2dd78bf34615f5822b6134d19a9e Extensions/TextObject/CMakeFiles/TextObject_clang-format
 0e3ca726c172c61084504872a1833ad2 Extensions/TiledSpriteObject/CMakeFiles/TiledSpriteObject_clang-format
 cf73cdd362984ba0b7bd4bc62bc01752 Extensions/TopDownMovementBehavior/CMakeFiles/TopDownMovementBehavior_clang-format
-ceffe81086120e0b237aeb4cb6ecdf8c GDJS/CMakeFiles/GDJS_clang-format
+6203bea8d006bbb01142233cd2c21408 GDJS/CMakeFiles/GDJS_clang-format

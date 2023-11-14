@@ -987,12 +987,12 @@ Extensions/Inventory/CMakeFiles/Inventory_clang-format.dir/clean:
 Extensions/Inventory/CMakeFiles/Inventory.dir/all:
 	$(MAKE) $(MAKESILENT) -f Extensions/Inventory/CMakeFiles/Inventory.dir/build.make Extensions/Inventory/CMakeFiles/Inventory.dir/depend
 	$(MAKE) $(MAKESILENT) -f Extensions/Inventory/CMakeFiles/Inventory.dir/build.make Extensions/Inventory/CMakeFiles/Inventory.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num= "Built target Inventory"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=83 "Built target Inventory"
 .PHONY : Extensions/Inventory/CMakeFiles/Inventory.dir/all
 
 # Build rule for subdir invocation for target.
 Extensions/Inventory/CMakeFiles/Inventory.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Extensions/Inventory/CMakeFiles/Inventory.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles 0
 .PHONY : Extensions/Inventory/CMakeFiles/Inventory.dir/rule
@@ -1039,12 +1039,12 @@ Extensions/LinkedObjects/CMakeFiles/LinkedObjects_clang-format.dir/clean:
 Extensions/LinkedObjects/CMakeFiles/LinkedObjects.dir/all:
 	$(MAKE) $(MAKESILENT) -f Extensions/LinkedObjects/CMakeFiles/LinkedObjects.dir/build.make Extensions/LinkedObjects/CMakeFiles/LinkedObjects.dir/depend
 	$(MAKE) $(MAKESILENT) -f Extensions/LinkedObjects/CMakeFiles/LinkedObjects.dir/build.make Extensions/LinkedObjects/CMakeFiles/LinkedObjects.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=83 "Built target LinkedObjects"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num= "Built target LinkedObjects"
 .PHONY : Extensions/LinkedObjects/CMakeFiles/LinkedObjects.dir/all
 
 # Build rule for subdir invocation for target.
 Extensions/LinkedObjects/CMakeFiles/LinkedObjects.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Extensions/LinkedObjects/CMakeFiles/LinkedObjects.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles 0
 .PHONY : Extensions/LinkedObjects/CMakeFiles/LinkedObjects.dir/rule
@@ -1091,12 +1091,12 @@ Extensions/PanelSpriteObject/CMakeFiles/PanelSpriteObject_clang-format.dir/clean
 Extensions/PanelSpriteObject/CMakeFiles/PanelSpriteObject.dir/all:
 	$(MAKE) $(MAKESILENT) -f Extensions/PanelSpriteObject/CMakeFiles/PanelSpriteObject.dir/build.make Extensions/PanelSpriteObject/CMakeFiles/PanelSpriteObject.dir/depend
 	$(MAKE) $(MAKESILENT) -f Extensions/PanelSpriteObject/CMakeFiles/PanelSpriteObject.dir/build.make Extensions/PanelSpriteObject/CMakeFiles/PanelSpriteObject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=84 "Built target PanelSpriteObject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=84,85 "Built target PanelSpriteObject"
 .PHONY : Extensions/PanelSpriteObject/CMakeFiles/PanelSpriteObject.dir/all
 
 # Build rule for subdir invocation for target.
 Extensions/PanelSpriteObject/CMakeFiles/PanelSpriteObject.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Extensions/PanelSpriteObject/CMakeFiles/PanelSpriteObject.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles 0
 .PHONY : Extensions/PanelSpriteObject/CMakeFiles/PanelSpriteObject.dir/rule
@@ -1143,7 +1143,7 @@ Extensions/ParticleSystem/CMakeFiles/ParticleSystem_clang-format.dir/clean:
 Extensions/ParticleSystem/CMakeFiles/ParticleSystem.dir/all:
 	$(MAKE) $(MAKESILENT) -f Extensions/ParticleSystem/CMakeFiles/ParticleSystem.dir/build.make Extensions/ParticleSystem/CMakeFiles/ParticleSystem.dir/depend
 	$(MAKE) $(MAKESILENT) -f Extensions/ParticleSystem/CMakeFiles/ParticleSystem.dir/build.make Extensions/ParticleSystem/CMakeFiles/ParticleSystem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=85,86 "Built target ParticleSystem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=86,87 "Built target ParticleSystem"
 .PHONY : Extensions/ParticleSystem/CMakeFiles/ParticleSystem.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1195,12 +1195,12 @@ Extensions/PathfindingBehavior/CMakeFiles/PathfindingBehavior_clang-format.dir/c
 Extensions/PathfindingBehavior/CMakeFiles/PathfindingBehavior.dir/all:
 	$(MAKE) $(MAKESILENT) -f Extensions/PathfindingBehavior/CMakeFiles/PathfindingBehavior.dir/build.make Extensions/PathfindingBehavior/CMakeFiles/PathfindingBehavior.dir/depend
 	$(MAKE) $(MAKESILENT) -f Extensions/PathfindingBehavior/CMakeFiles/PathfindingBehavior.dir/build.make Extensions/PathfindingBehavior/CMakeFiles/PathfindingBehavior.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=87,88 "Built target PathfindingBehavior"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=88 "Built target PathfindingBehavior"
 .PHONY : Extensions/PathfindingBehavior/CMakeFiles/PathfindingBehavior.dir/all
 
 # Build rule for subdir invocation for target.
 Extensions/PathfindingBehavior/CMakeFiles/PathfindingBehavior.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Extensions/PathfindingBehavior/CMakeFiles/PathfindingBehavior.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles 0
 .PHONY : Extensions/PathfindingBehavior/CMakeFiles/PathfindingBehavior.dir/rule

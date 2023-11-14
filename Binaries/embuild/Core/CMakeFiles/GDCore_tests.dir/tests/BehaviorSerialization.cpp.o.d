@@ -160,6 +160,7 @@ Core/CMakeFiles/GDCore_tests.dir/tests/BehaviorSerialization.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/PolymorphicClone.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsBasedObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectFolderOrObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Layout.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/BehaviorsSharedData.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/BehaviorConfigurationContainer.h \
@@ -179,8 +180,8 @@ Core/CMakeFiles/GDCore_tests.dir/tests/BehaviorSerialization.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Project.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ExtensionProperties.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/LoadingScreen.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Watermark.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/PlatformSpecificAssets.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Watermark.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SystemStats.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/VersionWrapper.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/catch.hpp \

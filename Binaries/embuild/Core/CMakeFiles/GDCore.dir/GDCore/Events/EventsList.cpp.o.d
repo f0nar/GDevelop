@@ -129,10 +129,10 @@ Core/CMakeFiles/GDCore.dir/GDCore/Events/EventsList.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Serialization/SerializerElement.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Serialization/SerializerValue.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/LoadingScreen.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Watermark.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectGroupsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectGroup.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectFolderOrObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/PlatformSpecificAssets.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ResourcesManager.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/VariablesContainer.h \
@@ -141,6 +141,7 @@ Core/CMakeFiles/GDCore.dir/GDCore/Events/EventsList.cpp.o: \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/math.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/compat/math.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/math.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Watermark.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/Log.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/Serialization.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Serialization/Serializer.h

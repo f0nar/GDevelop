@@ -165,11 +165,12 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/JsPlatform.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/Project.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ExtensionProperties.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/LoadingScreen.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/Watermark.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectGroupsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectGroup.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectFolderOrObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/PlatformSpecificAssets.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/Watermark.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/./GDJS/Extensions/Builtin/AdvancedExtension.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/./GDJS/Extensions/Builtin/AsyncExtension.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/./GDJS/Extensions/Builtin/AudioExtension.h \
@@ -194,4 +195,5 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/JsPlatform.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/./GDJS/Extensions/Builtin/Capacities/FlippableExtension.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/./GDJS/Extensions/Builtin/Capacities/ResizableExtension.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/./GDJS/Extensions/Builtin/Capacities/ScalableExtension.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/./GDJS/Extensions/Builtin/Capacities/OpacityExtension.h
+  /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/./GDJS/Extensions/Builtin/Capacities/OpacityExtension.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/./GDJS/Extensions/Builtin/Capacities/TextContainerExtension.h

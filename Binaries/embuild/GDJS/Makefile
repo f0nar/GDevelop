@@ -576,6 +576,30 @@ GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp.s:
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f GDJS/CMakeFiles/GDJS.dir/build.make GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp.s
 .PHONY : GDJS/Extensions/Builtin/Capacities/ScalableExtension.cpp.s
 
+GDJS/Extensions/Builtin/Capacities/TextContainerExtension.o: GDJS/Extensions/Builtin/Capacities/TextContainerExtension.cpp.o
+.PHONY : GDJS/Extensions/Builtin/Capacities/TextContainerExtension.o
+
+# target to build an object file
+GDJS/Extensions/Builtin/Capacities/TextContainerExtension.cpp.o:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f GDJS/CMakeFiles/GDJS.dir/build.make GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/TextContainerExtension.cpp.o
+.PHONY : GDJS/Extensions/Builtin/Capacities/TextContainerExtension.cpp.o
+
+GDJS/Extensions/Builtin/Capacities/TextContainerExtension.i: GDJS/Extensions/Builtin/Capacities/TextContainerExtension.cpp.i
+.PHONY : GDJS/Extensions/Builtin/Capacities/TextContainerExtension.i
+
+# target to preprocess a source file
+GDJS/Extensions/Builtin/Capacities/TextContainerExtension.cpp.i:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f GDJS/CMakeFiles/GDJS.dir/build.make GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/TextContainerExtension.cpp.i
+.PHONY : GDJS/Extensions/Builtin/Capacities/TextContainerExtension.cpp.i
+
+GDJS/Extensions/Builtin/Capacities/TextContainerExtension.s: GDJS/Extensions/Builtin/Capacities/TextContainerExtension.cpp.s
+.PHONY : GDJS/Extensions/Builtin/Capacities/TextContainerExtension.s
+
+# target to generate assembly for a file
+GDJS/Extensions/Builtin/Capacities/TextContainerExtension.cpp.s:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f GDJS/CMakeFiles/GDJS.dir/build.make GDJS/CMakeFiles/GDJS.dir/GDJS/Extensions/Builtin/Capacities/TextContainerExtension.cpp.s
+.PHONY : GDJS/Extensions/Builtin/Capacities/TextContainerExtension.cpp.s
+
 GDJS/Extensions/Builtin/CommonConversionsExtension.o: GDJS/Extensions/Builtin/CommonConversionsExtension.cpp.o
 .PHONY : GDJS/Extensions/Builtin/CommonConversionsExtension.o
 
@@ -1048,6 +1072,9 @@ help:
 	@echo "... GDJS/Extensions/Builtin/Capacities/ScalableExtension.o"
 	@echo "... GDJS/Extensions/Builtin/Capacities/ScalableExtension.i"
 	@echo "... GDJS/Extensions/Builtin/Capacities/ScalableExtension.s"
+	@echo "... GDJS/Extensions/Builtin/Capacities/TextContainerExtension.o"
+	@echo "... GDJS/Extensions/Builtin/Capacities/TextContainerExtension.i"
+	@echo "... GDJS/Extensions/Builtin/Capacities/TextContainerExtension.s"
 	@echo "... GDJS/Extensions/Builtin/CommonConversionsExtension.o"
 	@echo "... GDJS/Extensions/Builtin/CommonConversionsExtension.i"
 	@echo "... GDJS/Extensions/Builtin/CommonConversionsExtension.s"

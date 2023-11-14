@@ -149,6 +149,7 @@ Core/CMakeFiles/GDCore.dir/GDCore/IDE/ProjectStripper.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/PropertiesContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsBasedObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectFolderOrObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ExternalEvents.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ExternalLayout.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/InitialInstancesContainer.h \
@@ -170,9 +171,9 @@ Core/CMakeFiles/GDCore.dir/GDCore/IDE/ProjectStripper.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Project.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ExtensionProperties.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/LoadingScreen.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Watermark.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/PlatformSpecificAssets.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ResourcesManager.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Watermark.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/WholeProjectBrowser.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/ProjectBrowser.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/BehaviorDefaultFlagClearer.h \

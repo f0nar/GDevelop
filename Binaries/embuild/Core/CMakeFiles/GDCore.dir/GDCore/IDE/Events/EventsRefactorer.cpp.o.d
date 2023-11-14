@@ -165,6 +165,7 @@ Core/CMakeFiles/GDCore.dir/GDCore/IDE/Events/EventsRefactorer.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/InstructionSentenceFormatter.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/TextFormatting.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectFolderOrObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsBasedObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/AbstractEventsBasedEntity.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/ExpressionTypeFinder.h \

@@ -149,6 +149,7 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/Events/CodeGeneration/EventsFunctionsExtensionCode
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/PolymorphicClone.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsBasedObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectFolderOrObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Events/CodeGeneration/EventsCodeGenerator.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/CodeGeneration/EventsCodeGenerator.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/Event.h \

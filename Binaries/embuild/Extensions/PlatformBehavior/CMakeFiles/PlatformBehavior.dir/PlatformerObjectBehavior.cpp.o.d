@@ -141,6 +141,7 @@ Extensions/PlatformBehavior/CMakeFiles/PlatformBehavior.dir/PlatformerObjectBeha
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectGroupsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectGroup.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectFolderOrObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Dialogs/LayoutEditorCanvas/EditorSettings.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/MeasurementUnit.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/MeasurementUnitElement.h \

@@ -154,10 +154,10 @@ Core/CMakeFiles/GDCore_tests.dir/tests/PropertyFunctionGenerator.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/Log.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsBasedObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectFolderOrObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Project.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ExtensionProperties.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/LoadingScreen.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Watermark.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/PlatformSpecificAssets.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ResourcesManager.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/VariablesContainer.h \
@@ -166,5 +166,6 @@ Core/CMakeFiles/GDCore_tests.dir/tests/PropertyFunctionGenerator.cpp.o: \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/math.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/compat/math.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/math.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Watermark.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/catch.hpp \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/iomanip

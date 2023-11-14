@@ -135,6 +135,7 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/Events/CodeGeneration/LayoutCodeGenerator.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectGroupsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectGroup.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectFolderOrObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Dialogs/LayoutEditorCanvas/EditorSettings.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Events/CodeGeneration/EventsCodeGenerator.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/CodeGeneration/EventsCodeGenerator.h \

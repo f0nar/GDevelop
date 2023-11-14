@@ -167,6 +167,7 @@ GDevelop.js/CMakeFiles/GD.dir/Bindings/Wrapper.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectGroupsContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectGroup.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ObjectFolderOrObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Dialogs/LayoutEditorCanvas/EditorSettings.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Tools/Localization.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/Parsers/GrammarTerminals.h \
@@ -202,14 +203,17 @@ GDevelop.js/CMakeFiles/GD.dir/Bindings/Wrapper.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/NamedPropertyDescriptor.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/VariablesContainersList.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/EventsContextAnalyzer.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/EventsListUnfolder.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/EventsParametersLister.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/EventsFunctionSelfCallChecker.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/EventsIdentifiersFinder.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/EventsLeaderboardsLister.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/EventsLeaderboardsRenamer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/EventsListUnfolder.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/EventsParametersLister.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/EventsPositionFinder.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/EventsRefactorer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/EventsRemover.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/EventsTypesLister.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/EventsVariablesFinder.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/ExpressionCompletionFinder.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/ExpressionNodeLocationFinder.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/ExpressionTypeFinder.h \
@@ -218,60 +222,58 @@ GDevelop.js/CMakeFiles/GD.dir/Bindings/Wrapper.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/ExpressionValidator.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/InstructionSentenceFormatter.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/TextFormatting.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/InstructionsCountEvaluator.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/ArbitraryObjectsWorker.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/InstructionsTypeRenamer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/UsedExtensionsFinder.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/ArbitraryObjectsWorker.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/InstructionsCountEvaluator.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/EventsFunctionTools.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/EventsVariablesFinder.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/EventsIdentifiersFinder.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/EventsFunctionSelfCallChecker.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/ArbitraryResourceWorker.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/ObjectsUsingResourceCollector.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/ProjectResourcesAdder.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/ProjectResourcesCopier.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/ResourcesInUseHelper.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/ResourceExposer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/ResourcesMergingHelper.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/ResourcesRenamer.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/PropertyFunctionGenerator.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/ProjectBrowserHelper.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/PropertyFunctionGenerator.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/UnfilledRequiredBehaviorPropertyProblem.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/WholeProjectRefactorer.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/unordered_set \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/__hash_table \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/unordered_map \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/UnfilledRequiredBehaviorPropertyProblem.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/Effect.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsBasedBehavior.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/AbstractEventsBasedEntity.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsBasedObject.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsFunctionsExtension.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ExternalEvents.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ExternalLayout.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/CustomObjectConfiguration.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/Project.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ExtensionProperties.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/LoadingScreen.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/Watermark.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/PlatformSpecificAssets.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/Watermark.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsBasedObject.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/AbstractEventsBasedEntity.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/Effect.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsBasedBehavior.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsFunctionsExtension.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ExternalEvents.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ExternalLayout.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Events/Builtin/JsCodeEvent.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Events/CodeGeneration/BehaviorCodeGenerator.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Events/CodeGeneration/ObjectCodeGenerator.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Events/CodeGeneration/EventsFunctionsExtensionCodeGenerator.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Events/CodeGeneration/LayoutCodeGenerator.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Events/CodeGeneration/MetadataDeclarationHelper.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/Events/CodeGeneration/ObjectCodeGenerator.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/IDE/Exporter.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/GDJS/IDE/ExporterHelper.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/emscripten.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/emscripten/emscripten.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/emscripten/em_asm.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/emscripten/em_js.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/GDevelop.js/Bindings/../../Extensions/3D/Model3DObjectConfiguration.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/GDevelop.js/Bindings/../../Extensions/PanelSpriteObject/PanelSpriteObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/GDevelop.js/Bindings/../../Extensions/ParticleSystem/ParticleEmitterObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/GDevelop.js/Bindings/../../Extensions/PrimitiveDrawing/ShapePainterObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/GDevelop.js/Bindings/../../Extensions/TextEntryObject/TextEntryObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/GDevelop.js/Bindings/../../Extensions/TextObject/TextObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/GDevelop.js/Bindings/../../Extensions/TiledSpriteObject/TiledSpriteObject.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/GDevelop.js/Bindings/../../Extensions/3D/Model3DObjectConfiguration.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/GDevelop.js/Bindings/../../Extensions/Spine/SpineObjectConfiguration.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/GDevelop.js/Bindings/BehaviorJsImplementation.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/GDevelop.js/Bindings/BehaviorSharedDataJsImplementation.h \
