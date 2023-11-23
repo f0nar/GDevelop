@@ -1,6 +1,5 @@
 /**
-
-GDevelop - Particle System Extension
+GDevelop - Spine Extension
 Copyright (c) 2010-2016 Florian Rival (Florian.Rival@gmail.com)
 This project is released under the MIT License.
 */
@@ -18,6 +17,8 @@ This project is released under the MIT License.
 #include "GDCore/Tools/Localization.h"
 
 using namespace std;
+
+SpineAnimation SpineObjectConfiguration::badAnimation;
 
 SpineObjectConfiguration::SpineObjectConfiguration()
     : scale(1), opacity(255), timeScale(1),
@@ -167,17 +168,13 @@ void SpineObjectConfiguration::ExposeResources(gd::ArbitraryResourceWorker &work
 
 const SpineAnimation &
 SpineObjectConfiguration::GetAnimation(std::size_t nb) const {
-  if (nb >= animations.size()) {
-    nb = nb % animations.size();
-  }
+  if (nb >= animations.size()) return badAnimation;
 
   return animations[nb];
 }
 
 SpineAnimation &SpineObjectConfiguration::GetAnimation(std::size_t nb) {
-  if (nb >= animations.size()) {
-    nb = nb % animations.size();
-  }
+  if (nb >= animations.size()) return badAnimation;
 
   return animations[nb];
 }

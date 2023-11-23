@@ -1,6 +1,5 @@
 /**
-
-GDevelop - Particle System Extension
+GDevelop - Spine Extension
 Copyright (c) 2010-2016 Florian Rival (Florian.Rival@gmail.com)
 This project is released under the MIT License.
 */
@@ -29,12 +28,12 @@ public:
   void SetName(const gd::String &name_) { name = name_; }
 
   /**
-   * \brief Return the name of the animation from the GLB file.
+   * \brief Return the name of the animation from the spine file.
    */
   const gd::String &GetSource() const { return source; }
 
   /**
-   * \brief Change the name of the animation from the GLB file.
+   * \brief Change the name of the animation from the spine file.
    */
   void SetSource(const gd::String &source_) { source = source_; }
 
@@ -55,7 +54,7 @@ private:
 };
 
 /**
- * \brief Particle Emitter object used for storage and for the IDE.
+ * \brief Spine object configuration is used for storage and for the IDE.
  */
 class GD_EXTENSION_API SpineObjectConfiguration : public gd::ObjectConfiguration {
 public:
@@ -162,4 +161,6 @@ private:
   gd::String atlasResourceName;
 
   std::vector<SpineAnimation> animations;
+
+  static SpineAnimation badAnimation;
 };
