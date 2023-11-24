@@ -374,6 +374,21 @@ class GD_CORE_API JsonResource : public Resource {
 };
 
 /**
+ * \brief Describe a spine json file used by a project.
+ *
+ * \see Resource
+ * \ingroup ResourcesManagement
+ */
+class GD_CORE_API SpineResource : public JsonResource {
+ public:
+  SpineResource() : JsonResource() { SetKind("spine"); };
+  virtual ~SpineResource(){};
+  virtual SpineResource* Clone() const override {
+    return new SpineResource(*this);
+  }
+};
+
+/**
  * \brief Describe a tilemap file used by a project.
  *
  * \see Resource
@@ -687,6 +702,11 @@ class GD_CORE_API ResourcesManager {
    * \brief Serialize the object
    */
   void SerializeTo(SerializerElement& element) const;
+
+  /**
+   * \brief Serialize one resource.
+   */
+  static void SerializeResourceTo(gd::Resource& resource, SerializerElement& resourceElement);
 
   /**
    * \brief Unserialize the object.

@@ -37,7 +37,7 @@ namespace gd {
  * \see ResourcesMergingHelper
  * \see gd::ResourcesInUseHelper
  *
- * \see gd::LaunchResourceWorkerOnEvents
+ * \see gd::GetResourceWorkerOnEvents
  *
  * \ingroup IDE
  */
@@ -100,6 +100,11 @@ class GD_CORE_API ArbitraryResourceWorker {
    * \brief Expose an atlas, which is always a reference to a "atlas" resource.
    */
   virtual void ExposeAtlas(gd::String &resourceName);
+
+  /**
+   * \brief Expose an spine, which is always a reference to a "spine" resource.
+   */
+  virtual void ExposeSpine(gd::String &resourceName);
 
   /**
    * \brief Expose a video, which is always a reference to a "video" resource.
