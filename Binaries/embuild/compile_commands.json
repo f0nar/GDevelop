@@ -727,6 +727,12 @@
 },
 {
   "directory": "/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/Core",
+  "command": "/Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ -DEMSCRIPTEN -DGD_API=\"\" -DGD_CORE_API=\"\" -DGD_IDE_ONLY -DLINUX -DRELEASE @CMakeFiles/GDCore.dir/includes_CXX.rsp -DNDEBUG -O2 -std=gnu++11 -Wall -Wno-unknown-warning-option -Wno-reorder-ctor -Wno-reorder -Wno-pessimizing-move -Wno-unused-variable -Wno-unused-private-field -Werror=return-stack-address -Werror=return-type -o CMakeFiles/GDCore.dir/GDCore/IDE/Project/SceneResourcesFinder.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/SceneResourcesFinder.cpp",
+  "file": "/Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/SceneResourcesFinder.cpp",
+  "output": "Core/CMakeFiles/GDCore.dir/GDCore/IDE/Project/SceneResourcesFinder.cpp.o"
+},
+{
+  "directory": "/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/Core",
   "command": "/Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ -DEMSCRIPTEN -DGD_API=\"\" -DGD_CORE_API=\"\" -DGD_IDE_ONLY -DLINUX -DRELEASE @CMakeFiles/GDCore.dir/includes_CXX.rsp -DNDEBUG -O2 -std=gnu++11 -Wall -Wno-unknown-warning-option -Wno-reorder-ctor -Wno-reorder -Wno-pessimizing-move -Wno-unused-variable -Wno-unused-private-field -Werror=return-stack-address -Werror=return-type -o CMakeFiles/GDCore.dir/GDCore/IDE/ProjectBrowserHelper.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/ProjectBrowserHelper.cpp",
   "file": "/Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/ProjectBrowserHelper.cpp",
   "output": "Core/CMakeFiles/GDCore.dir/GDCore/IDE/ProjectBrowserHelper.cpp.o"
@@ -1603,25 +1609,25 @@
 },
 {
   "directory": "/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDevelop.js",
-  "command": "/Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ -DBOOST_DISABLE_ASSERTS -DGD_API=\"\" -DGD_CORE_API=\"\" -DGD_EXTENSION_API=\"\" -DGD_IDE_ONLY -DLINUX -DRELEASE -Dlinux @CMakeFiles/GD.dir/includes_CXX.rsp -DNDEBUG -O2 -std=gnu++11 -Wall -Wno-unknown-warning-option -Wno-reorder-ctor -Wno-reorder -Wno-pessimizing-move -Wno-unused-variable -Wno-unused-private-field -Werror=return-stack-address -Werror=return-type -O2 -o CMakeFiles/GD.dir/Bindings/BehaviorJsImplementation.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/GDevelop.js/Bindings/BehaviorJsImplementation.cpp",
+  "command": "/Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ -DBOOST_DISABLE_ASSERTS -DGD_API=\"\" -DGD_CORE_API=\"\" -DGD_EXTENSION_API=\"\" -DGD_IDE_ONLY -DLINUX -DRELEASE -Dlinux @CMakeFiles/GD.dir/includes_CXX.rsp -DNDEBUG -O2 -std=gnu++11 -Wall -Wno-unknown-warning-option -Wno-reorder-ctor -Wno-reorder -Wno-pessimizing-move -Wno-unused-variable -Wno-unused-private-field -Werror=return-stack-address -Werror=return-type -O3 -flto -o CMakeFiles/GD.dir/Bindings/BehaviorJsImplementation.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/GDevelop.js/Bindings/BehaviorJsImplementation.cpp",
   "file": "/Users/vpohorielov/projects/f0nar/GDevelop/GDevelop.js/Bindings/BehaviorJsImplementation.cpp",
   "output": "GDevelop.js/CMakeFiles/GD.dir/Bindings/BehaviorJsImplementation.cpp.o"
 },
 {
   "directory": "/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDevelop.js",
-  "command": "/Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ -DBOOST_DISABLE_ASSERTS -DGD_API=\"\" -DGD_CORE_API=\"\" -DGD_EXTENSION_API=\"\" -DGD_IDE_ONLY -DLINUX -DRELEASE -Dlinux @CMakeFiles/GD.dir/includes_CXX.rsp -DNDEBUG -O2 -std=gnu++11 -Wall -Wno-unknown-warning-option -Wno-reorder-ctor -Wno-reorder -Wno-pessimizing-move -Wno-unused-variable -Wno-unused-private-field -Werror=return-stack-address -Werror=return-type -O2 -o CMakeFiles/GD.dir/Bindings/BehaviorSharedDataJsImplementation.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/GDevelop.js/Bindings/BehaviorSharedDataJsImplementation.cpp",
+  "command": "/Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ -DBOOST_DISABLE_ASSERTS -DGD_API=\"\" -DGD_CORE_API=\"\" -DGD_EXTENSION_API=\"\" -DGD_IDE_ONLY -DLINUX -DRELEASE -Dlinux @CMakeFiles/GD.dir/includes_CXX.rsp -DNDEBUG -O2 -std=gnu++11 -Wall -Wno-unknown-warning-option -Wno-reorder-ctor -Wno-reorder -Wno-pessimizing-move -Wno-unused-variable -Wno-unused-private-field -Werror=return-stack-address -Werror=return-type -O3 -flto -o CMakeFiles/GD.dir/Bindings/BehaviorSharedDataJsImplementation.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/GDevelop.js/Bindings/BehaviorSharedDataJsImplementation.cpp",
   "file": "/Users/vpohorielov/projects/f0nar/GDevelop/GDevelop.js/Bindings/BehaviorSharedDataJsImplementation.cpp",
   "output": "GDevelop.js/CMakeFiles/GD.dir/Bindings/BehaviorSharedDataJsImplementation.cpp.o"
 },
 {
   "directory": "/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDevelop.js",
-  "command": "/Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ -DBOOST_DISABLE_ASSERTS -DGD_API=\"\" -DGD_CORE_API=\"\" -DGD_EXTENSION_API=\"\" -DGD_IDE_ONLY -DLINUX -DRELEASE -Dlinux @CMakeFiles/GD.dir/includes_CXX.rsp -DNDEBUG -O2 -std=gnu++11 -Wall -Wno-unknown-warning-option -Wno-reorder-ctor -Wno-reorder -Wno-pessimizing-move -Wno-unused-variable -Wno-unused-private-field -Werror=return-stack-address -Werror=return-type -O2 -o CMakeFiles/GD.dir/Bindings/ObjectJsImplementation.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/GDevelop.js/Bindings/ObjectJsImplementation.cpp",
+  "command": "/Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ -DBOOST_DISABLE_ASSERTS -DGD_API=\"\" -DGD_CORE_API=\"\" -DGD_EXTENSION_API=\"\" -DGD_IDE_ONLY -DLINUX -DRELEASE -Dlinux @CMakeFiles/GD.dir/includes_CXX.rsp -DNDEBUG -O2 -std=gnu++11 -Wall -Wno-unknown-warning-option -Wno-reorder-ctor -Wno-reorder -Wno-pessimizing-move -Wno-unused-variable -Wno-unused-private-field -Werror=return-stack-address -Werror=return-type -O3 -flto -o CMakeFiles/GD.dir/Bindings/ObjectJsImplementation.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/GDevelop.js/Bindings/ObjectJsImplementation.cpp",
   "file": "/Users/vpohorielov/projects/f0nar/GDevelop/GDevelop.js/Bindings/ObjectJsImplementation.cpp",
   "output": "GDevelop.js/CMakeFiles/GD.dir/Bindings/ObjectJsImplementation.cpp.o"
 },
 {
   "directory": "/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/GDevelop.js",
-  "command": "/Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ -DBOOST_DISABLE_ASSERTS -DGD_API=\"\" -DGD_CORE_API=\"\" -DGD_EXTENSION_API=\"\" -DGD_IDE_ONLY -DLINUX -DRELEASE -Dlinux @CMakeFiles/GD.dir/includes_CXX.rsp -DNDEBUG -O2 -std=gnu++11 -Wall -Wno-unknown-warning-option -Wno-reorder-ctor -Wno-reorder -Wno-pessimizing-move -Wno-unused-variable -Wno-unused-private-field -Werror=return-stack-address -Werror=return-type -O2 -o CMakeFiles/GD.dir/Bindings/Wrapper.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/GDevelop.js/Bindings/Wrapper.cpp",
+  "command": "/Users/vpohorielov/projects/emsdk/upstream/emscripten/em++ -DBOOST_DISABLE_ASSERTS -DGD_API=\"\" -DGD_CORE_API=\"\" -DGD_EXTENSION_API=\"\" -DGD_IDE_ONLY -DLINUX -DRELEASE -Dlinux @CMakeFiles/GD.dir/includes_CXX.rsp -DNDEBUG -O2 -std=gnu++11 -Wall -Wno-unknown-warning-option -Wno-reorder-ctor -Wno-reorder -Wno-pessimizing-move -Wno-unused-variable -Wno-unused-private-field -Werror=return-stack-address -Werror=return-type -O3 -flto -o CMakeFiles/GD.dir/Bindings/Wrapper.cpp.o -c /Users/vpohorielov/projects/f0nar/GDevelop/GDevelop.js/Bindings/Wrapper.cpp",
   "file": "/Users/vpohorielov/projects/f0nar/GDevelop/GDevelop.js/Bindings/Wrapper.cpp",
   "output": "GDevelop.js/CMakeFiles/GD.dir/Bindings/Wrapper.cpp.o"
 },

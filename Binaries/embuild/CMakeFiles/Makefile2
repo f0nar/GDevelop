@@ -1039,12 +1039,12 @@ Extensions/LinkedObjects/CMakeFiles/LinkedObjects_clang-format.dir/clean:
 Extensions/LinkedObjects/CMakeFiles/LinkedObjects.dir/all:
 	$(MAKE) $(MAKESILENT) -f Extensions/LinkedObjects/CMakeFiles/LinkedObjects.dir/build.make Extensions/LinkedObjects/CMakeFiles/LinkedObjects.dir/depend
 	$(MAKE) $(MAKESILENT) -f Extensions/LinkedObjects/CMakeFiles/LinkedObjects.dir/build.make Extensions/LinkedObjects/CMakeFiles/LinkedObjects.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num= "Built target LinkedObjects"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=84 "Built target LinkedObjects"
 .PHONY : Extensions/LinkedObjects/CMakeFiles/LinkedObjects.dir/all
 
 # Build rule for subdir invocation for target.
 Extensions/LinkedObjects/CMakeFiles/LinkedObjects.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Extensions/LinkedObjects/CMakeFiles/LinkedObjects.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles 0
 .PHONY : Extensions/LinkedObjects/CMakeFiles/LinkedObjects.dir/rule
@@ -1091,12 +1091,12 @@ Extensions/PanelSpriteObject/CMakeFiles/PanelSpriteObject_clang-format.dir/clean
 Extensions/PanelSpriteObject/CMakeFiles/PanelSpriteObject.dir/all:
 	$(MAKE) $(MAKESILENT) -f Extensions/PanelSpriteObject/CMakeFiles/PanelSpriteObject.dir/build.make Extensions/PanelSpriteObject/CMakeFiles/PanelSpriteObject.dir/depend
 	$(MAKE) $(MAKESILENT) -f Extensions/PanelSpriteObject/CMakeFiles/PanelSpriteObject.dir/build.make Extensions/PanelSpriteObject/CMakeFiles/PanelSpriteObject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=84,85 "Built target PanelSpriteObject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=85 "Built target PanelSpriteObject"
 .PHONY : Extensions/PanelSpriteObject/CMakeFiles/PanelSpriteObject.dir/all
 
 # Build rule for subdir invocation for target.
 Extensions/PanelSpriteObject/CMakeFiles/PanelSpriteObject.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Extensions/PanelSpriteObject/CMakeFiles/PanelSpriteObject.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles 0
 .PHONY : Extensions/PanelSpriteObject/CMakeFiles/PanelSpriteObject.dir/rule
@@ -1247,12 +1247,12 @@ Extensions/PhysicsBehavior/CMakeFiles/PhysicsBehavior_clang-format.dir/clean:
 Extensions/PhysicsBehavior/CMakeFiles/PhysicsBehavior.dir/all:
 	$(MAKE) $(MAKESILENT) -f Extensions/PhysicsBehavior/CMakeFiles/PhysicsBehavior.dir/build.make Extensions/PhysicsBehavior/CMakeFiles/PhysicsBehavior.dir/depend
 	$(MAKE) $(MAKESILENT) -f Extensions/PhysicsBehavior/CMakeFiles/PhysicsBehavior.dir/build.make Extensions/PhysicsBehavior/CMakeFiles/PhysicsBehavior.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=89 "Built target PhysicsBehavior"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=89,90 "Built target PhysicsBehavior"
 .PHONY : Extensions/PhysicsBehavior/CMakeFiles/PhysicsBehavior.dir/all
 
 # Build rule for subdir invocation for target.
 Extensions/PhysicsBehavior/CMakeFiles/PhysicsBehavior.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Extensions/PhysicsBehavior/CMakeFiles/PhysicsBehavior.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles 0
 .PHONY : Extensions/PhysicsBehavior/CMakeFiles/PhysicsBehavior.dir/rule
@@ -1299,12 +1299,12 @@ Extensions/PlatformBehavior/CMakeFiles/PlatformBehavior_clang-format.dir/clean:
 Extensions/PlatformBehavior/CMakeFiles/PlatformBehavior.dir/all:
 	$(MAKE) $(MAKESILENT) -f Extensions/PlatformBehavior/CMakeFiles/PlatformBehavior.dir/build.make Extensions/PlatformBehavior/CMakeFiles/PlatformBehavior.dir/depend
 	$(MAKE) $(MAKESILENT) -f Extensions/PlatformBehavior/CMakeFiles/PlatformBehavior.dir/build.make Extensions/PlatformBehavior/CMakeFiles/PlatformBehavior.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=90,91 "Built target PlatformBehavior"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles --progress-num=91 "Built target PlatformBehavior"
 .PHONY : Extensions/PlatformBehavior/CMakeFiles/PlatformBehavior.dir/all
 
 # Build rule for subdir invocation for target.
 Extensions/PlatformBehavior/CMakeFiles/PlatformBehavior.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Extensions/PlatformBehavior/CMakeFiles/PlatformBehavior.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild/CMakeFiles 0
 .PHONY : Extensions/PlatformBehavior/CMakeFiles/PlatformBehavior.dir/rule

@@ -158,4 +158,5 @@ Core/CMakeFiles/GDCore.dir/GDCore/Extensions/Builtin/SceneExtension.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Variable.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/MakeUnique.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/VersionPriv.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/PlatformExtension.inl
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/PlatformExtension.inl \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/MultipleInstructionMetadata.h

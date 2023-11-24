@@ -165,6 +165,8 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/IDE/Exporter.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/VariablesContainersList.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/ArbitraryObjectsWorker.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/ProjectResourcesCopier.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/SceneResourcesFinder.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/ArbitraryResourceWorker.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/ProjectStripper.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ExternalEvents.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/ExternalLayout.h \
@@ -194,4 +196,6 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/IDE/Exporter.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/./GDJS/Events/CodeGeneration/EventsCodeGenerator.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/CodeGeneration/EventsCodeGenerator.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/Event.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/./GDJS/IDE/ExporterHelper.h
+  /Users/vpohorielov/projects/f0nar/GDevelop/GDJS/./GDJS/IDE/ExporterHelper.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/unordered_map \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/__hash_table

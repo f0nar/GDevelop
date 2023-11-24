@@ -1,7 +1,7 @@
-Core/CMakeFiles/GDCore.dir/GDCore/IDE/ResourceExposer.cpp.o: \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/ResourceExposer.cpp \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/ResourceExposer.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/ArbitraryEventsWorker.h \
+Core/CMakeFiles/GDCore.dir/GDCore/IDE/Project/SceneResourcesFinder.cpp.o: \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/SceneResourcesFinder.cpp \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/SceneResourcesFinder.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Project/ArbitraryResourceWorker.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/map \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/__config \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/pthread.h \
@@ -60,10 +60,7 @@ Core/CMakeFiles/GDCore.dir/GDCore/IDE/ResourceExposer.cpp.o: \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/limits.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/limits.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/__split_buffer \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/InstructionsList.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SPtrList.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SPtrList.inl \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/EventVisitor.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/String.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/iostream \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/ios \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/__locale \
@@ -112,12 +109,16 @@ Core/CMakeFiles/GDCore.dir/GDCore/IDE/ResourceExposer.cpp.o: \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/nl_types.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/__bsd_locale_fallbacks.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/bitset \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/String.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/sstream \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Utf8/utf8.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Utf8/utf8/checked.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Utf8/utf8/core.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Utf8/utf8/unchecked.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/ArbitraryEventsWorker.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/InstructionsList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SPtrList.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SPtrList.inl \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/EventVisitor.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ProjectScopedContainers.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/set \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/ParameterMetadataTools.h \
@@ -154,22 +155,8 @@ Core/CMakeFiles/GDCore.dir/GDCore/IDE/ResourceExposer.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/MeasurementBaseUnit.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/Localization.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/VariablesContainersList.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/EventsFunctionTools.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Project/ArbitraryBehaviorSharedDataWorker.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Project/ArbitraryEventBasedBehaviorsWorker.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Project/ArbitraryEventsFunctionsWorker.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Project/ArbitraryObjectsWorker.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Project/ArbitraryResourceWorker.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/ProjectBrowserHelper.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsBasedBehavior.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/AbstractEventsBasedEntity.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsBasedObject.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectsContainer.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectFolderOrObject.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EventsFunctionsExtension.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/DependencyMetadata.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/Log.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ExternalEvents.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/ResourceExposer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Layout.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/BehaviorsSharedData.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/BehaviorConfigurationContainer.h \
@@ -180,17 +167,12 @@ Core/CMakeFiles/GDCore.dir/GDCore/IDE/ResourceExposer.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/VariablesContainer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Layer.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EffectsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectFolderOrObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Dialogs/LayoutEditorCanvas/EditorSettings.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Project.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ExtensionProperties.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/LoadingScreen.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/PlatformSpecificAssets.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ResourcesManager.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Watermark.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Effect.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Platform.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/InstructionOrExpressionGroupMetadata.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/MetadataProvider.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/EffectMetadata.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/UsedExtensionsFinder.h \
-  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/Parsers/ExpressionParser2NodeWorker.h
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Watermark.h

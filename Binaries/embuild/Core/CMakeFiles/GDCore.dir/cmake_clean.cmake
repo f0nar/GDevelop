@@ -243,6 +243,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/GDCore.dir/GDCore/IDE/Project/ResourcesAbsolutePathChecker.cpp.o.d"
   "CMakeFiles/GDCore.dir/GDCore/IDE/Project/ResourcesMergingHelper.cpp.o"
   "CMakeFiles/GDCore.dir/GDCore/IDE/Project/ResourcesMergingHelper.cpp.o.d"
+  "CMakeFiles/GDCore.dir/GDCore/IDE/Project/SceneResourcesFinder.cpp.o"
+  "CMakeFiles/GDCore.dir/GDCore/IDE/Project/SceneResourcesFinder.cpp.o.d"
   "CMakeFiles/GDCore.dir/GDCore/IDE/ProjectBrowserHelper.cpp.o"
   "CMakeFiles/GDCore.dir/GDCore/IDE/ProjectBrowserHelper.cpp.o.d"
   "CMakeFiles/GDCore.dir/GDCore/IDE/ProjectStripper.cpp.o"

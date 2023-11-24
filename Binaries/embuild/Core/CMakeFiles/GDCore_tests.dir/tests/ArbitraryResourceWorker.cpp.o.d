@@ -188,6 +188,7 @@ Core/CMakeFiles/GDCore_tests.dir/tests/ArbitraryResourceWorker.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Dialogs/LayoutEditorCanvas/EditorSettings.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/Builtin/StandardEvent.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/Event.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/Builtin/LinkEvent.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Platform.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/InstructionOrExpressionGroupMetadata.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/SystemStats.h \

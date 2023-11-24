@@ -77,6 +77,12 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/IDE/ExporterHelper.cpp.o: \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/limits.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/lib/libc/musl/arch/emscripten/bits/limits.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/__split_buffer \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/unordered_map \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/__hash_table \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/cmath \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/math.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/compat/math.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/math.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/String.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/iostream \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/ios \
@@ -125,10 +131,6 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/IDE/ExporterHelper.cpp.o: \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/deque \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/iomanip \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/CommonTools.h \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/cmath \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/math.h \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/compat/math.h \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/math.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/CodeGeneration/EffectsCodeGenerator.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/ArbitraryObjectsWorker.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Extensions/Metadata/DependencyMetadata.h \
@@ -202,10 +204,10 @@ GDJS/CMakeFiles/GDJS.dir/GDJS/IDE/ExporterHelper.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/PlatformSpecificAssets.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/Watermark.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/ProjectResourcesCopier.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/SceneResourcesFinder.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Project/ArbitraryResourceWorker.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/ProjectStripper.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/SceneNameMangler.h \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/unordered_map \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/__hash_table \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsBasedObject.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/AbstractEventsBasedEntity.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Project/EventsFunctionsExtension.h \

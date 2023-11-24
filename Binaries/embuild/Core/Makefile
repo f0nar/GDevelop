@@ -3062,6 +3062,30 @@ GDCore/IDE/Project/ResourcesMergingHelper.cpp.s:
 	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/IDE/Project/ResourcesMergingHelper.cpp.s
 .PHONY : GDCore/IDE/Project/ResourcesMergingHelper.cpp.s
 
+GDCore/IDE/Project/SceneResourcesFinder.o: GDCore/IDE/Project/SceneResourcesFinder.cpp.o
+.PHONY : GDCore/IDE/Project/SceneResourcesFinder.o
+
+# target to build an object file
+GDCore/IDE/Project/SceneResourcesFinder.cpp.o:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/IDE/Project/SceneResourcesFinder.cpp.o
+.PHONY : GDCore/IDE/Project/SceneResourcesFinder.cpp.o
+
+GDCore/IDE/Project/SceneResourcesFinder.i: GDCore/IDE/Project/SceneResourcesFinder.cpp.i
+.PHONY : GDCore/IDE/Project/SceneResourcesFinder.i
+
+# target to preprocess a source file
+GDCore/IDE/Project/SceneResourcesFinder.cpp.i:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/IDE/Project/SceneResourcesFinder.cpp.i
+.PHONY : GDCore/IDE/Project/SceneResourcesFinder.cpp.i
+
+GDCore/IDE/Project/SceneResourcesFinder.s: GDCore/IDE/Project/SceneResourcesFinder.cpp.s
+.PHONY : GDCore/IDE/Project/SceneResourcesFinder.s
+
+# target to generate assembly for a file
+GDCore/IDE/Project/SceneResourcesFinder.cpp.s:
+	cd /Users/vpohorielov/projects/f0nar/GDevelop/Binaries/embuild && $(MAKE) $(MAKESILENT) -f Core/CMakeFiles/GDCore.dir/build.make Core/CMakeFiles/GDCore.dir/GDCore/IDE/Project/SceneResourcesFinder.cpp.s
+.PHONY : GDCore/IDE/Project/SceneResourcesFinder.cpp.s
+
 GDCore/IDE/ProjectBrowserHelper.o: GDCore/IDE/ProjectBrowserHelper.cpp.o
 .PHONY : GDCore/IDE/ProjectBrowserHelper.o
 
@@ -6076,6 +6100,9 @@ help:
 	@echo "... GDCore/IDE/Project/ResourcesMergingHelper.o"
 	@echo "... GDCore/IDE/Project/ResourcesMergingHelper.i"
 	@echo "... GDCore/IDE/Project/ResourcesMergingHelper.s"
+	@echo "... GDCore/IDE/Project/SceneResourcesFinder.o"
+	@echo "... GDCore/IDE/Project/SceneResourcesFinder.i"
+	@echo "... GDCore/IDE/Project/SceneResourcesFinder.s"
 	@echo "... GDCore/IDE/ProjectBrowserHelper.o"
 	@echo "... GDCore/IDE/ProjectBrowserHelper.i"
 	@echo "... GDCore/IDE/ProjectBrowserHelper.s"
