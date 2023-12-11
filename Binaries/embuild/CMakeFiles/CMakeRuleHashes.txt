@@ -1,5 +1,5 @@
 # Hashes of file build rules.
-c41f3790e77b8601dc74cf26cbe4ca9c Core/CMakeFiles/GDCore_clang-format
+de16801661ee1515a487c59d89555549 Core/CMakeFiles/GDCore_clang-format
 3a34d58b0854995d07779f23a87ab273 Extensions/3D/CMakeFiles/Scene3D_clang-format
 d3c3528ddcbff762e61ab610675eb56f Extensions/AnchorBehavior/CMakeFiles/AnchorBehavior_clang-format
 7be94cc60506b0867ab52091c53296e3 Extensions/DestroyOutsideBehavior/CMakeFiles/DestroyOutsideBehavior_clang-format

@@ -193,6 +193,7 @@ Core/CMakeFiles/GDCore_tests.dir/tests/ExpressionParser2.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/ExpressionTypeFinder.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/ExpressionLeftSideTypeFinder.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/ExpressionVariableOwnerFinder.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/ExpressionVariableParentFinder.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Project.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ExtensionProperties.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/LoadingScreen.h \

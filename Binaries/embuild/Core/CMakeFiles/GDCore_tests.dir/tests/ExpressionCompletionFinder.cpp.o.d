@@ -162,6 +162,7 @@ Core/CMakeFiles/GDCore_tests.dir/tests/ExpressionCompletionFinder.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Dialogs/LayoutEditorCanvas/EditorSettings.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/Localization.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/Parsers/GrammarTerminals.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Events/Parsers/ExpressionParser2NodePrinter.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/ExpressionNodeLocationFinder.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/ExpressionTypeFinder.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/ExpressionLeftSideTypeFinder.h \
@@ -182,6 +183,7 @@ Core/CMakeFiles/GDCore_tests.dir/tests/ExpressionCompletionFinder.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/MeasurementBaseUnit.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/VariablesContainersList.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/ExpressionVariableOwnerFinder.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/IDE/Events/ExpressionVariableParentFinder.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/tests/DummyPlatform.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Platform.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/InstructionOrExpressionGroupMetadata.h \

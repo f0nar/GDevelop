@@ -127,4 +127,35 @@ Core/CMakeFiles/GDCore.dir/GDCore/Extensions/Metadata/ExpressionMetadata.cpp.o: 
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/cmath \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/math.h \
   /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/compat/math.h \
-  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/math.h
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libc/math.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/PlatformExtension.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/BehaviorMetadata.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Extensions/Metadata/InstructionOrExpressionContainerMetadata.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/ExpressionMetadata.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/DependencyMetadata.h \
+  /Users/vpohorielov/projects/emsdk/upstream/emscripten/system/include/libcxx/set \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/PropertyDescriptor.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/MeasurementUnit.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/MeasurementUnitElement.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/MeasurementBaseUnit.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/Localization.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/Log.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/EffectMetadata.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/EventMetadata.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/InstructionOrExpressionGroupMetadata.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/Metadata/ObjectMetadata.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Object.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Behavior.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/BehaviorConfigurationContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Serialization/Serializer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Serialization/SerializerElement.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Serialization/SerializerValue.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/EffectsContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ObjectConfiguration.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Vector2.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/ResourcesManager.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/VariablesContainer.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Project/Variable.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/MakeUnique.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Tools/VersionPriv.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/./GDCore/Extensions/PlatformExtension.inl

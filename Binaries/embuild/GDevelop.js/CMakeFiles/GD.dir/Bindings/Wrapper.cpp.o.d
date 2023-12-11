@@ -215,10 +215,12 @@ GDevelop.js/CMakeFiles/GD.dir/Bindings/Wrapper.cpp.o: \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/EventsTypesLister.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/EventsVariablesFinder.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/ExpressionCompletionFinder.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/Events/Parsers/ExpressionParser2NodePrinter.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/ExpressionNodeLocationFinder.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/ExpressionTypeFinder.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/ExpressionLeftSideTypeFinder.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/ExpressionVariableOwnerFinder.h \
+  /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/ExpressionVariableParentFinder.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/ExpressionValidator.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/InstructionSentenceFormatter.h \
   /Users/vpohorielov/projects/f0nar/GDevelop/Core/GDCore/IDE/Events/TextFormatting.h \
