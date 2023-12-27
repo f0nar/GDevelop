@@ -71,27 +71,29 @@ namespace gdjs {
       let loadingPromise = this._loadingSpineAtlases.get(resource);
 
       if (!loadingPromise) {
-        loadingPromise = new Promise<pixi_spine.TextureAtlas>((resolve, reject) => {
-          const onLoad: SpineAtlasManagerRequestCallback = (
-            error,
-            content
-          ) => {
-            if (error) {
-              return reject(
-                `Error while preloading a spine atlas resource: ${error}`
-              );
-            }
-            if (!content) {
-              return reject(
-                `Cannot reach texture atlas for resource '${resourceName}'.`
-              );
-            }
+        loadingPromise = new Promise<pixi_spine.TextureAtlas>(
+          (resolve, reject) => {
+            const onLoad: SpineAtlasManagerRequestCallback = (
+              error,
+              content
+            ) => {
+              if (error) {
+                return reject(
+                  `Error while preloading a spine atlas resource: ${error}`
+                );
+              }
+              if (!content) {
+                return reject(
+                  `Cannot reach texture atlas for resource '${resourceName}'.`
+                );
+              }
 
-            resolve(content);
-          };
+              resolve(content);
+            };
 
-          this.load(resource, onLoad);
-        });
+            this.load(resource, onLoad);
+          }
+        );
 
         this._loadingSpineAtlases.set(resource, loadingPromise);
       }
@@ -148,6 +150,12 @@ namespace gdjs {
       PIXI.Assets.add(resource.name, resource.file, { images });
       PIXI.Assets.load<pixi_spine.TextureAtlas | string>(resource.name).then(
         (atlas) => {
+          /**
+           * Ideally atlas of TextureAtlas should be passed here
+           * but there is known issue in case of preloaded images (see https://github.com/pixijs/spine/issues/537)
+           *
+           * Here covered all possible ways to make it work fine if issue is fixed in pixi-spine or after migration to spine-pixi
+           */
           if (typeof atlas === 'string') {
             new pixi_spine.TextureAtlas(
               atlas,

@@ -24,20 +24,31 @@ import { makeDragSourceAndDropTarget } from '../../UI/DragAndDrop/DragSourceAndD
 import { DragHandleIcon } from '../../UI/DragHandle';
 import DropIndicator from '../../UI/SortableVirtualizedItemList/DropIndicator';
 import GDevelopThemeContext from '../../UI/Theme/GDevelopThemeContext';
-import PixiResourcesLoader from '../../ObjectsRendering/PixiResourcesLoader';
+import PixiResourcesLoader, {
+  type SpineDataOrLoadingError,
+} from '../../ObjectsRendering/PixiResourcesLoader';
 import useAlertDialog from '../../UI/Alert/useAlertDialog';
-import {
-  PropertyResourceSelector,
-  PropertyField,
-  styles,
-} from './Model3DEditor';
-import { ISkeletonData } from 'pixi-spine';
+import { PropertyResourceSelector, PropertyField } from './PropertyFields';
+import AlertMessage from '../../UI/AlertMessage';
 
 const gd: libGDevelop = global.gd;
 
 const DragSourceAndDropTarget = makeDragSourceAndDropTarget(
   'spine-animations-list'
 );
+
+const styles = {
+  rowContainer: {
+    display: 'flex',
+    flexDirection: 'column',
+    marginTop: 5,
+  },
+  rowContent: {
+    display: 'flex',
+    flex: 1,
+    alignItems: 'center',
+  },
+};
 
 const SpineEditor = ({
   objectConfiguration,
@@ -49,22 +60,6 @@ const SpineEditor = ({
   resourceManagementProps,
 }: EditorProps) => {
   const scrollView = React.useRef<?ScrollViewInterface>(null);
-
-  const getResource = React.useCallback(
-    (name: string) => {
-      const resourcesManager = project.getResourcesManager();
-
-      return resourcesManager.hasResource(name)
-        ? resourcesManager.getResource(name)
-        : null;
-    },
-    [project]
-  );
-  const getMetadata = resource => {
-    const metadataString = resource ? resource.getMetadata() : '';
-
-    return !!metadataString ? JSON.parse(metadataString) : {};
-  };
   const [
     justAddedAnimationName,
     setJustAddedAnimationName,
@@ -99,56 +94,29 @@ const SpineEditor = ({
     {}
   );
 
-  const [skeleton, setSkeleton] = React.useState<?ISkeletonData>(null);
-  const getEmbeddedResourcesMapping = React.useCallback(
-    (resourceName: string): { [string]: string } => {
-      const resource = getResource(resourceName);
+  const [spineData, setSpineData] = React.useState<SpineDataOrLoadingError>({
+    skeleton: null,
+    loadingError: null,
+  });
 
-      return getMetadata(resource).embeddedResourcesMapping;
-    },
-    [getResource]
-  );
-  const loadSkeleton = React.useCallback(
-    (spineResourceName: string) => {
-      const jsonResourcesMapping = getEmbeddedResourcesMapping(
-        spineResourceName
-      );
-      if (!jsonResourcesMapping) return Promise.resolve(undefined);
-
-      const jsonResourcesMappingValues = Object.values(jsonResourcesMapping);
-      const textureAtlasName = jsonResourcesMappingValues[0];
-
-      // flow check
-      if (typeof textureAtlasName !== 'string')
-        return Promise.resolve(undefined);
-
-      const atlasResourcesMapping = getEmbeddedResourcesMapping(
-        textureAtlasName
-      );
-
-      if (
-        !atlasResourcesMapping ||
-        !Object.values(atlasResourcesMapping).length
-      )
-        return Promise.resolve(undefined);
-
-      return PixiResourcesLoader.getSpineData(project, spineResourceName);
-    },
-    [project, getEmbeddedResourcesMapping]
-  );
-  const [sourceSelectOptions, setSourceSelectOptions] = React.useState<Array<Object>>([]);
+  const [sourceSelectOptions, setSourceSelectOptions] = React.useState<
+    Array<Object>
+  >([]);
   const spineResourceName = properties.get('spineResourceName').getValue();
 
   React.useEffect(
     () => {
       (async () => {
-        const skeleton = await loadSkeleton(spineResourceName);
+        const spineData = await PixiResourcesLoader.getSpineData(
+          project,
+          spineResourceName
+        );
 
-        setSkeleton(skeleton);
+        setSpineData(spineData);
 
-        if (skeleton) {
+        if (spineData.skeleton) {
           setSourceSelectOptions(
-            skeleton.animations.map(animation => (
+            spineData.skeleton.animations.map(animation => (
               <SelectOption
                 key={animation.name}
                 value={animation.name}
@@ -160,7 +128,7 @@ const SpineEditor = ({
         }
       })();
     },
-    [loadSkeleton, setSourceSelectOptions, spineResourceName]
+    [project, spineResourceName, setSourceSelectOptions]
   );
 
   const onChangeSpineResourceName = React.useCallback(
@@ -173,9 +141,9 @@ const SpineEditor = ({
 
   const scanNewAnimations = React.useCallback(
     () => {
-      if (!skeleton) {
-        return;
-      }
+      const { skeleton } = spineData;
+      if (!skeleton) return;
+
       setNameErrors({});
 
       const animationSources = mapFor(
@@ -226,7 +194,7 @@ const SpineEditor = ({
     },
     [
       forceUpdate,
-      skeleton,
+      spineData,
       spineConfiguration,
       onObjectUpdated,
       onSizeUpdated,
@@ -343,6 +311,35 @@ const SpineEditor = ({
             resourceManagementProps={resourceManagementProps}
             onChange={onChangeSpineResourceName}
           />
+          {!spineData.skeleton &&
+          (spineData.loadingError || spineData.textureAtlasOrLoadingError) ? (
+            <AlertMessage kind="error">
+              {spineData.loadingError === 'invalid-spine-resource' ? (
+                <Trans>
+                  The selected resource is not a proper Spine resource.
+                </Trans>
+              ) : spineData.loadingError === 'missing-texture-atlas-name' ? (
+                <Trans>Missing texture atlas name in the Spine file.</Trans>
+              ) : spineData.loadingError === 'spine-resource-loading-error' ? (
+                <Trans>Error while loading the Spine resource.</Trans>
+              ) : spineData.textureAtlasOrLoadingError ? (
+                spineData.textureAtlasOrLoadingError.loadingError ===
+                'invalid-atlas-resource' ? (
+                  <Trans>
+                    The Atlas embed in the Spine fine ca'n't be located.
+                  </Trans>
+                ) : spineData.textureAtlasOrLoadingError.loadingError ===
+                  'missing-texture-resources' ? (
+                  <Trans>Missing texture for an atlas in the Spine file.</Trans>
+                ) : spineData.textureAtlasOrLoadingError.loadingError ===
+                  'atlas-resource-loading-error' ? (
+                  <Trans>
+                    Error while loading the Spine Texture Atlas resource.
+                  </Trans>
+                ) : null
+              ) : null}
+            </AlertMessage>
+          ) : null}
           <Text size="block-title" noMargin>
             <Trans>Appearance</Trans>
           </Text>
@@ -371,8 +368,8 @@ const SpineEditor = ({
                       title={<Trans>Add your first animation</Trans>}
                       description={
                         <Trans>
-                          Import one or more animations that available in spine
-                          file.
+                          Import one or more animations that are available in
+                          this Spine file.
                         </Trans>
                       }
                       actionLabel={<Trans>Add an animation</Trans>}
