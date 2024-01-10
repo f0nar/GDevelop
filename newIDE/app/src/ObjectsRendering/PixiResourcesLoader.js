@@ -11,11 +11,13 @@ import { DRACOLoader } from 'three/examples/jsm/loaders/DRACOLoader';
 import ResourcesLoader from '../ResourcesLoader';
 import { loadFontFace } from '../Utils/FontFaceLoader';
 import { checkIfCredentialsRequired } from '../Utils/CrossOrigin';
+import { type ResourceKind } from '../ResourcesList/ResourceSource';
 const gd: libGDevelop = global.gd;
 
 type SpineTextureAtlasOrLoadingError = {|
   textureAtlas: ?TextureAtlas,
-  loadingError:
+  loadingError: ?Error,
+  loadingErrorReason:
     | null
     | 'invalid-atlas-resource'
     | 'missing-texture-resources'
@@ -24,12 +26,16 @@ type SpineTextureAtlasOrLoadingError = {|
 
 export type SpineDataOrLoadingError = {|
   skeleton: ?ISkeleton,
-  loadingError:
+  loadingError: ?Error,
+  loadingErrorReason:
     | null
     | 'invalid-spine-resource'
     | 'missing-texture-atlas-name'
-    | 'spine-resource-loading-error',
-  textureAtlasOrLoadingError?: SpineTextureAtlasOrLoadingError,
+    | 'spine-resource-loading-error'
+    // Atlas loading error reasons:
+    | 'invalid-atlas-resource'
+    | 'missing-texture-resources'
+    | 'atlas-resource-loading-error',
 |};
 
 type ResourcePromise<T> = { [resourceName: string]: Promise<T> };
@@ -186,6 +192,42 @@ export const readEmbeddedResourcesMapping = (
   }
 };
 
+const getEmbedderResources = (
+  project: gdProject,
+  embeddedResourceName: string,
+  embedderResourceKind: ResourceKind
+): Array<gdResource> => {
+  const resourcesManager = project.getResourcesManager();
+  const embedderResources: Array<gdResource> = [];
+
+  for (const resourceName of resourcesManager
+    .getAllResourceNames()
+    .toJSArray()) {
+    if (embeddedResourceName === resourceName) {
+      continue;
+    }
+
+    const possibleEmbedderResource = resourcesManager.getResource(resourceName);
+    if (possibleEmbedderResource.getKind() !== embedderResourceKind) {
+      continue;
+    }
+
+    const embeddedResourcesMapping = readEmbeddedResourcesMapping(
+      possibleEmbedderResource
+    );
+    if (!embeddedResourcesMapping) {
+      continue;
+    }
+
+    const mappedResources = Object.values(embeddedResourcesMapping);
+    if (mappedResources.includes(embeddedResourceName)) {
+      embedderResources.push(possibleEmbedderResource);
+    }
+  }
+
+  return embedderResources;
+};
+
 /**
  * Expose functions to load PIXI textures or fonts, given the names of
  * resources and a gd.Project.
@@ -204,10 +246,24 @@ export default class PixiResourcesLoader {
     spineDataPromises = {};
   }
 
-  static async reloadTextureForResource(
+  static async _reloadEmbedderResources(
     project: gdProject,
-    resourceName: string
+    embeddedResourceName: string,
+    embedderResourceKind: ResourceKind
   ) {
+    const embeddedResources = getEmbedderResources(
+      project,
+      embeddedResourceName,
+      embedderResourceKind
+    );
+    await Promise.all(
+      embeddedResources.map(embeddedResource =>
+        this.reloadResource(project, embeddedResource.getName())
+      )
+    );
+  }
+
+  static async reloadResource(project: gdProject, resourceName: string) {
     const loadedTexture = loadedTextures[resourceName];
     if (loadedTexture && loadedTexture.textureCacheIds) {
       // The property textureCacheIds indicates that the PIXI.Texture object has some
@@ -219,6 +275,9 @@ export default class PixiResourcesLoader {
       // been added and detected by file watcher. When reloading the texture, the cache must
       // be cleaned too.
       delete loadedTextures[resourceName];
+
+      // Also reload any resource embedding this resource:
+      await this._reloadEmbedderResources(project, resourceName, 'atlas');
     }
 
     await PixiResourcesLoader.loadTextures(project, [resourceName]);
@@ -236,6 +295,34 @@ export default class PixiResourcesLoader {
       loadedThreeTextures[resourceName].dispose();
       delete loadedThreeTextures[resourceName];
     }
+    if (spineAtlasPromises[resourceName]) {
+      await PIXI.Assets.unload(resourceName).catch(async () => {
+        // Workaround:
+        // This is an expected error due to https://github.com/pixijs/spine/issues/537 issue (read comments
+        // and search the other mentions to this issue in the codebase):
+        // A string, instead of a TextureAtlas, is stored as the loaded atlas resource (which is the root cause of this exception).
+        // pixi-spine considers it acts on a TextureAtlas and tries to call dispose on it that causes a TypeError.
+        const { textureAtlas } = await spineAtlasPromises[resourceName];
+        if (textureAtlas) {
+          textureAtlas.dispose(); // Workaround by doing `dispose` ourselves.
+        }
+      });
+      delete spineAtlasPromises[resourceName];
+
+      // Also reload any resource embedding this resource:
+      await this._reloadEmbedderResources(project, resourceName, 'spine');
+    }
+    if (spineDataPromises[resourceName]) {
+      await PIXI.Assets.unload(resourceName);
+      delete spineDataPromises[resourceName];
+
+      // This line allows us to avoid issue https://github.com/pixijs/pixijs/issues/10069.
+      // PIXI.Assets.resolver caches data that was passed to `PIXI.Assets.add`, even if resource was unloaded.
+      // So every time we unload spine resources, we need to call it to clean the resolver cache
+      // and pick up fresh data next time we call `getSpineData`.
+      PIXI.Assets.resolver.prefer();
+    }
+
     const matchingMaterials = Object.keys(loadedThreeMaterials).filter(key =>
       key.startsWith(resourceName)
     );
@@ -508,7 +595,8 @@ export default class PixiResourcesLoader {
     if (!spineTextureAtlasName) {
       return {
         textureAtlas: null,
-        loadingError: 'invalid-atlas-resource',
+        loadingError: null,
+        loadingErrorReason: 'invalid-atlas-resource',
       };
     }
 
@@ -516,7 +604,8 @@ export default class PixiResourcesLoader {
     if (!resourceManager.hasResource(spineTextureAtlasName)) {
       return {
         textureAtlas: null,
-        loadingError: 'invalid-atlas-resource',
+        loadingError: null,
+        loadingErrorReason: 'invalid-atlas-resource',
       };
     }
 
@@ -524,7 +613,8 @@ export default class PixiResourcesLoader {
     if (resource.getKind() !== 'atlas') {
       return {
         textureAtlas: null,
-        loadingError: 'invalid-atlas-resource',
+        loadingError: null,
+        loadingErrorReason: 'invalid-atlas-resource',
       };
     }
 
@@ -535,7 +625,8 @@ export default class PixiResourcesLoader {
     if (!textureAtlasMappingEntries.length) {
       return {
         textureAtlas: null,
-        loadingError: 'missing-texture-resources',
+        loadingError: null,
+        loadingErrorReason: 'missing-texture-resources',
       };
     }
 
@@ -572,7 +663,8 @@ export default class PixiResourcesLoader {
       PIXI.Assets.load(spineTextureAtlasName).then(
         atlas => {
           // Ideally atlas of type `TextureAtlas` should be passed here.
-          // But there is a known issue in case of preloaded images (see https://github.com/pixijs/spine/issues/537).
+          // But there is a known issue in case of preloaded images (see https://github.com/pixijs/spine/issues/537
+          // and search the other mentions to this issue in the codebase).
           //
           // This branching covers all possible ways to make it work fine,
           // if issue is fixed in pixi-spine or after migration to spine-pixi.
@@ -585,12 +677,14 @@ export default class PixiResourcesLoader {
                 resolve({
                   textureAtlas,
                   loadingError: null,
+                  loadingErrorReason: null,
                 })
             );
           } else {
             resolve({
               textureAtlas: atlas,
               loadingError: null,
+              loadingErrorReason: null,
             });
           }
         },
@@ -600,7 +694,8 @@ export default class PixiResourcesLoader {
           );
           resolve({
             textureAtlas: null,
-            loadingError: 'atlas-resource-loading-error',
+            loadingError: err,
+            loadingErrorReason: 'atlas-resource-loading-error',
           });
         }
       );
@@ -625,6 +720,7 @@ export default class PixiResourcesLoader {
       return {
         skeleton: null,
         loadingError: null,
+        loadingErrorReason: null,
       };
     }
 
@@ -632,7 +728,8 @@ export default class PixiResourcesLoader {
     if (!resourceManager.hasResource(spineName)) {
       return {
         skeleton: null,
-        loadingError: 'invalid-spine-resource',
+        loadingError: null,
+        loadingErrorReason: 'invalid-spine-resource',
       };
     }
 
@@ -640,7 +737,8 @@ export default class PixiResourcesLoader {
     if (resource.getKind() !== 'spine') {
       return {
         skeleton: null,
-        loadingError: 'invalid-spine-resource',
+        loadingError: null,
+        loadingErrorReason: 'invalid-spine-resource',
       };
     }
 
@@ -651,7 +749,8 @@ export default class PixiResourcesLoader {
     if (typeof spineTextureAtlasName !== 'string') {
       return {
         skeleton: null,
-        loadingError: 'missing-texture-atlas-name',
+        loadingError: null,
+        loadingErrorReason: 'missing-texture-atlas-name',
       };
     }
 
@@ -661,8 +760,8 @@ export default class PixiResourcesLoader {
           if (!textureAtlasOrLoadingError.textureAtlas) {
             return resolve({
               skeleton: null,
-              loadingError: null,
-              textureAtlasOrLoadingError,
+              loadingError: textureAtlasOrLoadingError.loadingError,
+              loadingErrorReason: textureAtlasOrLoadingError.loadingErrorReason,
             });
           }
 
@@ -687,6 +786,7 @@ export default class PixiResourcesLoader {
               resolve({
                 skeleton: jsonData.spineData,
                 loadingError: null,
+                loadingErrorReason: null,
               });
             },
             err => {
@@ -695,7 +795,8 @@ export default class PixiResourcesLoader {
               );
               resolve({
                 skeleton: null,
-                loadingError: 'spine-resource-loading-error',
+                loadingError: err,
+                loadingErrorReason: 'spine-resource-loading-error',
               });
             }
           );

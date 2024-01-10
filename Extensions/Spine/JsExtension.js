@@ -29,7 +29,7 @@ module.exports = {
     extension
       .setExtensionInformation(
         'SpineObject',
-        _('Spine'),
+        _('Spine (experimental)'),
         _('Displays a Spine animation.'),
         'Vladyslav Pohorielov',
         'Open source (MIT License)'
@@ -39,16 +39,16 @@ module.exports = {
 
     extension
       .addInstructionOrExpressionGroupMetadata(_('Spine'))
-      .setIcon('CppPlatform/Extensions/spriteicon.png');
+      .setIcon('JsPlatform/Extensions/spine.svg');
 
     const object = extension
       .addObject(
         'SpineObject',
-        _('Spine'),
+        _('Spine (experimental)'),
         _(
-          'Display and animate Spine skeleton. Select Spine files (json, atlas, image).'
+          'Display and smoothly animate a 2D object with skeletal animations made with Spine. Use files exported from Spine (json, atlas and image).'
         ),
-        'CppPlatform/Extensions/spriteicon.png',
+        'JsPlatform/Extensions/spine.svg',
         new gd.SpineObjectConfiguration()
       )
       .setIncludeFile('Extensions/Spine/spineruntimeobject.js')
@@ -56,7 +56,7 @@ module.exports = {
       .addIncludeFile('Extensions/Spine/pixi-spine/pixi-spine.js')
       .addIncludeFile('Extensions/Spine/managers/pixi-spine-atlas-manager.js')
       .addIncludeFile('Extensions/Spine/managers/pixi-spine-manager.js')
-      .setCategoryFullName(_('General'));
+      .setCategoryFullName(_('Advanced'));
 
     object
       .addExpressionAndConditionAndAction(
@@ -107,8 +107,8 @@ module.exports = {
         ),
         _('The animation of _PARAM0_ is complete'),
         _('Animations and images'),
-        'res/conditions/animation24.png',
-        'res/conditions/animation.png'
+        'JsPlatform/Extensions/spine.svg',
+        'JsPlatform/Extensions/spine.svg'
       )
       .addParameter('object', _('Spine'), 'SpineObject')
       .markAsSimple()
@@ -122,7 +122,7 @@ module.exports = {
         _('an animation is updatable'),
         _('Updatable'),
         '',
-        'res/conditions/animation.png'
+        'JsPlatform/Extensions/spine.svg'
       )
       .addParameter('object', _('Spine'), 'SpineObject')
       .useStandardParameters('boolean', gd.ParameterOptions.makeNewOptions())
@@ -139,7 +139,7 @@ module.exports = {
         ),
         _('the number of the animation'),
         _('Animations and images'),
-        'res/actions/animation24.png'
+        'JsPlatform/Extensions/spine.svg'
       )
       .addParameter('object', _('Spine'), 'SpineObject')
       .useStandardParameters('number', gd.ParameterOptions.makeNewOptions())
@@ -156,7 +156,7 @@ module.exports = {
         _('the animation played by the object'),
         _('the animation'),
         _('Animations and images'),
-        'res/actions/animation24.png'
+        'JsPlatform/Extensions/spine.svg'
       )
       .addParameter('object', _('Spine'), 'SpineObject')
       .useStandardParameters(
@@ -242,7 +242,7 @@ module.exports = {
       }
 
       static getThumbnail(project, resourcesLoader, objectConfiguration) {
-        return 'CppPlatform/Extensions/spriteicon.png';
+        return 'JsPlatform/Extensions/spine.svg';
       }
 
       update() {
@@ -352,7 +352,7 @@ module.exports = {
 
       onRemovedFromScene() {
         super.onRemovedFromScene();
-        this._pixiObject.destroy(true);
+        this._pixiObject.destroy({ children: true });
       }
 
       /**
@@ -379,14 +379,12 @@ module.exports = {
           .getSpineData(this._project, spineResourceName)
           .then((spineDataOrLoadingError) => {
             if (!spineDataOrLoadingError.skeleton) {
-              const loadingError =
-                spineDataOrLoadingError.loadingError ||
-                (spineDataOrLoadingError.textureAtlasOrLoadingError
-                  ? spineDataOrLoadingError.textureAtlasOrLoadingError
-                      .loadingError
-                  : null);
               console.error(
-                'Unable to load Spine: ' + (loadingError || 'Unknown reason.')
+                'Unable to load Spine (' +
+                  (spineDataOrLoadingError.loadingErrorReason ||
+                    'Unknown reason') +
+                  ')',
+                spineDataOrLoadingError.loadingError
               );
               this._spine = null;
               return;
