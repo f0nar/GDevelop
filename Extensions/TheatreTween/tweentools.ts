@@ -15,8 +15,8 @@ namespace gdjs {
 
         if (!sheetObjectsVariable || typeof sheetObjectsVariable.value !== 'string') return console.warn(`${sheetIdentifier} sheet data is not found.`);
 
-        // const sheetObjects = JSON.parse(sheetObjectsVariable.value) as Record<string, { name: string, uuid: string }>;
-        const sheetObjects = theatreState.sheetsById[sheetIdentifier].staticOverrides.byObject;
+        const sheetObjects = JSON.parse(sheetObjectsVariable.value) as Record<string, { name: string, uuid: string }>;
+        // const sheetObjects = theatreState.sheetsById[sheetIdentifier].staticOverrides.byObject;
         const sheet = project.sheet(sheetIdentifier);
         const onComplete: VoidFunction[] = [];
 

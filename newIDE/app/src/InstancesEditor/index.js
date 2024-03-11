@@ -40,7 +40,9 @@ import {
   clampInstancesEditorZoom,
   getWheelStepZoomFactor,
 } from '../Utils/ZoomUtils';
+import * as theatreCore from '@theatre/core';
 import studio from '@theatre/studio';
+studio.initialize();
 
 const gd: libGDevelop = global.gd;
 

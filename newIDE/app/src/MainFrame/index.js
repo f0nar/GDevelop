@@ -174,7 +174,9 @@ import useCreateProject from '../Utils/UseCreateProject';
 import { isTryingToSaveInForbiddenPath } from '../ProjectsStorage/LocalFileStorageProvider/LocalProjectWriter';
 import newNameGenerator from '../Utils/NewNameGenerator';
 import { addDefaultLightToAllLayers } from '../ProjectCreation/CreateProjectDialog';
+import * as theatreCore from '@theatre/core';
 import studio from '@theatre/studio';
+studio.initialize();
 
 const GD_STARTUP_TIMES = global.GD_STARTUP_TIMES || [];
 

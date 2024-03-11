@@ -15,6 +15,7 @@ import Rendered3DInstance from '../../ObjectsRendering/Renderers/Rendered3DInsta
 
 import * as theatreCore from '@theatre/core';
 import studio from '@theatre/studio';
+studio.initialize();
 
 const gd: libGDevelop = global.gd;
 

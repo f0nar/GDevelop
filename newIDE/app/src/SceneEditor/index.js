@@ -66,6 +66,7 @@ import newNameGenerator from '../Utils/NewNameGenerator';
 import * as theatreCore from '@theatre/core';
 import { ISheet, ISheetObject, IProject } from '@theatre/core';
 import studio, { IExtension, ToolsetConfig } from '@theatre/studio';
+studio.initialize();
 
 type TheatreInstanceBinding = {
   sheet: ISheet,
@@ -80,7 +81,7 @@ export class TheatreHelper {
     return !!obj && 'address' in obj && 'objectKey' in obj.address && 'sheet' in obj;
   }
 
-  onSelectionChangeCb: { cb: (_old: SelectionDataT, _new: SelectionDataT) => void, once: boolean } = [];
+  onSelectionChangeCb: { cb: (_old: SelectionDataT, _new: SelectionDataT) => void, once: boolean }[] = [];
   currentSelection: SelectionDataT = [];
   instanceBindings = new Map<string, TheatreInstanceBinding[]>();
   project: gdProject;

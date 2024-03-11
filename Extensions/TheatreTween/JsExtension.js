@@ -19,44 +19,6 @@
 import { type ObjectsRenderingService, type ObjectsEditorService } from '../JsExtensionTypes.flow.js'
 */
 
-const easingChoices = JSON.stringify([
-  'linear',
-  'easeInQuad',
-  'easeOutQuad',
-  'easeInOutQuad',
-  'easeInCubic',
-  'easeOutCubic',
-  'easeInOutCubic',
-  'easeInQuart',
-  'easeOutQuart',
-  'easeInOutQuart',
-  'easeInQuint',
-  'easeOutQuint',
-  'easeInOutQuint',
-  'easeInSine',
-  'easeOutSine',
-  'easeInOutSine',
-  'easeInExpo',
-  'easeOutExpo',
-  'easeInOutExpo',
-  'easeInCirc',
-  'easeOutCirc',
-  'easeInOutCirc',
-  'easeOutBounce',
-  'easeInBack',
-  'easeOutBack',
-  'easeInOutBack',
-  'elastic',
-  'swingFromTo',
-  'swingFrom',
-  'swingTo',
-  'bounce',
-  'bouncePast',
-  'easeFromTo',
-  'easeFrom',
-  'easeTo',
-]);
-
 module.exports = {
   createExtension: function (
     _ /*: (string) => string */,
@@ -96,12 +58,14 @@ module.exports = {
       )
       .addCodeOnlyParameter('currentScene', '')
       .addParameter('identifier', _('Tween Identifier'), 'sceneTween')
-      .setHidden()
+      // .setHidden()
       .getCodeExtraInformation()
       .addIncludeFile('Extensions/TheatreTween/tweentools.js')
       .setFunctionName('gdjs.evtTools.theatre.playTween');
 
     const tweenBehavior = new gd.BehaviorJsImplementation();
+
+    console.log("initialize THEATRE JS")
 
     // $FlowExpectedError - ignore Flow warning as we're creating a behavior
     tweenBehavior.updateProperty = function (
@@ -135,25 +99,25 @@ module.exports = {
         tweenBehavior,
         new gd.BehaviorsSharedData()
       )
-      // .addIncludeFile('Extensions/TheatreTween/theatretweenruntimebehavior.js');
+      .addIncludeFile('Extensions/TheatreTween/theatretweenruntimebehavior.js');
 
-    // behavior
-    //   .addAction(
-    //     'PlayTween',
-    //     _('Tween an object'),
-    //     _('Tweens an object.'),
-    //     _(
-    //       'Tween the _PARAM0_ object with _PARAM2_ tween'
-    //     ),
-    //     _('Tween'),
-    //     'JsPlatform/Extensions/tween_behavior24.png',
-    //     'JsPlatform/Extensions/tween_behavior32.png'
-    //   )
-    //   .addParameter('object', _('Object'), '', false)
-    //   .addParameter('behavior', _('Behavior'), 'TheatreTweenBehavior', false)
-    //   .addParameter('identifier', _('Tween Identifier'), 'objectTween')
-    //   .getCodeExtraInformation()
-    //   .setFunctionName('playTween');
+    behavior
+      .addAction(
+        'PlayTween',
+        _('Tween an object'),
+        _('Tweens an object.'),
+        _(
+          'Tween the _PARAM0_ object with _PARAM2_ tween'
+        ),
+        _('Tween'),
+        'JsPlatform/Extensions/tween_behavior24.png',
+        'JsPlatform/Extensions/tween_behavior32.png'
+      )
+      .addParameter('object', _('Object'), '', false)
+      .addParameter('behavior', _('Behavior'), 'TheatreTweenBehavior', false)
+      .addParameter('identifier', _('Tween Identifier'), 'objectTween')
+      .getCodeExtraInformation()
+      .setFunctionName('playTween');
 
     // Behavior related
     // behavior
